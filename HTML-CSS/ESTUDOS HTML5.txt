@@ -1,0 +1,313 @@
+CURSO DE HTML5 E CSS3
+
+
+- organizar horario
+- praticar
+- nao correr, assistir com calma
+- nao ver netflix
+
+MB-ARMAZENAMENTO-MEGABYTE
+Mb-TRANSMISSAO-MEGABITS
+
+COMO FUNCIONA A HTLM E AS CSS?
+
+"A LINGUAGEM HTML" E CSS SAO AS FOLHAS DE ESTILO
+
+HTML E CSS NAO É LINGUAGEM DE PROGRAMAÇAO, A GENTE DESENVOLVE EM HTML, A GENTE CRIA.
+
+HYPERTEXT- HIPERTEXTO		
+MARKUP-MASCAS 			HTML
+LANGUAGE-LINGUAGEM
+
+
+CASCADING
+STYLE				CSS
+SHEETS
+
+- A LINGUAGEM HTML É UMA LINGUAGEM FOCADA EM CONTEUDO
+
+HTML- CONTEUDO- TEXTOS, IMAGENS, VIDEOS, TABELAS
+
+CSS- É FOCO EM DESIGN, O DESIGN BONITO, TUDO ISSO É FEITO EM CSS
+
+JS- INTERAÇOES- MENUS, ANIMAÇOES, POPUPS, VALIDAÇOES
+
+TAGS:
+
+conteudo em html:
+<h1> exemplo  de titulo </h1>
+<p> exemplo de paragrafo </p>
+
+<img src="foto.png" alt="exemplo de foto">
+
+ESTILO CSS
+
+h1 {
+
+declaraçao: sao essas abaixo 
+font-family: Arial;
+font-size: 20pt;
+color: blue;
+
+}
+
+isso quer dizer que aquele h1 no texto vai estar com essas cores e as fontes que a gente indicou nas css dentro dos couchetes
+
+ESTRUTURA BASICA DE DOCUMENTO HTML
+
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+ essa linha meta é importante para escrever sites em portugues e incluir os acentos e as cedilhas
+
+	
+A area head é a area de configuraçoes, todas as configuraçoes sao feitas no head
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title> documen </title>
+	
+	</head>
+	<body>
+
+A area body é a corpo  e o corpo é onde fica o site
+
+	<h1> Olá, Mundo! </h1>	
+
+	</body>
+</html>
+  
+
+FRONT-END E BECK-END?
+
+FRONT-END: CLIENT SIDE
+BECK-END:SERVER SIDE
+----------------------------------------------------------------------------------------------------------------
+CADA SIGNIFICADO DE TAG:
+
+H1 E /H1: TITULOS
+P E /P: PARAGRAFOS
+TITLE E /TITLE: LITERALMENTE O TITULO DO SITE
+br: quebra linhas no meio dos textos(defasada)
+<!-- para adicionar comentario no html 
+&lt! = <
+&gt! = >
+Espaço em branco = &nbsp;
+® Marca registrada = &reg;
+© Copyright = &copy;
+™ Trade Mark = &trade;
+€ Euro = &euro;
+£ Libra (pound) = &pound;
+¥ Yen = &yen;
+¢ Cent = &cent;
+∅ Vazio &empty;
+Σ Soma = &sum;
+Δ Delta= &Delta;
+← Seta esquerda = &larr;
+↑ Seta acima = &uarr;
+→ Seta direita = &rarr;
+↓ Seta baixo = &darr;
+
+<!-- serve para colocar comentarios em seus codigos, explicar algo e nao ser inserido no site
+
+para emoji, voce entra no site emojipiedea e rola ate embaixo e copia o codigo que aparece apenas os numeros
+
+&#x serve para indicar qualquer coisa em hexadecimal e depois de escrever os simbolos é so colocar o valor em hexadecimal do que desejar
+----------------------------------------------------------------------------------------------------
+TAGS:
+
+font= forma obsoleta
+
+u= sublinhar(forma obsoleta)
+
+address= sublinha(nao obsol)
+
+marquee= faz o nome ir aandando pela tela na direçao que quiser(obsolet)
+
+b = negrito(nao semant)
+
+strong= negrito(semantico)
+
+i= italico(nao semantico)
+
+EM= ITALICO(semantico)
+
+MARK=MARCAR TEXTOS
+
+big= deixar textos grandes(obsoleto)
+
+small= deixar textos pequenos(nao obsol)
+
+del=indica que um texto foi deletado 
+
+ins=indica que um texto foi inserido(sublinha tambem) e  tambem dar 
+enfase(formma semantica de sublinha)
+
+sup= sobrescrito(coloca as coisas selecionadas pra cima)
+
+sub=subscrito(Coloca as coisas pra baixo)
+
+code= deixar organizado os espaçametos de cada letra
+
+pre=organiza mais ainda o seu texto pois a tag pre conta todos os espaços que sao colocados 
+
+q= essa tag coloca aspas no texto e serve como citaçao
+
+blockquote = organiza os as citaçoes, é possivel tambem colocar um "cite" dentro do  blockquote, NO CITE significa que a parte interna do site, vai saber que voce esta referenciando aquilo ali 
+
+abbr= coloca o significado das coisas quando passa o mouse em cima das frases e palavras
+
+bdo= coloca as frases tudo ao contrario
+
+ol= listas ordenadas
+ul= listas nao ordenadas
+
+dl= definicion list ou listas de definiçao e aqui dentro tem o dt= termo e o dd= definiçao
+
+a= Ancora, essa tag referencia o seu link, é quando voutra pessoa clica no seu site ou em algo la dentro e vaqi pra outra pagina ou sla oq
+
+picture: a tag picture aparece uma imagem dentro dela porem com varios sources
+
+source : essa tag tem varios derivados, nessa aula de imagens dinamicas, vamos usar o "source media type", o que estamos falando com essa tag? estamos dizendo que se  a foto do img tiver um tamanho x e ela nao se adaptar a um tamanho de tela y, no source media tipe em max width colocamos o tamanho base que desejamos e no srcset colocamos o nome/caminho da foto menor ou maior que va aparecer.
+
+
+
+
+
+
+
+
+-------------------------------------------------
+COMO COLOCAR UMA IMAGEM EM SEU SITE?
+
+nao é legal pegar qualquer imagem pois é bom verificar os direitos autoriais, tem que tomar bastante cuidado com direitos autorais
+
+alguns ex de sites para buscar imagens:
+unsplash.com, esse tem de fazer busca em ingles
+pixels, tambem em ingles.
+--------------------------------------------------------------------------------
+Quais são os formatos para imagens na Web?
+
+para web a gente usa mais o jpeg eo png, raramente a gente usa outros
+
+uma imagem é um conjunto de pontos e um video é um conjunto de pontos que muda numa velocidade muito rapida
+
+o jpeg ele compacta esses conjuntos de pontos, ja o png eke foi criado pra subtitui o formato gif, que é mt antigo, é um formato com imagem feia mas permite transparencia e animaçao o png n permite animaçao mas permite transparencia, se quer uma imagem grande o melhor formato é jpeg, uma imagem pequena e que flute o melhor formato vai ser png,
+
+tem que tomar muito cuidado para o site nao sair mt pesado.
+
+jpeg é o mesmo que jpg
+
+png é sempre que quiser usar imagens transparente e com a qualidade um pouco melhor e jpg é smepre que quisermos compactar ainda mais uma imagem para que nosso site nao pese
+------------------------------------------------------------------------------
+uma imagem para um site o tamanho ideal é por volta de 600--- 650
+
+o tamanho 1200 é otimo pra usa no fundo da pagina
+
+NUNCA DEIXE O SEU SITE LENTO, POR ISSO TOME CUIDADO COM O TAMANHO DAS IMAGENS AO MAXIMO
+
+NUNCA AUMENTE MAIS DO QUE A IMAGEM JA VEM A RESOLUÇAO
+
+PROX AULA: A tag img em HTML5
+--------------------------------------------------------------------------
+A tag img em HTML5:
+
+-------------------------------------------------------------
+favicons:
+
+use imagens que nao tenham muito detalhe
+
+para icones é sempre bom usar o formarto ico ou .ico
+
+site para icones: icones archive
+
+--------------------------------------------------
+TITULOS:
+
+os titulos te  hierarquia, nao sei pode pular de h1 para h5, nem de h1 para h3, pois nao se pode piular, os titulos tem hierarquia, dr h1 tem que ir para h2 e assim sucessivamente
+
+SEMANTICA: TEM MT MAIS VALOR SIGNIFICADO DO QUE FORMA, em html 4 nao tinha muita coisa que so eiste no html5
+
+NAO ULTLIZAR TAGS OBSOLETAS, POIS EM ALGUM MOMENTO VAI PARAR DE FUNCIONAR
+
+parametros: 
+font color:"cor"
+
+Nao colocamos mais cor ou estilos diretamente nas tags pois tudo que é de estilo esta direcionado as CSSs
+
+TEM TAGS ACIMA
+
+podemos usar a tag style dentro de algumas outras tags
+
+na tag style sempre usar os colchetes para abrir as formas
+
+shift + tab = tira os espaço tab que foram colocados
+---------------------------------------------------------------------------------
+Tipos de listas ordenadas: a, A, 1, I, i
+
+Tipos de listas nao ordenadas: Disk, Square, Circle
+
+é possivel colocar um start ao lado do type para dizer ao site por onde vc quer cmeçar a sua lista, mas sempre indique por onde quer começar de forma numerida, se quiser começar de b em diante vc coloc o start 2
+
+
+para escrrever de uma vez em varios pontos do seu codigo, o macete é clica segurando o alt em cima de onde quer mudar, apaga o que nao quer mais e vai apagar de vez, cntinua segurand alt e escreve o que quer
+
+---------------------------------------------------------------------------------------------------
+LINKS: FINALMENTE
+
+a gente nao cadastra nada, o google que acha nosso link, para isso vamos organizar para os mecanismos de busca como o google encontrarem nosso site
+
+para nao sobrepor uma pagina com a outra, vamos abrir os links em outra aba usando target_blanck, é recomendavel sempre que for um link externo, um link que vai pra fora do meu site
+
+o target_black fica dentro da tag a, e ainda o rel, que so é possivel inserir dentro do target, no caso ao lado ja que o target nao é uma tag
+
+tipo externo: signifiica que link vai pra foa do meu site
+
+existem varios tipo de rel.
+
+quando o site nao é o nosso que estamos criados, é sempre recomendavel usarmos o "rel external"
+
+-------------------------------------
+LINKS INTERNOS
+
+lINKS INTERNOS SAO OUTRAS PPAGINAS DO NOSSO  PROPRIO SITE, QUANDO A GENTE VAI ABRIR ALGO DENTRO DO NOSSO SITE, USAMOS LINKS INTERNOS
+
+para funcionar a pagina tem que estar dentro da mesma pasta do index
+
+quando falamos de links innternos nao existe "rel external", mas temos o "rel next" que é usado quando vamos para uma outra pagina de nosso site e tem o "rel prev" que é quando estamos voltando e utiliza isso tbm ajuda o google a encontrar nosso site e isso tem significado pois é um sistema de navegaçao para deixar o seu site mais acessivel.
+
+quando criamos um link pafr uma empresa que nao sabemos exxtaamente, por exemplo estamos fazendno um link ppara uma materia que nao sabemos extamente se é real, é recommendavel usarmos o rel "nofollow" que significa nao siga, que significa que eu nao estou dando meu aval para isso
+
+O nofollow serve como o external so que para nao seguir
+
+a gente pode tambem colocar um target informando que é pra mesma pagina, no caso do target self
+
+
+MACETAO: ../ FAZ VC VOLTAR ALGUMAS PAGINAS, ISSO É ALGO QUE É USADO NO LINUXS
+-----------------------------------------------------------------
+
+links para downloads:
+
+EXISTE UM PARAMETRO PARA usar os links para downloads junot ao href, que é o download junto ao type, dentro do type vc coloca o nome do parametro que precisa para baixar qualquer arquivo qualquer coisa de todo tipo, voce encontra todos os nomes dentro do site: iana.org/assignments/media-types vc encontra todos os media types para baixar qualquer coisa.
+
+para nao esquercer: enevelopar é shift + ctrl + p
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
