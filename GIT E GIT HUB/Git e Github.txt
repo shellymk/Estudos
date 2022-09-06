@@ -190,6 +190,32 @@ testando denovo
 
 para fazer mudanças no seu projeto voce faz pelo visual studio code quando o seu repositorio ja estiver sincronizado com ele, para versionar é necessario commitar, isso pode ser feit pelo  git desktop
 
+commitar faz vc sempre atualizar algo
+---------------------------------------------------------------
+
+ctrl + enter commita e ctrl +p da push
+-----------------------------------------------------
+O que é uma issue? issue é um problema, uma questao, quando se entra em projeto
+
+vamos entra nesse repositorio, descori
+
+
+issue é, descobri um problema, nao faço ideia de como se resolve e eu preciso de ajuda
+
+pull request é, encontrei um problema, analisei o codigo, aprendi como rosolver, mechi no codigo, dei uma soluçao  e vou fala pro desenvolvedor que achei a soluçao e eai o outro programdor acha maneiro e te transforma em colaborador do projeto
+-------------------------------------------------------------------------
+primeiro passo das issues é procurar o problema que tu ta tendo nas isses que ja existem, nao sair criando issue
+-----------------------------------------------
+quando for cirar uma issues, o icone do link no editor da descriçao, dentro dos colchetes escreve oq a gente quer que a pessoa veja quando a gente for expor o link e no luga de url coloca o link que vc quer passar passa a pessoa 
+--------------------------
+para coloca algo em negrito no editor das issues no gir hub é so coloca o que vc quer em asterisco e asterisco
+-----------------------------------
+pra fazer a bolinha é so colocar um astrisco
+------------------------------------------------
+testar saved replie outro momento para procurar emprego como se fosse um mini curriculo 
+
+
+
 
 
 
