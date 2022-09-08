@@ -210,10 +210,97 @@ quando for cirar uma issues, o icone do link no editor da descriçao, dentro dos
 --------------------------
 para coloca algo em negrito no editor das issues no gir hub é so coloca o que vc quer em asterisco e asterisco
 -----------------------------------
-pra fazer a bolinha é so colocar um astrisco
+pra fazer a bolinha"." é so colocar um astrisco
 ------------------------------------------------
 testar saved replie outro momento para procurar emprego como se fosse um mini curriculo 
+------------------------------------------------------------
+guia de linguagem markdown:
 
+porque existe markdown sendo que existe markdown, html n é programaçao, markdown tbm n,
+
+
+markdown é uma linguagem de marcaçao, é como se fosse um html mais simples
+
+vou colocar mt s simbolos e marcas aqui para aprender markdown:
+
+formataçoes simples:
+
+estou aprendendo linguagem markdown no Curso em Video  de Git e GitHub
+
+negrito: ** de cada lado ou dois underlines __
+
+italico: _ ou  * de cada lado
+
+riscar frases: ~~  de cada lado das frases
+
+Criar titulos: os titulos nao é necessario colocar de cada lado, apenas no inicio
+
+1 # =  titulo nivel 1
+2 ## = titulo nivel 2
+3 ### = titulo nivel 3 e por ai vai
+
+para dividir uma area com outra usa-se: *** ou  ---
+
+Listas numeradas: basta usar um numero e um ponto no começo
+
+para as listas serem subtextos da outra basta  apertar a barra de espaço na frente e caso seja outra lista no caso uma sublista, é so repetir o passo da lista numerda que é qualquer numero. alem disso é importante deixar um espaço entre a lista numerada e a sublista 
+
+para as listas demarcadas é so colocar um astrisco
+
+* teste
+* teste
+
+como nesse exemplo acima
+é possivel tambem fazer listas de tarefas com traço mais espaço mais colchete mais espaço mais colchete novamentente e de pois suas tarefas - [ ] 
+
+- [ ] Git   
+- [ ] MarkDown
+- [ ] Issues
+- [ ] Forks
+- [ ] PullRequests
+- [ ] Branches
+
+
+apos fazer as tarefas é so colocar um x dentro dos colchetes
+---------------------------------------------------------------------------------
+
+para colocar imagens é so arrasta a imagem para o git abaixo da linha, tudo que estiver entre colchete apos o gir fazer o download da imagem, é a descriçao da imagem  
+
+para links é quase a mesma coisa, apenas os colchetes e dentro dos colchetes, coloca a descriçao, depois dos colchetes, nao da espaço, os parenteses, assim: []()
+---------------------------------------
+Tabelas: Num | Aluno | Nota e embaixo dessa divisao  vamos colocar a linha da tabela,como: ---|---|---
+
+para colocar comandos de codigos dentro do git com markdown é so colocar o comando entre crases, assim: `document.getElementById`
+
+Ja para colocar um codigo inteiro, usasse tres crases uma embaixo da outra, desta forma abaixo:
+
+```
+m=checkTime(m);
+s=checkTime(s);
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+t=setTimeout('startTime()',500);
+
+```
+
+
+para colocar emojis é so colocar dois pontos e o nome do que voce quer, em cada lado, exemplo: precisa ser em ingles
+
+:hand
+
+e assim sucessivamente, 
+
+no github da ikatiang
+-------------------------------------------
+Citaçoes e marcar pessoas
+conseguimos marcar qualquer pessoas que tenha git hub
+
+como diria @Gafanhotos eu estou com fome
+
+resumindo é so colocar o @ e procurar o nome da pessoa
+
+para especificar uma pessoa é so clica nos 3 pontinho e clica em quote reply,
+
+Guanabara tem a porra de um manual e eu n precisava disso aqui, mas  tudo bem, porque isso aqui me ajuda a gravar.
 
 
 
