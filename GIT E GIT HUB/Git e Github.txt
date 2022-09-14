@@ -321,8 +321,16 @@ e vamos commitando e no fim o master n teve alteracao e vou alterando e commitan
 -----------------------------------
 
 e possivel tambem apaga a branch quando nao goste, essa feture eu tentei desenvolver e n consegui, tem como tbm gera outra versao branch
+ ----------------------------------------
+vou criar uma brach quando estiver criando o conteudo e vou criar outra branch quando estiver criando o desing que eh a parte em css,.
 
+branches sao como se fossem arvores com muitos galhos, e os galhos sao as partes do seu site, as partes do seu site sao como os galhos que sao secundarios, e a arvore eh o todo e assim como os galhos modifica as arvores, os branchzinho modifica o branchzao
 
+em seguida, vai ter a opcao de commitar, e eh ai que a magica acontece, porque  tudo que a agentemudou no conteudo no mastaer nao aparece, continua na versao base, ou seja o master alem de ser uma arvore, eh a base do site ou de seja la o que voces estejam fazendo e todas as branches que voce criar em cima do master ou main,  vao ficar com as configracoes originais as configuracoes da bASE QUE FOI CRIADA
+------------------------------
+ no visual studio code se voce quiser criar uma pasta direto do seu codigo eh so segurar ctrl em cima do nome do nome da pasta que quer criar.
+
+o merge junta os conteudos e caso haja um conflito, eh so abrir com o visual studio code e logo escolherqual das duas versoes escolher.
 
 
 
