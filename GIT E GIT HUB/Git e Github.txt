@@ -310,6 +310,18 @@ master- commit - push - origin
 
 origin eh o repositorio que e a origem 
 
+evitar commitar td na ramificacao master
+
+e vamos commitando e no fim o master n teve alteracao e vou alterando e commitando alterando commitando,
+, td funcionou ok, agora juntar e fazer valwr como official, ai usAMOS  a oper'cao e usamos o merge,
+
+ 
+
+ o ramo principal vai passa a ter essa feture que foi desenvolvida como um branch
+-----------------------------------
+
+e possivel tambem apaga a branch quando nao goste, essa feture eu tentei desenvolver e n consegui, tem como tbm gera outra versao branch
+
 
 
 
