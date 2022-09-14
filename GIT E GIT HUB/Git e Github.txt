@@ -301,6 +301,14 @@ resumindo é so colocar o @ e procurar o nome da pessoa
 para especificar uma pessoa é so clica nos 3 pontinho e clica em quote reply,
 
 Guanabara tem a porra de um manual e eu n precisava disso aqui, mas  tudo bem, porque isso aqui me ajuda a gravar.
+----------------------
+branch: conjunto de ramos
+
+commita eh olha quero criar uma versao
+
+master- commit - push - origin
+
+origin eh o repositorio que e a origem 
 
 
 
