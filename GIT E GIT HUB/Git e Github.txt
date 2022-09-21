@@ -1,4 +1,4 @@
- GIT E GIT HUB:
+  GIT E GIT HUB:
 
 GIT: É UM SOFTWATE DE CONTROLE DE VERSAO; VCS; VERSIONAMENTO
 
@@ -331,6 +331,20 @@ em seguida, vai ter a opcao de commitar, e eh ai que a magica acontece, porque  
  no visual studio code se voce quiser criar uma pasta direto do seu codigo eh so segurar ctrl em cima do nome do nome da pasta que quer criar.
 
 o merge junta os conteudos e caso haja um conflito, eh so abrir com o visual studio code e logo escolherqual das duas versoes escolher.
+
+------------------------------------------------
+Hospedagem Gratis no GitHub Pages:
+
+para colocar as imagens flutuando uma do \lado dooutro no css usa-se o class-lado, vou ver isso nos estudos de html
+
+para fazer uma foto virar um link é so colocar dentro da ancora do link um img e dentro do img a foto que deseja
+
+antes de fazer o merge ele vai ensina como habilita o githubstes
+
+quando hospeda no github pagtes demora de 30s a 1m para aparecer na pagina, se por acaso fizer um push
+
+
+a gente pode apaga tambem as branches que ja nao me servem mais, pois ja foi feito o merge 
 
 
 
