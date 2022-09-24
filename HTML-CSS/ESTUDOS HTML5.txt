@@ -293,8 +293,49 @@ links para downloads:
 EXISTE UM PARAMETRO PARA usar os links para downloads junot ao href, que é o download junto ao type, dentro do type vc coloca o nome do parametro que precisa para baixar qualquer arquivo qualquer coisa de todo tipo, voce encontra todos os nomes dentro do site: iana.org/assignments/media-types vc encontra todos os media types para baixar qualquer coisa.
 
 para nao esquercer: enevelopar é shift + ctrl + p
+-------------------------------------------------------------------------------
+Aprendendo a colocar audio nos meus sites:
 
-ia estuda mas to mt ansada, apenas fjuntei os estudos html com o projeto site por enquanto
+- tomar cuidado com  direitos autoriais tamb em nos audios
+
+para colocar audio é como a tag img, apenas digitar o nome audio, essa é a forma mais facil 
+
+para colocar para tocar ao lado fora das aspas, tem-se que colocar " controls autoplay, onde o controls é pra aparecer aquela informacao das paginas se deseja que o site tenha som e o autoplay  é pra musica tocar
+
+caso o audio nao funcione so com o autoplay tem outras formas de incluir audio que é possivel testar
+
+
+alem de so palavra audio, tem como transformar em uma tag como as outras
+
+audio
+
+<source src="o arquivo" type="os mediatypes de audio mp3" tabem tem como fazer  outros sources para converter o arquivo mp3 para outros tipos de midia desta forma":
+
+<source src="o arquivo" type="os mediatypes de audio mp3" 
+<source src="o arquivo" type="os mediatypes de audio ogg" 
+<source src="o arquivo" type="os mediatypes de audio wav" 
+
+a ordem importa entao caso seja nessa ordem primeiro o site vai tentar carregar mp3 e dps os outros
+
+se nao conseguir nenhum desses audios
+
+abre um paragrafo informando  pro usuario que o navgeador dele nao esta aceitando audio naquele formato e inclui o audio que ele quer naquele site no formato para ser baixado, porem no navgeador do usuario nao roda
+
+
+o preload significa que quando voce colocar para rodar o site o preload vai determinar se o audio vai sair de vez ou se a pessoa vai precisar clicar em algum lugar para baixar
+
+atencao nao usar wav pois arquivos wavs sao arquivos muitos pesados
+
+/audio
+
+-----------------------------------------------------------------------------------------
+Formatos de videos para seu site: site pexels
+
+caso voce queira incluir um video no site do cliente
+
+o software handbrake serve para converter os videos
+ 
+
 
 
 
