@@ -6,6 +6,19 @@ CURSO DE HTML5 E CSS3
 - nao correr, assistir com calma
 - nao ver netflix
 
+----------------------------- 
+
+passo a passo quando os estudos html, css3 e javascript ACABAR:
+
+
+- estudar react e estudar angular
+- desenvolver uma calculadora com React
+-  desenvolver um clone do buzzfeed com Angular
+- desenvolver uma pokedex com javascript
+- desenvolver uma landing page com html e css3
+----------------------------------------------------------------
+
+
 MB-ARMAZENAMENTO-MEGABYTE
 Mb-TRANSMISSAO-MEGABITS
 
@@ -334,8 +347,29 @@ Formatos de videos para seu site: site pexels
 caso voce queira incluir um video no site do cliente
 
 o software handbrake serve para converter os videos
- 
+ -----------------------------------------------------------------------------------------------
+Videos em hospedagem propria:
 
+os videos podem sair diretamente mt grande, entao é so usar o width com 500
+
+usando a tag videos, consome mt banda, mas tem uma dica e uma soluçao para que nao consuma mt bandae consequentemente o site acabe ficando mais caro
+
+
+---------------------------------------
+AULA RAPIDA SOBRE GIMP:
+
+as camadas sao como papeis e voce pode usar varios papeis impilhados um em cima do outro
+
+para pintar a tela em branco tem o degrade e tem o as cores normais
+
+circulos e elipses sao a msm coisa
+
+se a gente quiser colocar imagens em nossas imagens feitas por nos a gente ABRE POR UMA CAMADA
+
+----------------------------------------
+continuando:
+
+agora, aprendendo  a colocar videos do youtube, em compartilhar em qualquer video do youtube vai em incorporar e em seguida é so copiar o iframe do incorporar e colar no seu site e pronto e isso faz com que sei site nao fique pesado e consequentemente mais caro
 
 
 
