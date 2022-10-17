@@ -185,13 +185,6 @@ picture: a tag picture aparece uma imagem dentro dela porem com varios sources
 
 source : essa tag tem varios derivados, nessa aula de imagens dinamicas, vamos usar o "source media type", o que estamos falando com essa tag? estamos dizendo que se  a foto do img tiver um tamanho x e ela nao se adaptar a um tamanho de tela y, no source media tipe em max width colocamos o tamanho base que desejamos e no srcset colocamos o nome/caminho da foto menor ou maior que va aparecer.
 
-
-
-
-
-
-
-
 -------------------------------------------------
 COMO COLOCAR UMA IMAGEM EM SEU SITE?
 
@@ -353,6 +346,11 @@ Videos em hospedagem propria:
 os videos podem sair diretamente mt grande, entao é so usar o width com 500
 
 usando a tag videos, consome mt banda, mas tem uma dica e uma soluçao para que nao consuma mt bandae consequentemente o site acabe ficando mais caro
+
+-----------------------------------
+Videos externos:
+
+é so pegar iframe do video e inserir la
 
 
 ---------------------------------------
