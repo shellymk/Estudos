@@ -368,6 +368,28 @@ se a gente quiser colocar imagens em nossas imagens feitas por nos a gente ABRE 
 continuando:
 
 agora, aprendendo  a colocar videos do youtube, em compartilhar em qualquer video do youtube vai em incorporar e em seguida é so copiar o iframe do incorporar e colar no seu site e pronto e isso faz com que sei site nao fique pesado e consequentemente mais caro
+------------------------------------------------------------------
+ESTILOS CSS INLINE:
+
+as CSS podem ser aplicadas de 3 formas, a primeira delas é a forma inline
+
+esta forma inicia colocando style e em seguida o que a gente deseja como backgruouns, bgcolor etcs dentro de cada tag, isso é extremamente chato, pois isso polui o codigo
+
+ o inline seiginfica que o estilo e as configuraçoes do estilo é feita na mesma linha das tagas
+
+o background color muda toda a cor de fundo
+o color muda apenas a cor do nome do texto
+font family é o tamanhao da fonte
+font size
+
+ e por ai vai
+--------------------------------------------------
+CSS INTERNOS:
+
+essa forma eu crio uma tag style embaixo do title e tudo que estiver entre ess atag style vai ser o css evai ser o estilo do site
+
+
+
 
 
 
