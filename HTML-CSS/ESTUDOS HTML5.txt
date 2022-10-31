@@ -369,6 +369,8 @@ continuando:
 
 agora, aprendendo  a colocar videos do youtube, em compartilhar em qualquer video do youtube vai em incorporar e em seguida é so copiar o iframe do incorporar e colar no seu site e pronto e isso faz com que sei site nao fique pesado e consequentemente mais caro
 ------------------------------------------------------------------
+FOLHAS DE ESTILO
+
 ESTILOS CSS INLINE:
 
 as CSS podem ser aplicadas de 3 formas, a primeira delas é a forma inline
@@ -384,7 +386,7 @@ font size
 
  e por ai vai
 --------------------------------------------------
-CSS INTERNOS:
+CSS INTERNOS/locais:
 
 essa forma eu crio uma tag style embaixo do title e tudo que estiver entre ess atag style vai ser o css evai ser o estilo do site
 
@@ -396,6 +398,10 @@ background color e por ai vai
 
 }
 
+
+toda a alinha dentro dos seletores a gente chAMA DE DE DECLARAÇAO
+
+essa forma tbm nao é mt vantajosa porque o estilo compoe mais linhas do que seu proprio conteudo, ai tem outra forma ainda mais pratica de fazer.
 
 
 
