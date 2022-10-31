@@ -388,6 +388,14 @@ CSS INTERNOS:
 
 essa forma eu crio uma tag style embaixo do title e tudo que estiver entre ess atag style vai ser o css evai ser o estilo do site
 
+essa tag vai ser baseada em seletores, 
+ex: eu quero configura o seletor do body
+
+body { 
+background color e por ai vai
+
+}
+
 
 
 
