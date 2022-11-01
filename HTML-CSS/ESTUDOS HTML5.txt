@@ -122,6 +122,8 @@ Espaço em branco = &nbsp;
 ↑ Seta acima = &uarr;
 → Seta direita = &rarr;
 ↓ Seta baixo = &darr;
+< &lt
+>&gt
 
 <!-- serve para colocar comentarios em seus codigos, explicar algo e nao ser inserido no site
 
@@ -402,6 +404,40 @@ background color e por ai vai
 toda a alinha dentro dos seletores a gente chAMA DE DE DECLARAÇAO
 
 essa forma tbm nao é mt vantajosa porque o estilo compoe mais linhas do que seu proprio conteudo, ai tem outra forma ainda mais pratica de fazer.
+
+----------------------------------
+AGORA VEM A FORMA MAIS VERSATIL DE FAZER OS ESTILOS DO SEU SITE
+
+CSS EXTERNOS:
+
+ABRIR UM PARAGRAFO COM UM LINK essa é a forma pra copiar
+
+passo 1:abrir um link-css , 
+passo 2: em style.css vai pedi pra criar um arquivo, 
+passo 3: voce vai criar esse arquivo
+passo4: vo vai jogar o estilo la
+
+esse estilo e esaa forma de fazer estilo, replica o mesmo estilo para todas a paginas, basta colocar o link-css em todas as paginas 
+
+
+\\ pode dar erros casos use mts simbolos  acentuaçoes, nesse caso a genre coloca algumas coisas chamadas REGRAS
+
+@CHARSET que é uma das regras usadas para acetuaçoes em seus estilos
+
+é possivel tambem adiciona mais de um link para os estilos, caso voce queira por exemplo criar estilos extras para algumas paginas espdecificas do seu site, ai voce usa esse link extra
+
+o mais poderoso  por ordem é o:
+
+inline
+Local
+Externos
+
+obs: evita usar o inline a todo custo, o externo pode usa sem moderaçao
+
+
+
+
+
 
 
 
