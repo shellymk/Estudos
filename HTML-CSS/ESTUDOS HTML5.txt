@@ -433,6 +433,27 @@ Local
 Externos
 
 obs: evita usar o inline a todo custo, o externo pode usa sem moderaçao
+-----------------------------------------------
+modulo 2
+
+ o que vamos estudar nesse modulo:
+
+- Psicologia das cores
+- quais cores irao melhor combinar, harmonizaçao das cores
+- definir qual vai ser a paleta de cores do nossas cores
+- anatomia de uma letra, qual parte de uma determinada letra
+- familia tipografica
+- integraçao entre cor e tipo
+-caracteristica das cores
+- ferramentas para trabalhar com fontes e tipos
+- ferramentas para identificar as letras e fontes
+- trabalhar com classes
+- variaveis em css
+- modelo de caixas, box, alinhar boxes, como funciona modelo de caixa em html e css
+- aplicar as caixas cores, borda, vertice, cores em degrade
+- a construçao do airframe
+- definir paleta, tipografia, fontes, conteudo, modelar, pegar imagens organizar e construir tudo em html e css
+- site responsivo
 
 
 
