@@ -405,11 +405,6 @@ toda a alinha dentro dos seletores a gente chAMA DE DE DECLARAÇAO
 
 essa forma tbm nao é mt vantajosa porque o estilo compoe mais linhas do que seu proprio conteudo, ai tem outra forma ainda mais pratica de fazer.
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Att31/10
 ----------------------------------
 AGORA VEM A FORMA MAIS VERSATIL DE FAZER OS ESTILOS DO SEU SITE
 
@@ -459,7 +454,6 @@ modulo 2
 - a construçao do airframe
 - definir paleta, tipografia, fontes, conteudo, modelar, pegar imagens organizar e construir tudo em html e css
 - site responsivo
-<<<<<<< HEAD
 -  CSS id e class
 ----------------------------------------------------
 Psicologia das cores:
@@ -500,18 +494,12 @@ o marrom tem ideia de rosbustes, amizade, estabilidade, um exemplo é um restuar
 roxo tem criatividade, poder, mas ele n prende mt o expectador
 
 existem mais de 65 milhoes de cores.
-=======
->>>>>>> Att31/10
 
 
 
 
 
 
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> Att31/10
 
 
 
