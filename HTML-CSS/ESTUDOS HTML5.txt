@@ -122,6 +122,8 @@ Espaço em branco = &nbsp;
 ↑ Seta acima = &uarr;
 → Seta direita = &rarr;
 ↓ Seta baixo = &darr;
+< &lt
+>&gt
 
 <!-- serve para colocar comentarios em seus codigos, explicar algo e nao ser inserido no site
 
@@ -402,6 +404,102 @@ background color e por ai vai
 toda a alinha dentro dos seletores a gente chAMA DE DE DECLARAÇAO
 
 essa forma tbm nao é mt vantajosa porque o estilo compoe mais linhas do que seu proprio conteudo, ai tem outra forma ainda mais pratica de fazer.
+
+----------------------------------
+AGORA VEM A FORMA MAIS VERSATIL DE FAZER OS ESTILOS DO SEU SITE
+
+CSS EXTERNOS:
+
+ABRIR UM PARAGRAFO COM UM LINK essa é a forma pra copiar
+
+passo 1:abrir um link-css , 
+passo 2: em style.css vai pedi pra criar um arquivo, 
+passo 3: voce vai criar esse arquivo
+passo4: vo vai jogar o estilo la
+
+esse estilo e esaa forma de fazer estilo, replica o mesmo estilo para todas a paginas, basta colocar o link-css em todas as paginas 
+
+
+\\ pode dar erros casos use mts simbolos  acentuaçoes, nesse caso a genre coloca algumas coisas chamadas REGRAS
+
+@CHARSET que é uma das regras usadas para acetuaçoes em seus estilos
+
+é possivel tambem adiciona mais de um link para os estilos, caso voce queira por exemplo criar estilos extras para algumas paginas espdecificas do seu site, ai voce usa esse link extra
+
+o mais poderoso  por ordem é o:
+
+inline
+Local
+Externos
+
+obs: evita usar o inline a todo custo, o externo pode usa sem moderaçao
+-----------------------------------------------
+modulo 2
+
+ o que vamos estudar nesse modulo:
+
+- Psicologia das cores
+- quais cores irao melhor combinar, harmonizaçao das cores
+- definir qual vai ser a paleta de cores do nossas cores
+- anatomia de uma letra, qual parte de uma determinada letra
+- familia tipografica
+- integraçao entre cor e tipo
+-caracteristica das cores
+- ferramentas para trabalhar com fontes e tipos
+- ferramentas para identificar as letras e fontes
+- trabalhar com classes
+- variaveis em css
+- modelo de caixas, box, alinhar boxes, como funciona modelo de caixa em html e css
+- aplicar as caixas cores, borda, vertice, cores em degrade
+- a construçao do airframe
+- definir paleta, tipografia, fontes, conteudo, modelar, pegar imagens organizar e construir tudo em html e css
+- site responsivo
+-  CSS id e class
+----------------------------------------------------
+Psicologia das cores:
+
+cores sao de suma importancia para os sites, aprender a como escolher uma cor
+
+anotar tudo
+
+------------------------
+o produto, a cor do quarto,  do site da casa, o conceito de psicologia das cores
+
+---------------------------------------------------------
+existem estudos que dizem que a cor de alguma coisa, esta relacionada a cor da embalagem a cor das coisas influenciam em nossas decisoes, essa porcentagem aumenta mt o sucesso em nosso site
+
+é mais valioso um site harmonico nas cores
+
+nos sres humanos instintivamente escolhemos algo pela cor, mas nunca temos conscientes, o conjunto e harmonia das cores que as coisas tem
+
+cores sao importantes demais para desenvolver sites
+-------------------------------- 
+face, twitter e ente outas empresas de tecnologia, escolhem muito o azul e isso é porque azul tem ligaçao com competencia, sabedoria, inteligencia, calma, confianca, prossionalismo, integridade, segurança, a cor azul é a cor mais aceita do mundo, com 46% de aprovaçao, é A COR COM A MENOR TAXA DE REJEIÇAO
+
+vermelho, é a cor associada a emoçao, amor, energia, mas tambem a raiva, a perigo, sites de comida, moda, entretenimento, emergencia, saude, luxo, natureza, uso de serviços em geral
+
+ a netflix é um exemplo que faz mt sucesso, com preto e vermelho, preto e branco mt forte, causa um cansasso visual mt rapido
+
+vermelho e amarelo, se vermelho faz rel com comida eo amarelo com felicidade.
+
+laranja: cautela divertimento
+
+verde: saude, natureza, dinheiro sorte, turismo, meio ambiente
+rosa: amor,romance, cuidado, evita o rosa caso  o produto nao tenha uma pega sentimental e doce e calma
+
+o douirado é mt rela a vermelho
+
+o marrom tem ideia de rosbustes, amizade, estabilidade, um exemplo é um restuarante fraces no qua foi mt aproveitado, quando fala de bebida e comidas cada um de forma diferente, noçao de que as vezes é bem delicado
+
+roxo tem criatividade, poder, mas ele n prende mt o expectador
+
+existem mais de 65 milhoes de cores.
+-------------------------------------------------------------------------
+
+
+
+
+
 
 
 
