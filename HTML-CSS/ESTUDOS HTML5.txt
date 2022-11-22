@@ -494,6 +494,100 @@ o marrom tem ideia de rosbustes, amizade, estabilidade, um exemplo é um restuar
 roxo tem criatividade, poder, mas ele n prende mt o expectador
 
 existem mais de 65 milhoes de cores.
+--------------------------------------------------------------------
+ atem da forma decimal, hexadecimal, cores em palavras, é possivel tbm ultilizar a  representaçao em css, hsl
+------------------------------
+hue, saturaçao e luminosidade
+hue é matiz
+-----------------------------------
+tem como deixar transparente na  barrinha do meio
+------------------------------
+a  proxima parte é a mais importante como tornar meu site bunito usando uma combinaçao de cores para meu site, a armonizaçao das cores.
+---------------------------------
+HARMONIZAÇAO DAS CORES?
+ 
+circulo cromativo: principais cores
+
+primarias:
+
+amarelo
+vermelho 
+azul
+
+Secundarias: 
+
+Laranja 
+violeta 
+verde
+
+Terciarias: sao misturas entre primaria e secundaria, sao alguns tons pasteis
+
+Amarelo esverdeado
+Amarelo alaranjado
+Vermelho alaranjado
+vermelho rocheado
+azul rocheado
+azul esverdeado
+
+formam um triangulo equilatero no circulo cromativo: sao as cores primarias
+
+quando achamos algo bunito e nao sabemos explicar o porque, simetria, cor
+
+se quisermos representa algo frio e quente usamos cores frias e cores quentes para representar nosso site
+
+a paleta de cores do site sempre parte do principio da cor principal, a partir dai se escolhe as outras cores
+
+ex : um site de restaurante
+
+geralmente uma paleta vai ter de 3, a 5 cores
+
+se o cliente tem uma logo e a marca é importante, primeiro vamos verificar a cor primaria que ta sendo ultilizada na logo
+
+cores complementares: sao as cores que mais tem conraste entre si
+
+ex: qual a cor que mais contrasta com o marrom? e depois escolher qual a cor imediatamente oposta ao circulo cromatico
+
+ex: quero uma cor violeta, é so traca uma reta ao outro lado do circulo cromatico, entao a cor que mais contrasta com violeta é o amarelo
+
+se escolheu vermelho a cor que mais contrasta é o verde e assim sucessivamente sempre com esta reta.
+
+tudo tem um principio e uma ciencia,
+
+cores analogas: criam degrade
+
+ex: violeta, ai é o pegar as cores vizinhas, uma do lado esquerdo e direito, para criarmos uma simetria é so pegar as viznnhas
+
+cores analogas e complementar
+
+ex: violeta, vizinhas da violeta e depois traca uma reta na violeta para o outro lado do circuito e fazer a mistura das cores analogas e complementar
+
+cores analogas relacionadas:
+
+duas cores vizinhas, dessas duas pulamos uma cor e pegamos a terceira cor
+
+cores: intercaladas:
+
+escolhemos uma cor, pulamos uma cor e escolhemos a outra, pulamos denovo e escolhemos a seguinte
+
+cores triadicas:
+
+pegamos uma cor de referencia, pulamos tres cores e pegamos a outra cor, depois pegamos mais 3 e pega outra cor, isso forma um triangulo equilatero
+
+cores em quadrado:
+
+pegamos uma cor e pulamos duas cores e pegamos a outra e assim sucessivamente ate formar um quadrado
+
+cores tetradicas:
+
+escolhemos qualquer cor, qual o complementar daquela cor, ai pegamos outra cor ai pegamos o complementar daquela outra dor e com essas cores formamos um retangulo
+
+Monocromia:
+
+pegamos uma cor, e alteramos a saturacao e o brilho dela, sao as caracteristicas e com isso a gente acha as cores degrade de uma cor
+
+
+todas as cores que vamos escolher, vamos escolher conforme o tipo de site que vamos fazer a partir dai, vamos
+
 
 
 
