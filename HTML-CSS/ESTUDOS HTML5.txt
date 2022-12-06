@@ -588,6 +588,15 @@ pegamos uma cor, e alteramos a saturacao e o brilho dela, sao as caracteristicas
 
 todas as cores que vamos escolher, vamos escolher conforme o tipo de site que vamos fazer a partir dai, vamos
 
+color.adobe.com
+
+
+aguanabara apresentando o color.adobe, inclusive mt bom.
+
+outra ferramenta chamada paletton.com - esse mostra um exemplo de site com o tom que a gente escolheu , ESSE É FODA
+
+tem o coolors que da pra montar a paleta e trava a a cor e depois que travar ir apertando barra de espaco depois disso  ir formando as cores do seu site.
+
 
 
 
