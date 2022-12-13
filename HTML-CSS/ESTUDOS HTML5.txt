@@ -595,7 +595,62 @@ aguanabara apresentando o color.adobe, inclusive mt bom.
 
 outra ferramenta chamada paletton.com - esse mostra um exemplo de site com o tom que a gente escolheu , ESSE É FODA
 
-tem o coolors que da pra montar a paleta e trava a a cor e depois que travar ir apertando barra de espaco depois disso  ir formando as cores do seu site.
+tem o coolors= que da pra montar a paleta e trava a a cor e depois que travar ir apertando barra de espaco depois disso  ir formando as cores do seu site.
+----------------------------------------------------
+Como capturar cores da tela?
+
+Collorzila é uma extensao do google que pega qualquer cor de qualquer site, qualquer paleta,  ele cobsegue pegar ate de site dentro de site, maravigold
+
+essa foi uma aula de como pegar todas as cores que aparecerem em seu navegador
+
+-----------------------------------------
+Como criar degradê com CSS ? 
+
+para fazer degarade nao usamos background color usamos outra chamada background image, ele tem uma funcao interna chmada linear gradient(to right);
+
+
+configuracoes globais das css que vao servir para qualquer css:
+
+*{  height: 100%
+}
+
+heigh significa altura, a altura vai ser 100%
+
+background-attachment serve para fixAR O DEGRADE
+
+ a dica eh nao exagerar.
+
+paLETAS DE 3 A 5 cores
+
+menso de 3 é mt complicado e a cima de 5 é demais
+--------------------------------------------
+Criando um exemplo real 
+
+
+O CODIGO PRINCIPAL DO SITE VAI ESTAR DENTRO DE UMA TAGA CHAMADA MAINHA, MAIS A FRENTE O GUANABARA DA MAIS INFORMACOES SOBRE
+
+ADENDO: O MAIN VAI DENTRO DO BODY
+
+É COMO SE FOSSE UMA DIV, QUE DIZ QUE ALI É O CODIGO PRINCIPAL
+
+
+----------------------------------------------------------
+text alight serve para alinhar todo seu texto com espacamentos certinhos
+
+width controla o tamanho do bloco de texto se quer que tome  o tamanho da sua tela d emonitor ou se que menor e va atuALIZANDO, width é lagura
+
+padding é alcochoamento aumenta a margem do main
+
+border radius é a bordinha do main
+
+box shadow: imagine uma cor, branco tem uma sombra o primeiro parametro é quanto a sombra vai andar para o lado , o segundo parametro é quanto essa sombra vai andar baixo, o terceiro parametro é quanto essa sombra vai espalhar e o ultimo parametro é quanto de transparencia essa sombra vai ter
+
+
+se quisermos trabalhar monocromia arrastamos para baixo e vamos encontrando tons da msm cor so que mais escuras, sempre arrastar pra baixo quando queremos trabalhar monocromia
+
+
+
+
 
 
 
