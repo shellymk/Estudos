@@ -624,10 +624,10 @@ paLETAS DE 3 A 5 cores
 
 menso de 3 é mt complicado e a cima de 5 é demais
 --------------------------------------------
-Criando um exemplo real 
+Criando um exemplo real :
 
 
-O CODIGO PRINCIPAL DO SITE VAI ESTAR DENTRO DE UMA TAGA CHAMADA MAINHA, MAIS A FRENTE O GUANABARA DA MAIS INFORMACOES SOBRE
+O CODIGO PRINCIPAL DO SITE VAI ESTAR DENTRO DE UMA TAGA CHAMADA MAIN, MAIS A FRENTE O GUANABARA DA MAIS INFORMACOES SOBRE
 
 ADENDO: O MAIN VAI DENTRO DO BODY
 
@@ -647,6 +647,98 @@ box shadow: imagine uma cor, branco tem uma sombra o primeiro parametro é quant
 
 
 se quisermos trabalhar monocromia arrastamos para baixo e vamos encontrando tons da msm cor so que mais escuras, sempre arrastar pra baixo quando queremos trabalhar monocromia
+--------------------------------------------------------------------
+capitulo 14: Tipografia
+
+fontes, letras pra os projetos, vamos descobrir como surgiu a tipografia ee como colocar  em nosso site
+
+o ponto de virada foi o sec 15, quem produzia os livros eram os monges copistas, monges copistas eram conhecidos como amanoence, o copista era o cara que copiava td a mao
+
+johanes gutemberg teve uma ideia para ajuda os monges copistas, varias caixinhas de metal, ele criou essa maquina que ajudava, era tipo um carimbaoe ai deixavam secar, prensava com tinta e depois 
+
+a primeira impressora, gutemberg foi conhecido como o pai da impressa, mas quem fez a primeira prensa foi os chineses
+
+
+como as primieras letras forma mt pequenas  e ai galr teve a ideia de fAZER LETRAS melhores, pois estavam querendo melhora v sibilidade das letras
+
+tipo grafia de typos graphia
+
+como desenhar as letrinhas
+
+
+emocao das fontes
+-----------------------------------------------------------------------
+Anatomia do tipo:
+
+as vazadas,  altura x: alturas das letras minusculas
+
+existe tbm altura das letras maisculas
+
+a altura do vazaamento se chama ascendente
+
+letra g minuscula a altura se chama descendente
+
+todas as alturas
+
+quando vamos definir uma fonte  agente tem que  saber a altura do corpo
+
+anatomicos geometricos e anatomicos corporais
+
+uma das coisas mais importantes das fontes tem um pezinho e nem todas as fontes tem todos os componentes, nem todas as fontes tem serifas
+
+serifAS SAO UM PEQUENO TRAICNHO QUE GERAM NO FINAL DE ALGUMAS FONTES
+
+QUAIS SERIAM A IMPORTANCIA DE ALGUMAS SERIFAS
+
+PRA QUE SERVE UMA SERICA: ELA CRIA UMA LINHA IMAGINARIA QUE O NOSSO CEREBRO N PERCEBE E O NOSSO OLHO VAI SER GUIADO
+
+O IMPORTANTE É QUE A PRIMEIRA E A ULTIMA ESTEJAM NO LUGAR CERTO POIS NAO LEMOS LETRA POR LETRA OU PLAVRA POR PALAVRA
+
+QUANDO VAMOS ESTUDAR ESSES FENOMENOS PODEMOS PERCEBER COMO É MARAVILHOSO TUDO ISSO
+
+AS SERIFAS SURGIRAM PARA CONTEUDOS NO PAPEL, EM TELAS TBM SAO IMPORTANTES.
+
+HASTES SAO ESPACOS NAS LETRAS QUE UNEM UMA PARTE A OUTRA
+
+FILETE UNE MAIS DE UM
+
+ARCO
+
+ESPORAO
+
+VERTICE
+
+TERMINAL
+
+ESTES FORAM OS COMPONNETES ANATOMICOS GEOMETRICOS
+
+-------------------------
+
+BRACO
+
+PERNA
+
+PE SAO ONDE TEM SERIFAS
+
+CURVAS SO EXISTEM NA LETRA S
+
+ESPINHA
+
+BArriga
+
+a area interna chamaos de olho
+
+letra g tem a orelha
+
+na parte da descendente chamamos de calda
+
+esses foram as anatomicas de grifo
+
+quando pegamos todos os grifos numa determinada familia chamamos isso de fonte, vamos usar fontes da internet e fontes
+
+os flifos sao caracteres ou letr
+
+
 
 
 
