@@ -710,6 +710,34 @@ font family é o formato das fontes
 TESTANDO
 
 
+fonte weight: a gente vai indicar o peso da fonte
+
+existe o lighter, normal, bold, bolder, tem tambem como fazer por numeros
+
+font style é comoa genmte vai dizer como queremos nosso site se em italico ou normal
+
+font weigh para negrito e o style caso queiramos colocar c
+
+nem todas as fontes permitem todas as configuracoes
+
+
+
+            text-decoration: underline;
+
+            font-style: normal;
+
+            font-weight: normal ;
+
+            font-size: 1em;
+
+            font-family: 'Times New Roman', Times, serif;
+
+
+NO LUGAR DE USAR TODASD AS LINHAS, A GENTE PODE USAR  O SHORTHAND FONT, SHORTHAND A GENTE JUNTA TD EM APENAS UM
+
+EX: FONT: ITALIC BOLDER 3EM E A FONTE QUE VC ESCOLHEU QUE É SO COPIAR E COLAR
+
+
 
 
 
