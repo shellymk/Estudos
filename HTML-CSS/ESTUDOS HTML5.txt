@@ -646,9 +646,9 @@ border radius é a bordinha do main
 box shadow: imagine uma cor, branco tem uma sombra o primeiro parametro é quanto a sombra vai andar para o lado , o segundo parametro é quanto essa sombra vai andar baixo, o terceiro parametro é quanto essa sombra vai espalhar e o ultimo parametro é quanto de transparencia essa sombra vai ter
 
 
-se quisermos trabalhar monocromia arrastamos para baixo e vamos encontrando tons da msm cor so que mais escuras, sempre arrastar pra baixo quando queremos trabalhar monocromia
---------------------------------------------------------------------
-capitulo 14: Tipografia
+se quisermos trabalhar monocromia arrastamos para baixo e vamos encontrando tons da msm cor so que mais escuras, sempre arrastar pra baixo quando queremos trabalhar monocromia.
+---------------------------
+FONTES E TIPOGRAFIA?
 
 sem serifa quer dizer que nao tem serifa, serio gunabara?
 
@@ -707,64 +707,7 @@ fonte size é o tamanho
 
 font family é o formato das fontes
 
-TESTAND
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-rem: relativo ao root
-
-vw: view port, porcentagem da view port
-
-vh: altura da view port
-
-ultilizamos mais o em para fontes
-
-para font size. ele reocmenda px e em
-
-16px é igual a 1em
-
-o em éo dobro do tamanho dos pixels
-
-o rem é relativo ao padrao do site do codigo do site, 
-
-px e em para sites ok, entendi
-
-fonte size é o tamanho
-
-font family é o formato das fontes
->>>>>>> Stashed changes
-
+TESTANDO
 
 
 
