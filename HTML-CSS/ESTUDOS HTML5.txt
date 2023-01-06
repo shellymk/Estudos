@@ -646,6 +646,7 @@ border radius é a bordinha do main
 box shadow: imagine uma cor, branco tem uma sombra o primeiro parametro é quanto a sombra vai andar para o lado , o segundo parametro é quanto essa sombra vai andar baixo, o terceiro parametro é quanto essa sombra vai espalhar e o ultimo parametro é quanto de transparencia essa sombra vai ter
 
 
+<<<<<<< Updated upstream
 se quisermos trabalhar monocromia arrastamos para baixo e vamos encontrando tons da msm cor so que mais escuras, sempre arrastar pra baixo quando queremos trabalhar monocromia
 --------------------------------------------------------------------
 capitulo 14: Tipografia
@@ -738,6 +739,68 @@ quando pegamos todos os grifos numa determinada familia chamamos isso de fonte, 
 
 os flifos sao caracteres ou letr
 
+=======
+se quisermos trabalhar monocromia arrastamos para baixo e vamos encontrando tons da msm cor so que mais escuras, sempre arrastar pra baixo quando queremos trabalhar monocromia.
+---------------------------
+FONTES E TIPOGRAFIA?
+
+sem serifa quer dizer que nao tem serifa, serio gunabara?
+
+cuidado com fontes nao serifadas
+
+nunca use fontes nao contrastantes, branco no fundo e preto na letra ou fundo preto letra branca
+
+toda fonte monoespaçada ela pode ser com e sem serifa, especificamos pelo tamanho
+
+fontes handwriting
+
+fontes display
+--------------------------------------------------------
+FONTES EXTERNAS/ FAMILIAS DE FONTE COM CSS:
+
+
+style
+	font family e tal tals
+
+styte
+
+
+temos as medidas absolutas e as medidas relaticas
+
+medidas absolutas:
+ cm, mm, in= polegada, px=pixel, pt=ponto, pc= paica
+
+as vezes o navegador nao consegue chegar, o site vai estar monstado com a medida ulktilizada porem a apresentacao vai ser diferente, ponto e paica sao medidas de papael, material impresso em tela nao é ultilizado ponto e paica
+
+
+Medidas relativas:
+
+em: é relaitiovo a o m maiuculo
+
+ex: é relativo a altura x de uma fonte
+
+rem: relativo ao root
+
+vw: view port, porcentagem da view port
+
+vh: altura da view port
+
+ultilizamos mais o em para fontes
+
+para font size. ele reocmenda px e em
+
+16px é igual a 1em
+
+o em éo dobro do tamanho dos pixels
+
+o rem é relativo ao padrao do site do codigo do site, 
+
+px e em para sites ok, entendi
+
+fonte size é o tamanho
+
+font family é o formato das fontes
+>>>>>>> Stashed changes
 
 
 
