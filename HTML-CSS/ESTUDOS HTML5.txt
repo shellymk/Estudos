@@ -736,6 +736,16 @@ nem todas as fontes permitem todas as configuracoes
 NO LUGAR DE USAR TODASD AS LINHAS, A GENTE PODE USAR  O SHORTHAND FONT, SHORTHAND A GENTE JUNTA TD EM APENAS UM
 
 EX: FONT: ITALIC BOLDER 3EM E A FONTE QUE VC ESCOLHEU QUE É SO COPIAR E COLAR
+------------------------------------------------
+usando o google fonts e fontes externas
+
+ultilizando links e impórts, links para usar em html e @imports parea as css
+
+os imports eles sao sempre colocados abaixo dos styles, é necessario que esteja fora de seletores.
+
+no proximo video ele vai mostrar como retirar AS FONTES DE LOGOS, E ETC, COMO RETIRAR FONTE DAS COISAS
+
+NORMALMEMTE TEMOS 3 OU 4 FONTES PARA USAR NO SITE PARA OP SITE NAO SE TRANSFORMAR EM UMA BAGUNCA
 
 
 
