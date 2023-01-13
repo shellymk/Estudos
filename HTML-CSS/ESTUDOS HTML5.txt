@@ -746,6 +746,29 @@ os imports eles sao sempre colocados abaixo dos styles, é necessario que esteja
 no proximo video ele vai mostrar como retirar AS FONTES DE LOGOS, E ETC, COMO RETIRAR FONTE DAS COISAS
 
 NORMALMEMTE TEMOS 3 OU 4 FONTES PARA USAR NO SITE PARA OP SITE NAO SE TRANSFORMAR EM UMA BAGUNCA
+------------------------------------------------------
+
+Alem do google fontes, para pegar fontes de outtrras coisas, ou o cliente queer fontes especiofiocas, alem do google fonts, tem o dafonts
+
+normalmente as fontes vem em formato otf e ttf
+
+@font-face
+            font-family: ;
+            src: url('Dark College') format();
+
+essa e a forma que se coloca dentro do codigido fontes baixadas
+
+em src coloca o nome da fonte que foi baixada
+
+depois dos parenteses do src, se coloca format, que é pra indiicar o formato que voce deseja, guanabara mostra exatamente como fazer
+
+para cada format tem uma url, so que sem o src
+
+url('nome da fonte') format ('formato da fonte') dessa forma
+
+com essas fontes baixadas,
+
+no font-family do seu codigo, é so colocar o nome que a gente quiser
 
 
 
