@@ -770,6 +770,17 @@ com essas fontes baixadas,
 
 no font-family do seu codigo, é so colocar o nome que a gente quiser
 
+OUTROS SITES PARA PEGAR FONTES:
+
+
+TEM NAVEGADORES QUE FUNCIONAM MELHOR COM UM TIPO APENAS, OTF OU TTF
+
+OUTROS FORMATS
+
+EMBEDDED-OPENTYPE
+TRUETIPE-AAT
+SVG
+
 
 
 
