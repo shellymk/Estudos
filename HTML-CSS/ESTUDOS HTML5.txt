@@ -783,7 +783,52 @@ SVG
 
 -------------------------------------------------
 
-o fontss ninja é pra tirar do
+o fontss ninja é pra tirar doS SITES AS FONTS, FONTS EXPECIFICAS
+
+------------------------
+DETECTANDO FONTES DE IMAGENS:
+
+sites para pegar fonts das imagens
+
+WHATFONTIS
+FONT SQUIRL
+MY FONTS.COM
+--------------------------
+alinhamentos:
+
+a tag center é obsoleta
+
+como arfzer alinhamento na css:
+
+criar style e dps um body
+
+------------------------------- 
+
+tem uma propriedade chamada text indent que é o afastamentozinho do pagrafo
+
+alinhar sempre com css, text aligh e text indent e a s fontes
+
+-------------------------------
+Seletores personalizados:
+
+para personaliza cada tag
+
+usar id= "principal" dentro da tag e depois personalizaer no style como no exemplo abaixo:
+
+
+h1#principal 
+{
+    text-align: center;
+    background-color: blue;
+    color: rgb(77, 77, 129);
+}
+
+
+alem do id, temos o class, o class vaui ser no proximo video.
+
+
+
+
 
 
 
