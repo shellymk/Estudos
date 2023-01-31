@@ -2,23 +2,39 @@
 
 body
 {
-    background-color: bisque;
+    background-color: #F5BCF2;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1
 {
-    color: rgb(245, 174, 87);
+    color:#755A74;
 }
 
 h1#principal 
 {
     text-align: center;
-    background-color: blue;
-    color: rgb(77, 77, 129);
+    background-color: #362935;
+    color: #ffffff;
 }
 
 h2
 {
-    color: rgb(112, 71, 20);  
+    color: #7a5b79;  
+}
+.basico
+{
+    color: aqua;
+}
+.intermediario
+{
+    color: crimson;
+}
+.avancado
+{
+    color: darkgreen;
+}
+.destaque
+{
+    background-color: cornflowerblue;
 }

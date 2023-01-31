@@ -813,9 +813,9 @@ Seletores personalizados:
 
 para personaliza cada tag
 
-usar id= "principal" dentro da tag e depois personalizaer no style como no exemplo abaixo:
+usar id= "principal"(essa parte vai na tag) dentro da tag e depois personalizaer no style como no exemplo abaixo:
 
-
+ essa parte vai no estilo
 h1#principal 
 {
     text-align: center;
@@ -823,8 +823,32 @@ h1#principal
     color: rgb(77, 77, 129);
 }
 
+o id swe
 
 alem do id, temos o class, o class vaui ser no proximo video.
+
+503D3F
+
+----------------------
+dentro de um mesmo documento, so pode ter um id principal, essa é a regra do w3c. funcionar n significa que esta certo
+
+uma classe pode ter varios elementos com a mesma classe
+
+ex:
+class="basico"
+
+nao dar nomes as classes pela forma e sim pela funcionalidade
+
+no style
+
+.basico
+{
+	color
+
+o class é ligado antes e o id é ligado depois
+
+em html é id = em css é #(so pode um elemento)
+em html é class = em css é .(pode varios elementos
 
 
 
