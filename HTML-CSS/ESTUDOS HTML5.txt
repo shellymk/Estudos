@@ -847,8 +847,43 @@ no style
 
 o class é ligado antes e o id é ligado depois
 
-em html é id = em css é #(so pode um elemento)
-em html é class = em css é .(pode varios elementos
+em html é id = em css é #(so pode um elemento por documento html e nao por pagina)
+em html é class = em css é .(pode varios elementos)
+em html é pseudoclass = em css é : (pode varios elementos)
+
+---------------------------
+Pseudo classes:
+
+vamos falar sobre div, div sao espacos que tomam de uma ponta ate a outra ponta
+
+
+display
+backgroung-color
+border: 1px
+text-align
+height: altura
+width: largura
+
+---------------------
+: sao pseudo classes
+
+posweudsoclasses sao relacionados ao estado do elemelento
+
+ele so vai ficar amarelo quando passar o mouse por cima, essa é a div hover e isso que significa hover
+
+--------------------- como é que eu escondo o paragrafo que esta dentro da div, olha so que maneiro
+
+dentro do style, voce vai colocar:
+
+
+div > p {}  isso significa que esse paragrafo é filhop de uma div, e nao um paragrafo qualquer
+
+quando eu quiser que aquele paragrafo apareca quando eu passar o mouse em cima
+
+é so coloar desta forma:
+
+
+div: hover > p{}
 
 
 
