@@ -924,6 +924,109 @@ links:
 
 vamos criar um stilo para sobrepor a cor padrAO DOS LINKS
 
+visited é uma pseudo classe
+
+passar op mouse em cima é uma pseudo classe, ai vc modificia em forma de pseudo classe
+
+active é quando ele ta ativo, é a cor dele quando eu cliquei nele
+
+pseudo classes é 1x :
+pseudo elemendo é 2x ::
+
+alguns pseudo-classes:
+:hover, 
+:visited, = as coisas que ja foram visitadas
+:active, = os que estao ativos
+:checked, 
+:empty e 
+:focus.
+
+pseudo elementos vistos:
+
+::before, 
+::after, 
+::first-letter, 
+::first-line.
+
+After e dentro do after um content
+before
+
+e tem como misturar e colocar esses pseudo elementos como especiais  
+
+os pseudo elemento servem pras ids e tambem pras classes
+
+simbolos que é possivel ultilizar nas css que ja vimos nesse capitulo
+
+
+# = id
+. = classe
+: = pseudo-classe
+:: = pseudo-elemento
+> = children 
+
+--------------------------------
+modelos de caixas:
+
+do termo em ingles box model
+
+quando se tem um documento html ele sempre deve estar dentro de uma caixa e é possivel colocar uma caixa dentro da outra e isso é chamado de aninhamento
+
+<h1> ola, mundo!</h1>
+
+uma caixa pode ser maior ou menor, quando
+
+na hora qu criamos um seletor para o h1 estamos mudando a caixa desse elemento
+
+primeiro a se mudar:
+
+heigh- altura
+width- largura
+
+podemos tbm tracar uma linha em volta dela, em volta do conteudo e vamos chamar essa linha de borda ou border
+
+padding- acouchoamento ou preenchimento, pode ser igual ou pode ser diferente de cada lado
+
+e tambem tem o margin que éo espaco externo, que éo espaço de fora
+
+e tambem tem o outline
+
+---------------------------
+ tipos de caixa: 
+box level: sempre que a caixa começa vai começa na linha de baixo ocupar a largura interira
+
+<div>
+<h1>-<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+ e inline-level: vai criar uma caixa do lado da linha e depois aque a cabar a caixa continua linha, nao quebram linha e nao ocupam a largura interira da tela
+
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup> - <sub>
+<label>
+<button>
+<input>
+<select>
+
+
+
+
+
+o box level mais famoso no html4 é a tag <div>
+
+e no inline <span>
 
 
 

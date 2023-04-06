@@ -346,8 +346,115 @@ quando hospeda no github pagtes demora de 30s a 1m para aparecer na pagina, se p
 
 a gente pode apaga tambem as branches que ja nao me servem mais, pois ja foi feito o merge 
 
+é possivel incluir imgs dentro de links
+
+vai no repositorio do site no github site - setting - pages - master branch - é preciso estar nas brach master, necessario
+----------------------------------------------------------------------------
+
+ O BASICO DE GIT PELO TERMINAL - DIO, CONTINUANDO ESTUDOS.
+
+WINDOWS: terminal do windows é derivado do shell
+
+- cd - entra e sai dos diretorio
+- dir - lista
+- mkdir - cria pastas
+- del e rmdir- apaga arquivos e apaga pastas
+
+- echo hello > hello.txt  - criou um arquivo
+
+UNIX: terminal do linux é derivado do bash
+
+- cd	
+- ls
+- mkdir
+- rm -rf
+
+-------------------------
+comandos:
+
+o primeiro comando vai ensinar a listar e se situar e ajudar5a a entender em qual  local estamos, no windows esse comando se chama dir
+
+dir vai trazer uma lista de diretorios
+
+cd / leva pra base do diretorio do qual vc se encontra e serve pra navega em lugares especificos no sistema
+
+macete; digitando cd + espaço + letra  de plavra desejada + tab e logo depois usar o dir para listar  - tudo isso signifiica q	ue estamos entrando na pasta e listando o que tem nela
 
 
+exmp no linux: cd etc que é uma pasta do sistema operacional linux e logo depois usar o ls para listar tudo novamente
+
+o comando para limpar a tela no windfows é cls
+
+no linux éo clear e com ctrl + l vc faz o mesmo efeito do clear
+
+mkdir + o nome da pasta q deseja criar, esse comando cria pastas isso no wuindows
+
+no linux ocmo estamos em um subsistema linux, precisamos primeiro pegar permissao e so depois ncontinuar
+
+para pedir permissao, sudo su e ai vai pedir para incluir a senha
+
+-----------------------
+agora no windows: para criar arquivos, usa o comando echo hello dentrod a pasta desejada com o simbolo de maior que + o nome do arquivo que vc quer criar e a extensao exemplo:
+
+echo hello > hello.txt
+
+o comando del deleta apenas arquivos  e nao repositorios 
+
+rmdir e o repositorio que vc quer exclui, 
+------------------------------
+entendendo como funciona o git
+
+sha1 é um algoritmo de ecriptaçao, encripataçao gera conjunto de caracteres identificados de 40 digitos - é uma forma curta de representar um arquivo
+
+1 echo "ola mundo" | openssl sha1
+2 > (stdin)= f9089702349874012893buhdgfbisu09878
+
+exemplo mostrado, no gitbash here no desktop testeando sha1 - com isso o git garante que os arqyuivos sofreram modificaçoes e garantir que naquele arquivo tem as mesmas coisas, isso serve tambem para objetos internos
+
+objetos fundamentais
+
+sistema distribuido
+
+---------------------------
+
+usando o comando "git clone" e clonar o link do repositorio no git bash vc consegue clonar o seu repositorio que foi feito diretamente 2rmdir
+
+
+https://github.com/shellymk/Livro-Receitas2.git
+
+
+git status, conseguimos ver o que foi feito e as mudancas na ma
+---------------------------------------------------------------------
+
+objetos fundamentais:
+
+Blobs: contem metadados dentro deles. do git, tamanho da string essas coisas
+
+trees 
+
+Commits
+
+-----------------------------
+Primeiro exemplo blobs:
+
+
+a funçao echo que vai pegar uma string e cuspir o output dessa string para uma funçao do git que chama hash o stdin espera receber esse arquivo que estamos enviando o texto entao se passarmos a string "conteudo" ela vai devolver pra gente o sha1 desse conteudo
+
+echo 'conteudo' | git hash-object --stdin
+
+
+echo -e 'conteudo' | openssl sha1
+
+------------
+segundo objetos as trees
+
+tambem contem metadados, aponta a um blob, e guarda o nome do Arquivo, a arvore vai ser responsavel por monta toda estrutura onde esta localizado, uma arvore pode apontar pra outra arvore e as arvores tambem tem um sha1 desses metadados
+
+------------------------- 
+
+e por ultimo temos o commit
+
+o commit aponta pra uma arvore, para um autor, mensagem e uma arvore
 
 
 
