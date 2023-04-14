@@ -122,6 +122,170 @@ exemplo:
 'number'
 > typeof null
 'object'
+---------------------------------------------------------
+TRATAMENTO DE DADOS:
+
+pra jogar o que eu escrever na tela do pc, é so eu pegar  todo o prompt e colocar desta forma:
+
+
+Let nome = window.prompt('Qual seu nome?')
+
+
+onde a variavel nome recebe todo o prompt
+
+depois disso, nos colocamos um alert pra fazer a junçao de tudo um pouco melhor e o nome poder aparecer na tela
+
+pra juntar uma frase a uma variavel usamos o sinal de + que significa concatenaçao 
+
+caso queira juntar mais alguma coisa a , é so concatena novamente colocar as aspas e escrever, assim:
+
+
+   var nome = window.prompt('Qual o seu nome?')
+ 
+
+   window.alert ('E um grande prazer te conhecer,' + nome + 'Espero que Goste do curso.')
+
+-----------------------------
+o + alem de somar e junta as variaveis, mostrando um exemplo disso.
+
+ var n1 = prompt ('Digite o primeiro numero:')
+    var n2 = prompt ('Digite o Segundo e Ultimo numero:')
+    var s = n1+n2
+    alert ('A soma dos valores é:'+ s)
+
+--------------------------
+no html os comentarios sao feitos de outra forma:
+
+<!--   -->
+----------------
+nop css, comentarios sao como no js
+--------------------------------------------
+
+O ASSUNTO DA AULA É A CONVERSAO DE VARIAVEIS, NUMBER PRA STRING E VICE VERSA
+
+PRIMEIRO:
+
+STRING PARA NUMERO, COM O: ]
+
+Number.parseInt(n)
+
+Caso queiramos um numero real, um numero com virgula, ele vai se chamar:
+
+Number.parseFloat(n)
+------------
+agora tem uma forma mais simplioficada pra fazer é so inserir
+
+Number(n)
+
+e ele se vira pra identifica se é inteiro ou decimal
+---------------------
+porem vamos ver como colocar isso no nosso codigo
+
+tem duas maneiras
+
+A PRIMEIRA É
+
+É CONVERTENDO DIRETO DA VARIAVEL DESSA FORMA:
+
+ var n1 = Number(prompt ('Digite o primeiro numero:'))
+    var n2 = Number(prompt ('Digite o Segundo e Ultimo numero:'))
+    var s = n1+n2
+    alert ('A soma dos valores é:' + s)
+------------------------------------
+agora a conversao de number para string
+
+podemos usar : string(n) ou n.toString()
+
+um exemplo mudando o codigo ja feito, ali embaixo no alert:
+
+var n1 = Number(prompt ('Digite o primeiro numero:'))
+    var n2 = Number(prompt ('Digite o Segundo e Ultimo numero:'))
+    var s = n1+n2
+    alert ('A soma dos valores é:' + s.toString()) ou 
+
+	alert ('A soma dos valores é:' + String(s))
+-------------------------------------------------------------
+
+como fazer formataçao de novas Strings:
+
+eu crio uma variuavel chama s e s esta com JavaScrip
+
+var s = 'JavaScript'
+exemplo:
+
+> var s = 'JavaScript'
+undefined
+> s
+'JavaScript'
+>
+> 'Eu estou estudando' + s
+'Eu estou estudandoJavaScript'
+> 'Eu estou estudando ' + s
+'Eu estou estudando JavaScript'
+> nome  = 'Gustavo'
+'Gustavo'
+> idade = 26
+26
+> nota = 7.8
+7.8
+> idade
+26
+> nota
+7.8
+> nome  = 'Gustavo'
+'Gustavo'
+> 'O Aluno' + nome + ' com ' + idade + ' anos tirou a nota ' + nota
+'O AlunoGustavo com 26 anos tirou a nota 7.8'
+
+---------------------------------------------
+
+Porem no JAVASCRIP, tem uma forma melhor de fazer isso, pois aquele exemplo ali foi no nodejs
+
+'Eu estou aprendendo s'  // nao faz interpolaçao
+'Eu estou aprendendo' + s // usa concatenaçao e foi o que vimos ali em cima no exemplo de cima
+
+
+Nas versoes recentes do js tem uma forma legal chamada de template string, assim:
+
+`Eu estou aprendendo ${s}` a crase é o que delimita ser um templatestring, o sinal ali de sifrao seguido de chaves  aqui  é chamado de placeHolder
+
+exemplo no nodejs:
+
+> `O aluno ${nome} com ${idade} anos tirou a nota  ${nota}`
+'O aluno Gustavo com 26 anos tirou a nota  7.8'
+
+exemplo no js:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Descoberta: pra da espaços nas coisas, entre concatenaçoes  é so clicar duas vezes na barra de espaço dentro das as aspas ou fora tambem, creio que isso sirva apenas no visual studio code, nao sei se é algo do js
+
+
+
+
+
+
+
+
+
+ 
 
 
 
