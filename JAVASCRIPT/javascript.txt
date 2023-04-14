@@ -1,0 +1,129 @@
+eu perdi as aulas anteriores entao foi commita a cada estudada que eu der, traumas,
+
+refazendo a aula4
+---------------------
+scrip e  td mais, mecher webdevelopment
+
+e td mais
+
+/*pra colocar alertas no site, é bem legal*/
+   
+    alert ('ALERTA DE VIRUS, ALERTA DE VIRUS, ESTE COMPUTADOR ESTA COM SINTOMAS DE AMOR, A MELIANTE SE CHAMA ELIZABETH')
+
+    confirm ('Esta gostando de javascrpt?')
+
+    window.prompt('Qual seu nome?')
+
+-----------------------------------
+	VARIAVEIS:
+
+
+NO JAVASCRIP, AS VARIAVEIS PODEM SER COLOCADAS COMO
+
+VAR OU LET
+
+ASPA DUPLA, APOSTOTROFO E CRASE, SAO AS FORMAS DE DELIMITAR AS VARIAVEIS
+
+
+- PODE COMEÇA COM LETRAS SIFRAO OU UNDERLINE
+
+- NAO PODEM COMEÇA COM NUMERO
+
+- É POSSIVEL UISAR LETRAS OU NUM
+
+- É POSSIVEL USAR ACENTO E SIMBOLOS
+
+- NAO PODE TER ESPAÇO
+
+-N PODE SER PALAVRA RESERVADA
+------------------------------
+NODEJS:
+
+.exit fecha o nodejs
+
+é possivel fzer contas no terminal e ele mostrar a resposta
+
+> var idade = 26
+undefined
+> var salario =  3500
+undefined
+> var sexo = "F"
+undefined
+> idade
+26
+> salario
+3500
+> sexo
+'F'
+> .exit
+PS C:\Users\Shelly> .exit
+.exit : O termo '.exit' não é reconhecido como nome de cmdlet, função, arquivo de script ou programa operável. Verifique a grafia 
+do nome ou, se um caminho tiver sido incluído, veja se o caminho está correto e tente novamente.
+No linha:1 caractere:1
++ .exit
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.exit:String) [], CommandNotFoundException       
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\Shelly> node    
+Welcome to Node.js v18.16.0.      
+Type ".help" for more information.
+> var n1=8
+undefined
+> var n2=559
+undefined
+> n1+n2
+567
+----------------------------
+ tipos:
+
+number: infiny, nan, sao derivados no number
+
+Logicos ou boolean:
+
+Strings : podem ser cpf, numero de cel, rg, porque alem de ter numeros estao compostos tambem por muitos caracteres especiais
+
+null
+
+undefined
+
+object: array derivado de object
+
+------------------------
+typeof: isso que aqui basicamemte diz o tipo da variavel dentro do terminal node
+
+exemplo:
+
+> typeof n
+'number'
+> n="Google"
+'Google'
+> typeof n
+'string'
+> typeof 6
+'number'
+> typeof 6.5
+'number'
+> typeof "6.5"
+'string'
+> typeof []
+'object'
+> typeof {}
+'object'
+> typeof function(){}
+'function'
+> typeof undefined
+'undefined'
+> typeof NaN
+'number'
+> typeof infinity
+'undefined'
+> typeof Infinity
+'number'
+> typeof null
+'object'
+
+
+
+
+
