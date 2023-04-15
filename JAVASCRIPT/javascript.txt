@@ -256,6 +256,67 @@ exemplo no nodejs:
 
 exemplo no js:
 
+alert (`A soma, entre ${n1} e ${n2} é igual a ${s}` )
+---------------------------------------
+existem outras coisas a se fazer com strings
+
+s.length: o length diz quantas letras tem a string
+
+s.toUpperCase(): Joga tudo para letras Maiusculas
+
+s.toLowerCase(): joga tudo pra letras minusculas
+
+é exemplo: 
+
+document.writeln(`Ola, ${nome}! Seu nome tem ${nome.length} letras.`)
+        document.writeln(`Seu nome em maiusculas é ${nome.toUpperCase()}`)
+
+o document.write escreve coisas na tela do site
+-------------------------
+
+é possivel  formatar numeros, por exemplo querer por a duas casas decimas uma da outra
+
+
+no node js:
+
+var n1 = 1543.5
+
+exem:
+
+> var n1 = 8678.9
+undefined
+> n1
+8678.9
+> n1.toFixed(23)
+'8678.89999999999963620211929'
+
+-------------------
+
+se quiser virgula no lugar do ponto, fica assim:
+
+n1.toFixed(23).replace('.', ',')
+
+o to fixed  é um metodo do number expecificamente
+
+----------------------------------------
+
+é possivel colocar tags html nos javascripts
+---------------------------------
+
+macete avancadinho:
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+O CURRENCY É DINHEIRO
+
+O TOLOCALE SIGNIFICA QUE É UMA STRING LOCALIZADA 
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})       
+'R$ 8.678,90'
+
+
+
+
 
 
 
