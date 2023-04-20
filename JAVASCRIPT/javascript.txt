@@ -425,6 +425,21 @@ X = X+1 ---> X+=1 ---> X ++
 ------------------
 a varivel vindfo antes, causa um acrescimo nas variaveis, significa que ta adicionando um aquela variavel todavez
 
+--------------------------
+OPERADORES (PART2)
+
+> MAIOR
+< MENO
+>= MAIOR OU  IGUAL
+<= MENOR E IGUAL
+== IGUA
+!= DIFERENTE
+
+ESSES VALOREA VAO SER SEMPRE UM VALÇOR BOOLEANDO DE SIM OU NAO
+
+
+  
+
 
 
 
