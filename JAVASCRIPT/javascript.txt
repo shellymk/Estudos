@@ -296,7 +296,12 @@ se quiser virgula no lugar do ponto, fica assim:
 
 n1.toFixed(23).replace('.', ',')
 
+.replace('.', ',') - serve para  mudar o ponto por virgula ou vice e versa
+
+
 o to fixed  é um metodo do number expecificamente
+
+o toFixed serve pra ir algumas casas quantas casas vc quiser onde dentro dos parenteses ficam a quanrtidade de casas
 
 ----------------------------------------
 
@@ -305,7 +310,7 @@ o to fixed  é um metodo do number expecificamente
 
 macete avancadinho:
 
-n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - isso aqui serve pra mudar os valores, como pt br para euro ou dolar, ele converte
 
 O CURRENCY É DINHEIRO
 
@@ -314,15 +319,111 @@ O TOLOCALE SIGNIFICA QUE É UMA STRING LOCALIZADA
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})       
 'R$ 8.678,90'
 
+var s = 'javascrip'
+
+s.toUpperCase() - deixa maiusculo
+s.toLowerCase() - deixa minuusculo
+-----------------------------------------------------------------------------------------------
 
 
+OPERADORES:
+
+ARITMETICOS: 
++ soma
+- subtraçao
+* multiplicaçao
+/ divisao
+% resto
+5**2= 25% potencia, isso significa porcentasgem e os numeros signiofica 5 ao quadraodo
+
+ATRIBUIÇAO:
+RELACIONAIS 
+LOGICOS
+TERNARIOS
+--------------	
+
+PRECEDENCIA:
+
+() PRIMEIRO PARENTE
+** DEPOIS AS POTENCIAS
+* / % DEPOIS ESSES ARITMETICOS
++ - POR ULTIMO ESSES DOS
 
 
+var a = 5+ 3 =
+var b = a % 5
+var c = 5 * b **2
+var d = 10 - a/2 
+var e = 6 * 2 / d
+var f = b % e + 4/e
 
+-------------------------> 
+var a = 5 +3
+undefined
+> a = 5+3
+8
+> var b = a % 5
+undefined
+> b = a % 5
+3
+> var c = 5 * b ** 2
+undefined
+> c = 5*b**2
+45
+> var d = 10 - a/2
+undefined
+> d = 10 - a/2
+6
+> var e = 6 * 2 / d
+undefined
+> e
+> e = 6 * 2 / d
+2
+> var f = b % e + 4 / e
+undefined
+> f = b % e + 4 / e
+3
+---------------------------------------
 
+AUTO ATRIBUIÇOES:
 
+var n = 3
 
+n = n+4, que  e ser escrita, como n+=4 no js so serve se a msm variavel mais  receber ele msm mais o 4, e assim sucessivamente pra todas as varieis
 
+n = 7
+
+e por ai vai
+
+> b = a % 5
+> var num = 8
+undefined
+> num
+8
+> num +=2
+10
+> num % 2
+0
+> num = 3
+3
+> num **= 2
+9
+>
+------------------------------
+INCREMENTO:
+
+VAR X = 5
+X = X+1
+X = X-1
+
+SIMPLIFICANDO AINDA MAIS:
+
+FICA DE:
+
+X = X+1 ---> X+=1 ---> X ++
+
+------------------
+a varivel vindfo antes, causa um acrescimo nas variaveis, significa que ta adicionando um aquela variavel todavez
 
 
 
