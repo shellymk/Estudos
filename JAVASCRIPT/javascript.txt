@@ -321,8 +321,12 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 
 var s = 'javascrip'
 
-s.toUpperCase() - deixa maiusculo
+s.toUpperCase() - deixa maiusculo, onde s é  a variavel
 s.toLowerCase() - deixa minuusculo
+
+sempre que for expor uma 
+
+quebrar linha no js :  <br/>
 -----------------------------------------------------------------------------------------------
 
 
@@ -435,7 +439,146 @@ OPERADORES (PART2)
 == IGUA
 != DIFERENTE
 
+EX: 
+
+> 8 > 4
+true
+> 4 >8
+false
+> 8 == 8
+true
+> 2 >= 9
+false
+>
+
+OBS: é  possivel fazerr isso com variaveis
+------------------------------ 
+
+preço >= 200.50
+idade < 18
+curso == 'javascript'
+n1 != n2 
+
 ESSES VALOREA VAO SER SEMPRE UM VALÇOR BOOLEANDO DE SIM OU NAO
+
+operaodr de itgualdade restrita: ===
+
+5 === '5'
+----------------------------------------------
+OPERADORES LOGICOS
+
+! ISSO É UMA NEGAÇAO, ELE É UNITARIO
+
+
+&&  CONJUNÇAO E SIGNIFICA O "E", OPERADOR BINARIOO TEM DOIS VALORES LOGICOS UM DE CADA LADO, pra um resultado deiro, os dois valores precisam ser verdadeiro, caso apenas um seja falso, o resultado sera falso
+
+EX:
+TRUE && TRUE = true
+true  && false = false
+
+> var a = 9
+undefined
+> var b = 3
+undefined
+> true && true
+true
+> false && true
+false
+> true || false
+true
+> a > b && b % 2 == 0
+false
+> a > b || b%2 == 0
+true
+> a > b && b%2 == 0
+false
+> a > b && b%2 != 0
+true
+>
+
+|| DISJUNÇAO E SIGNIFICA O "OU" , ja aqui basta apenas um ser verdade para o resulçtado srrt verdade tambem.
+
+MESMA COISA
+------------------
+EM UMA EXPRESSAO, A OREM VAI SER SEMPRE PRIMEIRO OS OPERADORE4S ARITMETICOS, DEPOUIS OS RELACIONAIS E POR ULTIMO OS LOGICOS
+
+---------------------------------------------------------
+idade >= 15 && idade <= 17
+estado == 'RJ' || estado == 'SP'
+salario > 1500 && sexo != 'M'
+------------------------------------------------
+operador ternario: 
+
+? e :
+
+teste ? true :  false
+
+ele se chama ternario pois tem tres parte, O bLOCO DE TESTE É UM TESTE LOGICO O DO MEIO É O QUE VAI ACONTECER SE O TESTE LOGICO FOR VERDADEIRO E O DO FINAL É O QUE VAI ACONTECER QUANDO O TESTE LOGICO FOR FALSO
+
+EXEMPLO:
+
+> let media
+undefined
+
+> media = 7
+7
+
+> media = 7.5
+7.5
+
+> media
+7.5
+
+> media > 7.5?'APROVADO':'REPROVADO'
+'REPROVADO'
+
+> media >= 7.5? 'APROVADO' : 'REPROVADO'
+'APROVADO'
+
+> media > 8.9? 'APROVADO' : 'REPROVADO'
+'REPROVADO'
+
+> media += 2.5
+10
+
+> media > 8.9? 'APROVADO' : 'REPROVADO'
+'APROVADO'
+>
+----------------------
+
+> var x = 8
+undefined
+> var res  = x % 2 == 0 ? 5:9
+
+a variavel res vai receber 5 ou 9 e vai depender se e somente se  o resto de x divido por 2  for igual a 0
+
+>
+> var x = 8
+undefined
+> var res  = x % 2 == 0 ? 5:9
+undefined
+> x
+8
+> res
+5
+>
+
+5 se for verdade e 9 se for falso
+
+outros exemplos:
+
+> var idade = 19
+undefined
+> var r = idade >= 18 ? 'MAIOR' : 'MENOR'
+undefined
+> r
+'MAIOR'
+>
+
+
+
+
+
 
 
   
