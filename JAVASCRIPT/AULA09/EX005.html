@@ -4,10 +4,34 @@
     <meta charset="pt-br">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dt </title>
+    <title>Dom </title>
+    <style>
+        body
+        {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+
+        }
+    </style>
 </head>
 <body>
-    <h1>Iniciando estudos com oDOM</h1>
-    
+    <h1>Iniciando estudos com o DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique Aqui Agora</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('msg')
+        /*é possivel modificar o id, apenas especificando como fiz abaixo d.innerText*/
+        d.style.background = 'green'
+        d.style.fontFamily = 'Arial, Helvetica, sans-serif'
+        d.innerText = 'Estou aguardando'
+
+        /*aquele # é representando o id*/
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'blue'
+        
+    </script>
 </body>
 </html>

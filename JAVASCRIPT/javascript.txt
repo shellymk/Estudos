@@ -587,7 +587,72 @@ DOM: DOCUMENT OBJECT MODEL
 ARVORE DOM
 
 MANIPULAR DOM
+---------------------------------------------------------
 
+ARVORE DOM: COMEÇA DA RAIZ E TD NA ARVOR3E DOM ESTA DENTRO DO WINDOW, E DENTRO DO WINDOW TEM VARIOS OUTROSA OBJETOS,
+
+LOCATION
+
+DOCUMENT -> TEM HTML -> HEAD E BODY E DENTRO DO BODY TEM UM H1, P, P, DIV,STRONG
+
+
+EU POSSO SELECUIOANR ESSES ELEMENTOS PARA PODER NAVEGA NA ARVORE DOM
+
+atraves de :
+
+- Marca no caso de tags: tag name, 
+getElementsByTagName()
+
+ex:
+
+ var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+
+        /* esses conjuntinhos sao modificando o css dentro do javascript, modificou o estilo do paragrafo e depois modificou o estilo do corpo, tudo isso com a variavel corpo q esta recebendo window.document junto com a area na qual vc deseja que seja modificada*/
+
+        p1.style.color = 'purple'
+        corpo.style.background = 'blue'
+
+        /* innertext mostra o texto do primeiro paragrafo porque em tagname eu especifiquei o paragrafo pois tem mais de um paragrafo, por isso aquele p dentro dos parenteses do getelement*/
+
+        window.document.write(p1.innerHTML)
+
+
+ID
+
+Nome
+
+Classe
+
+Seletor, css
+
+querySelector()
+ex:
+
+  var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('msg')
+        /*é possivel modificar o id, apenas especificando como fiz abaixo d.innerText*/
+        d.style.background = 'green'
+        d.style.fontFamily = 'Arial, Helvetica, sans-serif'
+        d.innerText = 'Estou aguardando'
+
+        /*aquele # é representando o id*/
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'blue'
+
+querySelectorAll()
+
+OBS: tambem podemos selecionar por id, identificxa parag e usa o id, por nome, se tiver uma propriedade name, quando temos mais de um objeto na msm classe ou no msm nome, vamos usar por marca ou name
+
+
+os párentrs vao ser os elementos de cima pára ops de baixo e os elementos child vao ser os elementos de baixo para COM os de cima.
+
+
+
+
+
+HISTORY
 
 
 
