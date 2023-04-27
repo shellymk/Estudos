@@ -576,26 +576,17 @@ undefined
 >
 
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 Descoberta: pra da espaços nas coisas, entre concatenaçoes  é so clicar duas vezes na barra de espaço dentro das as aspas ou fora tambem, creio que isso sirva apenas no visual studio code, nao sei se é algo do js
+
+
+--------------------------------------------------------
+APREDENDO SOBRE O DOM:
+
+DOM: DOCUMENT OBJECT MODEL
+
+ARVORE DOM
+
+MANIPULAR DOM
 
 
 
