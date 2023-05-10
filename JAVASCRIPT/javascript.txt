@@ -800,6 +800,53 @@ ESSE FOI O FINAL DO MODULO C
 
 MODULO D:
 
+CONDIÇOES EM Js
+
+SEQUENCIAS:  var n = 3 > n+=2 > window.alert(n) - aqui a ordem importa
+
+CONDIÇOES?
+
+
+A DEPENDER DE ALGUMA COISA  EU EXECUTO UM COMANDO A DEPENDER DE OUTRA COISA EU EXECUTO O OUTRO COMANDO
+
+CHAMAMOS O PRIMEIRO DESVIO DE DESVIO CONDICIONAL
+
+DESVIO CONDICIONAL:
+
+if(condiçao)
+{
+	true
+
+}
+else
+{
+	false
+}
+
+existem dois tipos de condiçao
+
+condiçao simples:
+
+if(condiçao)
+{
+	true
+}
+
+Condiçao 
+
+if(condiçao)
+{
+	true
+
+}
+else
+{
+	false
+}
+------------------------------------------------
+` alguma coisa` as coisas no js entre essas crases normalmente é usado quando vc quer especifica uma variavel dentro de alguma frase nos parenteses de algum document ou algum console, como vou mostrar nas coisas a seguir.
+
+
 
     
 
