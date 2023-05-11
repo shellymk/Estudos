@@ -5,31 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 9</title>
+    
 </head>
 <body>
     <h1>Sistema de Nacionalizaçao</h1>
 
      Informe o Pais que Nasceu: <input type="text" name="pais" id="pais">
-     <input type="button" value="Confirmar" onclick="Confirmar()">
-     
-    
+     <input type="button" value="Confirme"onclick="verificar()">
 
+     <div id="res"></div>
      <script>
-        <function (Confirmar)
+        
+        function verificar()
+        
         {
-            var pais = window.document.getElementById ('input#pais')
+            var pais = window.document.getElementById ('pais')
+            var res = window.document.getElementById('res')
+            var nac = String(pais.Value)
+            res.innerHTML = `<p>verifique abaixo sua nacionalidade.</p>`     
             
-            var nac = Text(pais.)
-            if(pais == Brasil)
-            {
-                nac. += (`Voce é Brasileiro!`)
-            }
-            else
-            {
-                console.log.innerHTML += (`Voce é estrangeiro`)
-            }
+            if(pais == 'Brasil')
+                {
+                    res.innerHTML += `voce é Brasileiro`
+                }
+                
+                  res.innerHTML += `voce é estrangeiro`   
+                
         }
-       
 
 
 
