@@ -24,12 +24,13 @@
             var nac = String(pais.Value)
             res.innerHTML = `<p>verifique abaixo sua nacionalidade.</p>`     
             
-            if(pais == 'Brasil')
+            if(pais.value == 'Brasil' || pais.value == 'brasil')
                 {
                     res.innerHTML += `voce é Brasileiro`
                 }
-                
-                  res.innerHTML += `voce é estrangeiro`   
+                else{
+                  res.innerHTML += `voce é estrangeiro` 
+                }  
                 
         }
 

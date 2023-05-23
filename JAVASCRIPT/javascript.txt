@@ -859,6 +859,34 @@ else
 {
     console.log ('Voce é Estrangeiro(a)!')
 }
+-----------------------------------
+Meu desafio?:
+
+
+<h1>Sistema de Nacionalizaçao</h1>
+
+     Informe o Pais que Nasceu: <input type="text" name="pais" id="pais">
+     <input type="button" value="Confirme"onclick="verificar()">
+
+     <div id="res"></div>
+     <script>
+        
+        function verificar()
+        
+        {
+            var pais = window.document.getElementById ('pais')
+            var res = window.document.getElementById('res')
+            var nac = String(pais.Value)
+            res.innerHTML = `<p>verifique abaixo sua nacionalidade.</p>`     
+            
+            if(pais.value == 'Brasil' || pais.value == 'brasil')
+                {
+                    res.innerHTML += `voce é Brasileiro`
+                }
+                else{
+                  res.innerHTML += `voce é estrangeiro` 
+                }  
+                
 
 
 
