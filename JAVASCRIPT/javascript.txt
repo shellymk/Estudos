@@ -886,6 +886,99 @@ Meu desafio?:
                 else{
                   res.innerHTML += `voce é estrangeiro` 
                 }  
+
+obs: tive mtas probelmas com o pais.value, fiquei dias propcurando o erro e era ele
+
+"pais.value == 'Brasil' || pais.value == 'brasil' "
+
+essa é so a conversao de um  number para string creio ainda to tentando lembraa mas creio que seja: 
+
+ var nac = String(pais.Value)
+
+na hora de usar innerhtml ou innertext:
+
+ quando é number usa = 
+
+e quando é string usa-se concatenaçao +=
+
+--------------------------------------------------
+	CONDIÇOES ANINHADAS?
+
+
+
+IF, ELSE IF ELSE
+
+RESUMINDO SAO MTS ELSES IFS E IFS ELSES
+
+
+- INDENTAÇAO
+
+IF(COND1) 
+{
+	BLOCO1
+}
+ELSE
+{
+IF(COND2)
+{
+	BLOCO2
+}
+ELSE {}
+
+}
+
+para condiçoes diferentes a gente usa o ou ||
+
+e para condicçoes iguais a gente o &&
+
+
+exemplo: 
+
+var agora = new Date()
+
+var hora = agora.getHours()
+console.log(`Agora sao exatamente ${hora} horas`)
+ 
+if (hora < 12)
+{   
+console.log('Bom dia!!')
+} 
+else if (hora <= 18)
+{
+    console.log('Boa tarde!')
+}
+else
+{
+    console.log('Boa Noite!')
+}
+
+---------------------------------
+condiçoes multiplas:
+
+essa condiçao tem a possibilidade de outros valores alem do sim e nao, é possivel representa essa extrutura e testa valores.
+
+para cada case tem que ter um break
+
+switch(expressao) ele vai testa a expressao aqui em cima, se resulta no valor dois entt vai desvia pro case 2, vai executa os comandos que estao no valor 2 e depois vai ate o break
+{
+case valor 1:
+break
+
+case valor 2:
+break
+
+case valor 3:
+break
+
+default:
+break 
+
+}
+------------------------
+O MAIN É A CAIXA QUE EU QUERIA DROGA O MAIN É A CAIXA, VO ENCHE ISSO DE PALAVRA CHAVE PRA EU ACHAR DEPOIS QUE EU NAO LEMBRAR DE NOVO
+
+
+
                 
 
 
