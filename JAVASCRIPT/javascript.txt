@@ -976,6 +976,21 @@ break
 }
 ------------------------
 O MAIN É A CAIXA QUE EU QUERIA DROGA O MAIN É A CAIXA, VO ENCHE ISSO DE PALAVRA CHAVE PRA EU ACHAR DEPOIS QUE EU NAO LEMBRAR DE NOVO
+--------------------------------------------
+
+construindo o site exercicios
+
+header vamos usar para ser a parte do cabeçalho do site, onde fica o h1
+
+para o rodape vamos usar o footer, a tag é do html 5
+
+e a area branca do meio, vamos usar uma section, poderia ser usada umaa section e uma articlo para a area do meio
+
+e dentro dessa section, vamos colocar divs, que sao pequenas divisoes
+-------------------------
+border radius o raio da borda se fica redondinho iou nquadrado
+
+da mesma forma que o style, é possuivel tambem cria um arquivo so pro js
 
 
 
