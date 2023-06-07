@@ -991,6 +991,47 @@ e dentro dessa section, vamos colocar divs, que sao pequenas divisoes
 border radius o raio da borda se fica redondinho iou nquadrado
 
 da mesma forma que o style, é possuivel tambem cria um arquivo so pro js
+------------------------------
+colocando o const na frente das variaveis vai informar que aquela variavel o valor dela é constante e nao vai mudar
+----------------- 
+sempre que muidar a variavel dentro do codigo, para validar é nessario que imprima algo na tel anovamente, se nao vai pegar sempre o primeiro valor da variavel.
+isso usando apenas o console.log
+
+toda constante tem de ter um valor incial, e se usamos let n precisamos declrar
+ porem ela n aparece quando validamos elas em algum luga 
+
+const end = "avenida1"
+
+let precodoleite = 9.5
+let precodoqueijo = 30
+
+console.log(`Preço do Leite: ${precodoleite}`)
+console.log("Preço do Leite:", precodoleite)
+console.log(`Preço do Queijo: ${precodoqueijo}`)
+console.log("Preço do Queijo:", precodoqueijo)
+
+precodoleite = 8
+------------------------------------------------------------------
+é possivel fazer contas dentro do console .log sem aspas  nenhuma e a conta vai ser feita
+
+funcioina como uma calculadora
+
+existem outras formas de concatena e juntar palavras umas nas outras
+
+console.log(valor + "!")
+
+o que estiver escrito no  valor vai juntar com o que eu coloquei entre as aspas
+
+------------------------------------------------------------------
+png 24 é um dos melhores formatos para web e tem no photoshop como exportar aaltomaticasmente parea web
+
+para cada id ele ta criando uma variavel dentro do js
+
+esses dois abaixo um mostra  data  originasl do seu computador e o outro mostra a hora original do seu pc cada um pega exatamente seus respectivos  coisinhos
+
+let data = new Date()
+let hora = data.getHours()
+
 
 
 
