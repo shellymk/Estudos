@@ -1032,8 +1032,54 @@ esses dois abaixo um mostra  data  originasl do seu computador e o outro mostra 
 let data = new Date()
 let hora = data.getHours()
 
+o onload foi onde ele fez a funcao funmciona e ele fez ela funcionar no body, eu posso escolher faco a funçao funcionar
+
+para inserir as imagens dentro do function do js
+
+no if  é so inserir dessa forma, vou colAR O CODIGO AQUI PRA FICA MAIS FACIL
+
+pra mudar o estilo do dentro do codigo do java script tbm tem uma forma
 
 
+document.body.style.background = '6f3619'
+
+isso é pra mudar a cor dentro do codigo quando for de manha o fundo vai ter uma cor especifica e assim sucessivamente 
+
+
+todo o exemplo:
+
+function carregar()
+{
+let msg = window.document.getElementById('msg')
+let img = window.document.getElementById('imagem')
+let data = new Date()
+let hora =  data.getHours()
+msg.innerHTML = `Agora são: ${hora} horas.`
+
+
+if (hora >=  0 && hora < 12)
+{
+    img.src = 'fotomanha.png'
+    document.body.style.background = '#e7ba87'
+
+    
+}
+else if (hora >= 12 && hora < 18)
+{
+    img.src = 'fototarde.png'
+    document.body.style.background = '#6f3619'
+   
+}
+else 
+{
+    img.src = 'fotonoite.png'
+    document.body.style.background = '#022449'
+    
+}
+}
+]
+
+esse codigo mostra a hora do sue comp e conforme for a hora muda de foto e muda de background
 
                 
 
