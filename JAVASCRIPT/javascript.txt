@@ -1081,6 +1081,55 @@ else
 
 esse codigo mostra a hora do sue comp e conforme for a hora muda de foto e muda de background
 
+OBS: data.getHours() É QUE FAZ A DIFERENÇA POIS CASO VOCE QUEIRA INFORMA A HORA VOCE MESMO, VOCE PODE APAGANDO ESSE TRECHO E SUBSTITUINDO POR UM NUMERO
+
+CORPO VAZIO:
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de idade</title>
+    
+</head>
+<body >
+    <header>
+
+        <h1>Verificador de idade</h1>
+
+
+    
+    </header>
+
+    <section>
+        <div >
+            <p>Ano de nascimento:</p>
+            inp
+          
+        </div>
+        <div id="res">
+
+            
+           
+        </div>
+    </section>
+
+    <footer>
+
+        <p>&copy;Cursoemvideo</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+-------------------------------------------------------------------
+o imput radio é uma marcaçao e ele vem junto do label, na verdade o label vem junto dele, 
+
+data.getFullYear = fullyea
                 
 
 
