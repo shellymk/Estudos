@@ -1129,8 +1129,16 @@ CORPO VAZIO:
 -------------------------------------------------------------------
 o imput radio é uma marcaçao e ele vem junto do label, na verdade o label vem junto dele, 
 
-data.getFullYear = fullyea
+data.getFullYear = fullyear aqui informa que ano estamos
+
+Fano.value.lenght == 0  = aqui verifica se a caixa esta vazia
+
+Fano.value > ano e aqui se o valor ta acima de ano
+
+se no name do imput  a gente coloar nome diferentes na hora da marcaçao vai maraca os dois, mas é pra marca um dos dois, por isso no codigo vai ser usado nomes iguais, feito isso com os names iguais na hora de por no js é bom usar o "document.getElementsByName, e para saber qual é quaol o radsex 0 é a bolinha do masc e o radsex 1 é a do feminino,  colocarei cada exemplo aqui.
                 
+
+<p>&copy;Cursoemvideo</p> - isso é o rodape da pagina e isso vai dentro da tag "footer"
 
 
 
