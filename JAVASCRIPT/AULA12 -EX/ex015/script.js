@@ -5,7 +5,7 @@ function verificar()
     let Fano = document.getElementById('txtano')
     let res = document.querySelector('div#res')
 
-    if(Fano.value.lenght == 0 || Number(Fano.value) > ano) 
+    if (Fano.value.lenght == 0 || Number(Fano.value) > ano)
     {
         window.alert('[ERRO] Verifique os dados e tente novamente!')
     }
@@ -13,7 +13,17 @@ function verificar()
     {
         let fsex = document.getElementsByName('radsex')
         let idade = ano - Number(Fano.value)
-        res.innerHTML = `Idade calculada: ${idade}`
+        let genero = ''
+
+            if (fsex[0].checked)
+            {
+                genero = 'Masculino'
+            }
+                else if (fsex[1].checked)
+                {
+                    genero = 'Feminino'
+                }
+                    res.innerHTML = `Pessoa do sexo ${genero} com ${idade} anos.`
     }
 
 }
