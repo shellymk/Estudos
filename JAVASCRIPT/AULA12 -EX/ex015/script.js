@@ -15,11 +15,12 @@ function verificar()
         let idade = ano - Number(Fano.value)
         let genero = ''
 
-            if (fsex[0].checked)
+            if (fsex[1].checked)
             {
                 genero = 'Masculino'
+                
             }
-                else if (fsex[1].checked)
+                else if (fsex[0].checked)
                 {
                     genero = 'Feminino'
                 }
