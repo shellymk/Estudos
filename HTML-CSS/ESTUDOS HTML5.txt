@@ -1028,7 +1028,14 @@ o box level mais famoso no html4 é a tag <div>
 
 e no inline <span>
 
+-------------------RECORTANDO IMAGENS NO GIMP:
 
+
+1 PASSO: FORMA ELIPTICA
+
+2 PASSO: COPIAR COM CTRL C
+
+3 PASSO: CRIAR >> DA AREA DE TRANSFERENCIA
 
 
 

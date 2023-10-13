@@ -18,13 +18,54 @@ function verificar()
             if (fsex[1].checked)
             {
                 genero = 'Masculino'
+
+                if (idade >= 0 && idade < 10)
+                {
+                    'criança'
+                    Image.src = ''
+                }
+                    else if (idade < 21)
+                    {
+                        'jovem'
+                    }
+                    else if(idade < 50)
+                    {
+                        'adulto'
+                    }
+                    else 
+                    {
+                            'idoso'
+                    }
                 
             }
                 else if (fsex[0].checked)
                 {
                     genero = 'Feminino'
+
+                    if (idade >= 0 && idade < 10)
+                    {
+                    'criança'
+                    }
+                        else if (idade < 21)
+                        {
+                            'jovem'
+                        }
+                        else if(idade < 50)
+                        {
+                            'adulto'
+                        }
+                        else 
+                        {
+                            'idoso'
+                        }
                 }
                     res.innerHTML = `Pessoa do sexo ${genero} com ${idade} anos.`
-    }
+                
 
+
+    }
+    
+
+
+    
 }

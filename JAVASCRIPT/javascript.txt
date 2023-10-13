@@ -1140,6 +1140,14 @@ se no name do imput  a gente coloar nome diferentes na hora da marcaçao vai mar
 
 <p>&copy;Cursoemvideo</p> - isso é o rodape da pagina e isso vai dentro da tag "footer"
 
+---------------------------------------------------------------------
+como colocar imagens dinamicamente no js e html
+
+var img = document.createElement('img')
+img.setAttribute('id', 'foto')
+
+
+
 
 
 
