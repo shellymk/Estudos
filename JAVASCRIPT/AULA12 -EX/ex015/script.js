@@ -14,38 +14,41 @@ function verificar()
         let fsex = document.getElementsByName('radsex')
         let idade = ano - Number(Fano.value)
         let genero = ''
+        var img = document.createElement('img')
+        img.setAttribute('id', 'foto')
 
             if (fsex[1].checked)
             {
-                genero = 'Masculino'
-
-                if (idade >= 0 && idade < 10)
-                {
+                genero = 'Masculino'  
+                    if (idade >= 0 && idade < 10)
+                    {
                     'criança'
-                    Image.src = ''
-                }
+                    img.setAttribute('src', 'criancamenino300.png')
+                    }
                     else if (idade < 21)
                     {
                         'jovem'
+                        img.setAttribute('src', 'jovemhomem300.1.png')
                     }
                     else if(idade < 50)
                     {
                         'adulto'
+                        img.setAttribute('src', 'adultohomem300.png')
                     }
                     else 
                     {
                             'idoso'
+                            idosohomem300.png
                     }
                 
             }
                 else if (fsex[0].checked)
                 {
                     genero = 'Feminino'
-
-                    if (idade >= 0 && idade < 10)
-                    {
-                    'criança'
-                    }
+                        if (idade >= 0 && idade < 10)
+                        {
+                        'criança'
+                        }
                         else if (idade < 21)
                         {
                             'jovem'
@@ -59,7 +62,9 @@ function verificar()
                             'idoso'
                         }
                 }
+                    res.computedStyleMap.textttAlign = 'center'
                     res.innerHTML = `Pessoa do sexo ${genero} com ${idade} anos.`
+                    res.appendChild(img)
                 
 
 

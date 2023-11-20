@@ -1112,7 +1112,7 @@ CORPO VAZIO:
         </div>
         <div id="res">
 
-            
+            71992938027
            
         </div>
     </section>
@@ -1143,10 +1143,21 @@ se no name do imput  a gente coloar nome diferentes na hora da marcaçao vai mar
 ---------------------------------------------------------------------
 como colocar imagens dinamicamente no js e html
 
+1: no js
+
 var img = document.createElement('img')
 img.setAttribute('id', 'foto')
 
+esse atribute é o id que foi criado para o img que foic riado anteriormente
 
+é a mesma coisa que ir la no html e
+
+no html:
+
+<img id= 'foto'>
+
+
+o appendchiold, adiciona um elemnto,significqa que apos os outros res ele vai adicionar um elemento
 
 
 
