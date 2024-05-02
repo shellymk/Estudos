@@ -1307,9 +1307,62 @@ function verificar()
     <script src="script.js"></script>
 </body>
 </html>
+------------------------------------------------------------------------------------------
+ ESTRUTURAS DE REPETIÇAO ou lacos
 
 
+funcao ComerPizza()
 
+function Comerpizza
+
+
+partir do ponto a e chegue ao ponto b
+---------------------
+estruturas de controle:
+
+1 seguencia
+2 
+
+
+-------------------------
+ ou esse teste e verdadeito ou e faclço, se esse teste logico for verdade ele vai executa um bloco so que nao vai seguir desse bloco para o final ele vai voltar ele vai fazer um looping, ele vai fazer um laco, voltando para o losango ele vai testa dnv se a condiçao for verdadeira denovo ele vai executa e fazer outroçllaço e testando mais uma vez, ele vai fazer isso enquanto a condiçao for verdade, a partir do momento que a condiçao for mentira ele vai parar o looping
+
+----------------------------------------------------------------------
+
+quando eu escrevo um while eu tenho que colocar um bloco, e todo comando 
+
+while ( tem fatia)
+{
+comerfatia()
+}
+
+----------------------------
+var c = 1
+while(c <= 10 )
+{
+    console.log(`Tudo bem?? ${c}`)
+    c++
+}
+----------------------------
+while: estrutura de repetiçao com teste logico no inicio
+do while:estrutura de repetiçao com teste logico no final
+
+----------------------------------
+
+ESTRUTURA DE REPETIÇAO COM VARIAVEL DE CONTROLE:
+
+INICIALIÇAO, TESTELOGICO E INCRMEEMTNO NESTA ORDEM
+
+FOR (INICIO; TESTE; INCR){
+EXECUTAR BLOCO
+}
+-----------------------------
+o for é mais ultilizado pra maioria das vezes que eu sei o limite das minhas execuçoes
+----------------------------------------------
+o depurador da pra ver cada passo a passo do codigo que foi escrito, o visual studio tem um depurado que pode mostrar exatamente o passo a passo da resoluçao linah a linha letra a letra, contagem por contagem
+
+video 24 de javascript
+-------------------------------------------------------------------
 
 
 
