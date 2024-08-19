@@ -4,11 +4,6 @@
     "files.associations": {
         "*.json": "javascript"
     },
-    "[javascript]": {
-        
-
-
-        Node
-        "editor.maxTokenizationLineLength": 2500
+    
     }
 }
