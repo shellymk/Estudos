@@ -455,9 +455,69 @@ tambem contem metadados, aponta a um blob, e guarda o nome do Arquivo, a arvore 
 e por ultimo temos o commit
 
 o commit aponta pra uma arvore, para um autor, mensagem e uma arvore
+----------------------------
+
+Comandos:
+
+git clone: clona um repositório git existente para uma pasta local
+git commit: grava alterações no repositório
+git pull: puxa as alterações do repositório remoto para o local busca e mescla
+git push : empurra as alterações do repositório local para o remoto
+git config permite visualiza e definir as variáveis do goit
+git config --global user.name "usuario q vc quer usa"
+git config --global user.email "email q vc quer usa"
+
+obs: e se a gente quiser so verificiar se a gente rtealmente colocou o email e realmente foi é so u repetir: git config user.name ou email
+
+git config --global credential.helper store ou chash, store para salvar global e cash pra salar compartilhadio  para salvar as credencias e e salvar seu token
+git config --global credential.helper  para veifi
+
+git config init.defaultBranch retorna o nome da brach padrão, mas é possível mudar  o nome da branch que a gente vai usar, n sei se se  mudar ou criar outra mas eng8im...
+DICAS: SETA PRA CIMA OU PARA BAIXO COLOCA OQ VC DIGITOU ANTES
+
+git config -- global init.defaultBranch nome da branch q vc quer usar
+
+ls lista todos os arquivos naquele diretório
+- a eiba todos os arquivos incluindo os ocultos
+~/
+o .ssh significa que que uma pasta oculta
+ ls -a ~/.ssh  vai aparecer qwue nao tem nenhuma chave
+
+$ no começo, indica o inicio de um novo comando
+ssh-keygen é responsagvel por estar gerando nossas chaves ssh, o arquivo da chave e o algoratitmo responsável pela criptografia
+
+-t 
+
+ed25519 que é uma outra alternativa de algoritmo de criptografia, outra alternativa ao rsa
+
+-c que é para adiciona um comentário de identificação dessa chave
+
+ssh-keygen -t ed25519  -c "email do GitHub"
+OBS: O MEU APENAS FUNCIONOU COMO NA AULA COM O SSH-KEYGEN E NO MODO RSA, POIS NO MODO ED25519 FUNCIONOU USANDO O COMANDO DA SEGUYINTE FORMA SSH-KEYGEN -T ED25519 E ENTER E ASSIM PROSSEGUIR COM  A AULA, PARA GERAR UMA SSH DIFERENTE POIS COM O COMANDO INTEIRO ESTAVA GERANDO OUTRAS INFORMAÇOES
+
+AGORA VAMOS ADICIONAR O AGENT PARA A SSH
+
+eval "$(ssh-agent -s)"
 
 
+Get-Service ssh-agent no powershell fvc pode usa esse comando pra verificar se o ssh agend ta i
 
+cd e o q vai te envia pros diretórios(pesquisa mais sobre os comandos)
 
+cat id_ed25519.pub serve para acessa as nossas chaves publicas
+---------------------------------------
+CRIANDO E CLONANDO REPOSITORIOS:
 
+mkdir é um comando DO TERMINAL PARA CRIAR UMA PASTA EM UM DIRETORIO mkdir e o nome da pasta que deseja
 
+cd eo nome da pasta vc entra  dentro da pasta que vc deseja
+
+para transforma a pasta do repositório local que vc criou a parti do gitbash seguindo os comandos normais do terminal, para o repositório local, VC USA:
+
+git init
+
+cat config é para exibir conteúdo dentro dos arquivos
+
+git remote -v exibe os repositório clonados
+
+git remote add origin + url do repositório do github (o oigin pode ser mudado mas n e aconselhável) esse comando sobe um repositório criado no local para um repositório ja existente do remoto
