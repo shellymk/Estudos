@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body {
+    background-image: linear-gradient(to right, #202C59, #c4d7f2);
+    font: normal 15pt Arial; color: #f0f7ee;
+}
+section 
+{
+    background-color: #91a8a4;
+    border-radius: 10px;
+    box-shadow: 10px 10px 200px AFDEDC
+}
+202C59

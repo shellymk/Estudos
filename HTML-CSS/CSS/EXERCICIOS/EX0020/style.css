@@ -2,19 +2,21 @@
 
 body
 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #F5BCF2;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1
+h1#secundario
 {
-    color:#755A74;
+    color:#2f2b69;
 }
 
 h1#principal 
 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background-color: #362935;
+    background-color: #1b0b1a;
     color: #ffffff;
 }
 
