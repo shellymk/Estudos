@@ -829,6 +829,8 @@ alem do id, temos o class, o class vaui ser no proximo video.
 
 503D3F
 
+text-align: justify é o alinhamento da direita e da esquerda;
+text-indent: 30px;- é para dar uma afastadinha no paragrafo
 ----------------------
 dentro de um mesmo documento, so pode ter um id principal, essa é a regra do w3c. funcionar n significa que esta certo
 
@@ -851,6 +853,18 @@ em html é id = em css é #(so pode um elemento por documento html e nao por pag
 em html é class = em css é .(pode varios elementos)
 em html é pseudoclass = em css é : (pode varios elementos)
 
+ nao da nome aws classes pela forma e sim pela funcionalidade.
+
+
+- tag span <span> </span>
+
+- se existe a classe avançadop e a classe destaque  e eu quero que uma coisa es5teja nessasd duas, apenas colocamos um espaço entre asduas, adicionando mais de uma classe a um elemento.
+
+é possivel tambem colocar um id e uma classe dentro de um elemtto
+
+exmp: <h1> id="principal" class="destaque" </h1>
+
+detalhe: o id sobrepoe a classe
 ---------------------------
 Pseudo classes:
 
@@ -871,7 +885,9 @@ posweudsoclasses sao relacionados ao estado do elemelento
 
 ele so vai ficar amarelo quando passar o mouse por cima, essa é a div hover e isso que significa hover
 
---------------------- como é que eu escondo o paragrafo que esta dentro da div, olha so que maneiro
+--------------------- 
+
+como é que eu escondo o paragrafo que esta dentro da div, olha so que maneiro
 
 dentro do style, voce vai colocar:
 
@@ -899,7 +915,7 @@ div: hover > p{}
             {
                 display: none;
             }
-            div:hover > p
+            div:hover > pF
             {
                 display: block;
                 color: white;
@@ -919,6 +935,27 @@ div: hover > p{}
     
 </body>
 -------------------------
+CSS:
+
+DIVS:
+
+HOVER : PASSAR MOUSE EM CIMA APARECE ALGUMA COISA DO CSS
+
+div display: none; significa que os paragrafos que estao dentro da div vao ficar escondidos
+
+div > p
+   {
+  display: none;
+
+------------------------
+agora para fazer esse texto aparecer
+
+div:hover > p
+display: block;
+
+(e a configuraçao css que quer)
+---------------------------
+-----------------------------
 links:
  
 
@@ -963,6 +1000,16 @@ simbolos que é possivel ultilizar nas css que ja vimos nesse capitulo
 : = pseudo-classe
 :: = pseudo-elemento
 > = children 
+-----------------------------
+hover
+
+text-decoration: underline; para colocar uma linha emabixo quando passa o mouse em cima e pode mudar a cor
+
+active: cor de ativo ´´e póssivel conf8igura isso
+
+:: after significa que depois de todos os links eu vou incluir ou fazer alguma coisa
+
+ou o before tbm
 
 --------------------------------
 modelos de caixas:
@@ -1028,7 +1075,9 @@ o box level mais famoso no html4 é a tag <div>
 
 e no inline <span>
 
--------------------RECORTANDO IMAGENS NO GIMP:
+-------------------
+
+RECORTANDO IMAGENS NO GIMP:
 
 
 1 PASSO: FORMA ELIPTICA
