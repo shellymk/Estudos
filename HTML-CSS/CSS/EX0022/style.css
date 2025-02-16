@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+header
+{
+    background-color: rgb(165, 131, 209);
+    padding: 10px;
+    margin: 10px;
+}
+nav
+{
+    background-color: rgb(198, 221, 223);
+    padding: 3px;
+    box-shadow: 1px 1px 1px rgb(80, 26, 26);
+   
+}
+nav>a
+{
+    text-decoration: none;
+    color: rgb(38, 26, 109);
+    font-weight: bold;
+    margin-right: 30px;
+    
+}
+nav > a:hover
+{
+    text-decoration: underline;
+    background-color: rgb(168, 37, 142);
+}
+
+main
+{
+    background-color: rgb(112, 180, 240);
+    padding: 10px;
+    margin: 10px;
+
+}
+article
+{
+    background-color: rgb(223, 223, 191);
+    padding: 5px;
+
+}
+article > aside
+{
+    background-color:rgb(182, 135, 179) ;
+}
+footer
+{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 4px;
+    margin: 10px;
+}
+footer > p
+{
+    margin: 0px;
+}

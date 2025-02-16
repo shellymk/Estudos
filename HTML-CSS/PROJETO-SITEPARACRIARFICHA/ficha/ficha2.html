@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de D&D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ficha de Dungeons & Dragons</h1>
+    </header>
+    <main>
+        <form id="ficha-dnd">
+            <section>
+                <label>Nome do Personagem: <input type="text" name="nome"></label>
+                <label>Classe & Nível: <input type="text" name="classe_nivel"></label>
+                <label>Raça: <input type="text" name="raca"></label>
+                <label>Alinhamento: <input type="text" name="alinhamento"></label>
+                <label>Antecedente: <input type="text" name="antecedente"></label>
+                <label>Nome do Jogador: <input type="text" name="jogador"></label>
+                <label>Pontos de Experiência: <input type="number" name="xp"></label>
+            </section>
+            <section>
+                <h3>Atributos</h3>
+                <label>Força: <input type="number" name="forca" min="1"></label>
+                <label>Destreza: <input type="number" name="destreza" min="1"></label>
+                <label>Constituição: <input type="number" name="constituicao" min="1"></label>
+                <label>Inteligência: <input type="number" name="inteligencia" min="1"></label>
+                <label>Sabedoria: <input type="number" name="sabedoria" min="1"></label>
+                <label>Carisma: <input type="number" name="carisma" min="1"></label>
+            </section>
+            <section>
+                <h3>Combate</h3>
+                <label>Classe de Armadura: <input type="number" name="ca"></label>
+                <label>Iniciativa: <input type="number" name="iniciativa"></label>
+                <label>Deslocamento: <input type="text" name="deslocamento"></label>
+                <label>Pontos de Vida Máximos: <input type="number" name="pv_max"></label>
+                <label>Pontos de Vida Atuais: <input type="number" name="pv_atual"></label>
+                <label>Pontos de Vida Temporários: <input type="number" name="pv_temp"></label>
+            </section>
+            <section>
+                <h3>Traços e Características</h3>
+                <textarea name="traços" rows="4"></textarea>
+                <h3>Ideias</h3>
+                <textarea name="ideias" rows="4"></textarea>
+                <h3>Vínculos</h3>
+                <textarea name="vinculos" rows="4"></textarea>
+                <h3>Fraquezas</h3>
+                <textarea name="fraquezas" rows="4"></textarea>
+            </section>
+            <button type="submit">Salvar Ficha</button>
+        </form>
+    </main>
+</body>
+</html>

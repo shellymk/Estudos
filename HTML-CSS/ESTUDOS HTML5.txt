@@ -1089,17 +1089,107 @@ RECORTANDO IMAGENS NO GIMP:
 2 PASSO: COPIAR COM CTRL C
 
 3 PASSO: CRIAR >> DA AREA DE TRANSFERENCIA
+---------------------------------------------------
+
+TODO ELEMENTO VISIVEL NA TELA É UMA CAIXA
+
+border styles:
+
+solid : solido
+dashed : pontilhado
+dotted: pontilhadinhao
+double: linha dupla
+groove: margem 3d
+---------------------------
+ o paddin nornalmente é colocado em cima, do lado 
+
+em cima: paddin top
+do lado: paddin right
+embaixo: padding bottom
+dooto lado: padding left
+
+a ordem é importante porque comeca de cima e vai girando pra direita
+------------------------------------------------------------------
+ se voce quiser centralizar com a margem, nao é uma boa ideia porque se o navegador do cliente for maior ou menor, nao fica mais no meio, o meio é calculado junto a o tamanho da caixa
+
+porem o magin auto faz essa mudança automaticamente
+----------------------------------------- 
+se for uma caixa e eu quiser esse elemento no meio eu uso o margin  auto, se for um texto apenas um text alight center 
+
+---------------------------------- 
+outra coisa que pode ser feita é incluir um outline, que é um espaço entre  aborda e a margem
+
+os padding, margem e e os outros sem tem uma ordem: cima, direita, baixo, esquerda
+
+quando coloca dois valores no padding por ewxemplo
+
+10px 20px siginifica que o de cima é 10 e eo debaixo é 10 eo da esquerda e direita tbm sao iguais 20 e 20
+--------------------------------------------
+
+É POSSIVEL TAMBEM TRANSFORMAR UM BOX LEVEL EM INLINE LEVEL E UM INLINE LEVEL EM BOX LEVEL
+
+DISPLAY: BLOCK TRANSFORMA EM BLOCO
+DISPLAY: INLINE TRANSFORMA EM IONLINE LEVEL
+
+DISPLAY INLINE-BLOCK: QUE CONTINUA SENDO INLINE MAS EU POSSO COLOCAR CARACTERISTICA DE UM BLOCO
+---------------------------------------------------------------------
+
+APRENDER A AGRUPAR AS CAIXAS DE FORMA MAIS INTELIGENTE PARA INCLUIR EM UM SITE:
+
+- AS CAIXAS DE AGRUPAMENTO SEMPRE FORAM DUAS
+
+DIV E SPAN
+
+----------------------------------------------
+ANTIGAMENTE AS PESSOAS USAVAM UM MONTE DE DIVS PARA FAZER UM SITE
+-----------------------------------------
+DENTRO DO CORPOR VAMOS COMECA CRIANDO O CONTEUDO PRINCIPAL
+
+CABECALHO QUE É A APRESENTAÇAO
+
+RODAPER QUE É LINKS EXTRAS 
+
+-------------------------------------
+ FORMA ANTIGA:
+
+body>
+    <div>
+        <div id="cabecalho">
+            <h1>
+
+            </h1>
+            <div id="menu">
+
+            </div>
+            <div id="conteudo">
+
+            </div>
+            <div id="rodape">
+
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+
+header: cabecalho
+main : conteudo principal
+footer: rodape
 
 
 
+------------------------------------------------ 
+FORMA SEMANTICA:
 
+<body>
+	<header>
+	
+	</header>
 
-
-
-
-
-
-
+</body>
 
 
 

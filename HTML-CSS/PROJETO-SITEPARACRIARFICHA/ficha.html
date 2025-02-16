@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de RPG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ficha de Personagem</h1>
+    </header>
+    <main>
+        <form id="ficha-rpg">
+            <label>Nome do Personagem: <input type="text" name="nome"></label><br>
+            <label>Raça: <input type="text" name="raca"></label><br>
+            <label>Classe: <input type="text" name="classe"></label><br>
+            <label>Nível: <input type="number" name="nivel" min="1"></label><br>
+            <label>Atributos:</label>
+            <div>
+                <label>Força: <input type="number" name="forca" min="1"></label>
+                <label>Destreza: <input type="number" name="destreza" min="1"></label>
+                <label>Constituição: <input type="number" name="constituicao" min="1"></label>
+                <label>Inteligência: <input type="number" name="inteligencia" min="1"></label>
+                <label>Sabedoria: <input type="number" name="sabedoria" min="1"></label>
+                <label>Carisma: <input type="number" name="carisma" min="1"></label>
+            </div>
+            <label>Habilidades Especiais:</label>
+            <textarea name="habilidades" rows="4"></textarea><br>
+            <label>Inventário:</label>
+            <textarea name="inventario" rows="4"></textarea><br>
+            <button type="submit">Salvar Ficha</button>
+        </form>
+    </main>
+</body>
+</html>
