@@ -1037,9 +1037,17 @@ e tambem tem o margin que éo espaco externo, que éo espaço de fora
 
 e tambem tem o outline
 
+border
+
+padding: espacinho entre o border e o conteudo
+
+magin: margem que e depois do padding
+
+outline: controno ou traçado que fora do elemento logo depois do border
+
 ---------------------------
  tipos de caixa: 
-box level: sempre que a caixa começa vai começa na linha de baixo ocupar a largura interira
+box level: sempre que a caixa começa vai começa na linha de baixo ocupar a largura interira,  quando quer quebrar a linha e continua
 
 <div>
 <h1>-<h6>
@@ -1066,10 +1074,6 @@ box level: sempre que a caixa começa vai começa na linha de baixo ocupar a lar
 <button>
 <input>
 <select>
-
-
-
-
 
 o box level mais famoso no html4 é a tag <div>
 
