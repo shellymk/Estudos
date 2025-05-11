@@ -1,0 +1,158 @@
+LINGUAGEM C
+
+for:
+
+regra: primeiro inclui a variável contador pra conta o numero de vezes que o comando vai repeti o que ta dentro, como é um contador contamos, vou começa a variável com 0
+
+for (;;)
+-----------------------
+VETORES:
+
+VETORES SAO COMO SE FOSSE UM AGLOMERADO DE VARIAS VARIAVEIS SIMPLES, VARIOS DADOS DISTINTOS COM CONTEUDOS DISTINTOS DENTRO DE UMA MESMA VARIAVEL.
+
+a sintaxe é geralmente:  tipo nome tamanho
+
+- importante em linguagem c e memoria de compoutdor é que  a 
+e fazemos a contagem com a quantidade de vetores exemplo 3 e fazemos a contagem a partir do 0 ou seja 0,1,2, 3 indices, de 0 a 2
+
+
+- nao da pra acessar todos os vetores de uma vez, mas vamos acessar posiçao a posiçao como com vwetores de chat, float
+
+- a sintaxe é: nome - indice
+
+- A lista de inicializaçao  - Preenche um vetor todo, de uma vez so, essa é a unica forma  de preenchimento de uma vez so.
+obs: porem so no momento da declaraçao do vetor, para iniciar e ja declarar, essa é a forma de baixo:
+
+<tipo> <nome> [<tam.>] = {<v1>, <v2>, ..., <vn>};
+
+------------------------------------------------------------------------------
+importante:
+
+
+while(getchar() != '\n');   isso limpa os buffers que possivelmente alguém possa digitar
+
+--------------------------------------------------------------------------------------------
+
+Especificadores de formato:
+
+
+
+d - i : inteiros
+x : inteiros com base hexa decimal
+f : números decidmais
+c : chars- caracteres alfanum - textos
+s : sequencia de caracteres alfanumeros, textos 
+------------------------------------
+
+[^chars] basicamente limpa buffers, os espaços e qualquer caractere indesejado
+-=---------------------------------------
+comando for : 
+
+similar ao while 
+
+for (<inicialização>; <condição>; <incremento>)
+
+no for se inicia com o tipo da variável que é int depois a variável que vai ser "i" e a partir dai que vai se seguir  o código
+
+
+
+
+printf("\nNesse intervalo foram encontrados um total de %d de numeros pares\n", totpar);	
+			printf("\nNesse intervalo foram encontrados um total de %d de numeros impares\n", totimpar);
+
+----------------------------------------------------
+form\s que a gente pode e forma que a gente n pode:
+
+o que pode:
+
+tipo nome;
+tipo nome = valor;
+tipo nome1, nome2;
+tipo nome1 - valor,  tipo nome2 = valor
+--------------------------------------------------------------------
+obs: é possível também  fazer contas dentro dos printf variável 1 + varivael2
+---------------------------------------------------
+
+CALCULOS:
+
+- EXISTE PRECEDENCIA, SOMA TEM MENOS PRECEDENCIA DO QUE MULTIPLI, A MAQUIAN RESOLVE PRIMEIRO A MULTIPLICAÇAO PRA DEPOIS RESOLVER A SOMA, TUDO Q ESTIVER EM PARENTESE TEM PRECENDENCIA EM LINGUAGEM DE MAQUINA TB
+
+- A DIVISAO INTEIRA N ADMITE NUMEROS COM VIRGULA POREM TEM RETOS DE DIVISAO QUE É PELO PERCENTO%
+
+calculos(aula3.2).c
+---------------------------
+operadores de atribuição aritmética
+
+incremendo em 1 unidade: ++
+decremento em 1 : --
+incremen genérico: +=
+decremen genérico: -=
+atribuição com multi: *=
+atribuição com div: /=
+
+obs: entao se eu quiser usar *= eu tenho de pega a variável da expressao correto e multiplicar assim pela numeraçaoi q eu quiser?
+------------------------------------------
+COMANDO IF 
+
+OPERADORES REL\CIOANIS:
+
+MAIOR (>): >
+
+MAIOOR OU IGUAL: (>=)
+
+MENOR : <
+
+MENOR OU IGU: <=
+
+IGUAL: ==
+
+DIFERENTE : !=
+
+- DENTRO DO IF SEMPRE VAI SER O == E NAO O OUTRO DE ATRIBUIÇAO
+----------------------------------------------------
+
+operador logico:
+
+conjunção (e logico): && - e verdade quando tudo for verdade
+
+disjunção (ou logico): || - e verdade se pelo menos 1 for verdade
+
+inversão (negação - "nao logico"): ! - e verdade quando o operando é falso
+
+-------------------------------------------
+
+ordem dos if e else:
+
+- se a condição for verdade o bloco do if e exe e o o else e ignorado
+---------------------------
+NO WHILE
+
+- NO WHJILE SE NAO INICIALIZAR AVARIAVEL  OU ASEJA ATRIBUI A UM VALOR, QUE N SE TEM CERTEZA DO Q SEJA
+
+OBS: 
+SOBRE ENUMERAR ALGO NO WHILE:
+
+ENTAO É COMO SE A MAQUINA ESTIVESSE ENTENDENDO QUE A MINHA VARIAVEL TEM VALORES DE 0 A 20 E POR ISSO EU CONSIGO ENUMERAR PORQUE OS VALORES DE S E DE 0 A 20?
+-------------------------------------------
+se:
+
+  while(s <= 20)
+        {
+          printf("%d - Hello world!\n", s+10);
+          s++;
+
+        }
+
+se adicionarmos um numero no printf com varioavel como "s+10" ele basicamente faz a variável inicializar com aquela numeração e pois faz a contagem do loop informado antes ou seja se definir o loop para 20  debtro da condição  o mais 10 variavele, ele vai rodar 30 vezes
+
+- se esquecer a incrementaçAO VIRA LOOP INFINITO
+--------------------------------------
+DO WHILE
+
+- LEVA PONTO E VIRGULA DEPOIS DA CONDIÇAO
+
+- para valkidar salguma coisa com o do while pode se inserir if e else
+
+
+
+

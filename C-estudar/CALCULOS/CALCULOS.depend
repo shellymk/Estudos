@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1746839273 source:c:\users\sheil\onedrive\documentos\estudos\unifacs\c-estudar\calculos\calculos(aula3.2).c
+	<stdio.h>
+
+1746836625 source:c:\users\sheil\onedrive\documentos\estudos\unifacs\c-estudar\calculos\main.c
+	<stdlib.h>
+	<stdio.h>
+
+1746841149 source:c:\users\sheil\onedrive\documentos\estudos\unifacs\c-estudar\calculos\dado.c
+	<stdio.h>
+
