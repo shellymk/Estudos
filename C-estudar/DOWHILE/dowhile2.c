@@ -17,7 +17,7 @@ int main()
                 }
 
         }
-    while (num <= 0);
+    while (num <= 0); /* Isso faz com que a pergunta seja repetida mais uma vez ate o usuario digitar oq ue estamos pedindo*/
 
      printf("Voce digitou um numero positivo: %d.\n", num);
 
