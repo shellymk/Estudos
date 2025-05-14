@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1747259737 source:c:\users\sheil\onedrive\documentos\github\estudos\c-estudar\strings\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1747261694 source:c:\users\sheil\onedrive\documentos\github\estudos\c-estudar\strings\string.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

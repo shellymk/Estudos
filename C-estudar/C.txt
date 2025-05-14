@@ -469,8 +469,50 @@ CONTINUANDO VETORES/ARRAYS:
 printf("v[%d] = %d (endereco: %p)\n", i, v[i], &v[i]); // verificndo qual o endereço de memoria de cad indice do vetor e exibindo na tela de resposta, RESPOSTA: e como os outros indices nao existem, quando ex
 
 
+------------------------------------------------------------
+STRINGS: vetores de char c
 
 
+Em C
+
+- DADOS DE TEXTO SAO ALGO POUCO BASTRATO
+
+- É PRECISO ENTENDER COMO OS DADOS ESTAO DISPOSTO EM MEMORIA
+
+- OPERAÇOES SOBRE CARACTERES INDIVIDUAIS
+
+em linguagem c pra maquina entender a onde a string acaba a palavra ou o texto acaba, temos que sinaliza que a ultima posição vaio estar n o \0, então isso que significa, o \0 é considerado como um índice, pra um vetor de 5 caracteres vai precisar ter 6 índices onde o ultimo índice vai ser o \0
+
+é mt comum que usemos o  scanf pra ler dados
+
+STRING : ENTRADA E SAIDA
+
+o scanf:
+
+limitações: sintazxe rebuysca
+
+especificador: %s
+
+sintaxe geral : SCANF ("%s", <str>);
+
+sintaxe aprimorada: scanf ("%<tam.-1>[^\n]s", <str>); // para o usuário poder  digita mais do que, para poder dar espaço
+
+explicando: o inicio é basicamente um %s so que antes é preciso inclui o tanmanho da string menos o numero 1 para dizer que a string se encerra ali sem o 0 e o colchete para ler tudo que veio antes do enter então é basicamente um "nao quero que isso seja lido pelo meu programa"
+
+
+O PRINTF TBM LEVA O ESPECIFICADOR DE FORMATO %S
+SINTAXE:
+PRINTF ("<TEXTO>", <STR>, <STR2>,   ..., <strN>);
+
+
+o comportamento inadequado das strings podem causar bugs futuros no sistema ou site
+
+Considere utilizar fgets para ler strings que podem conter espaços, pois ela lida melhor com entradas desse tipo.
+
+Evite usar fflush(stdin); para limpar o buffer de entrada, pois seu comportamento é indefinido na linguagem C padrão.
+
+Sempre verifique o valor de retorno de scanf para garantir que a leitura foi bem-sucedida.
+LabEx
 
 
 

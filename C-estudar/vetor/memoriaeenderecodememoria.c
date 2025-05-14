@@ -17,7 +17,7 @@ int main()
             for (i=0; i<5; i++)
                 {
                     printf("%d\n", v[i]);
-                    printf("v[%d] = %d (endereco: %p)\n", i, v[i], &v[i]);
+                    printf("v[%d] = %d (endereco: %p)\n", i, v[i], &v[i]); // verificndo qual o endereço de memoria de cad indice do vetor e exibindo na tela de resposta, RESPOSTA: e como os outros indices nao existem
 
                 }
 }
