@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <style>
         p 
         {background-color: aliceblue;}
@@ -50,6 +51,7 @@
         <source src="midia/Meuvideo.m4v" type="video/mp4"> 
         <source src="midia/Meuvideo.webm" type="video/webm"> 
         <p>Seu navegador nao tem compatibilidade com reproduçao de videos</p>
+        <source media="(min-width: )" srcset="">
        
     </video>
 
@@ -58,10 +60,55 @@
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+    <iframe src="" frameborder="0"></iframe>
+
 
     <h1>Inserindo video do vimeo</h1>
 
     <iframe src="https://player.vimeo.com/video/743246717?h=816005d373" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+    <h1> Inserindo video a partir do JAVASCRIPT
+    </h1>
+    <video id="local" controls width="100%">
+        <source src="midia/meuvideo.mp4" type="video/mp4"> 
+          Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <iframe id="videoYT" width="100%" height="315" src="https://www.youtube.com/embed/992VfQ6yXcs" 
+frameborder="0" allowfullscreen></iframe>
+
+    
+    <script>
+         
+         function alternarvideo()
+         
+        {
+              const largura = window.innerWidth;
+              const local = document.getElementById("videolocal");
+              const videoYT = document.getElementById("videoYT");
+
+              if (largura >= 800 ) // Mostra o YouTube, esconde o vídeo local
+
+              {
+                
+                local.style.display = "none"; 
+                videoYT.style.display = "block"; 
+
+              }
+              else //    // Mostra o vídeo local, esconde o YouTube
+
+              {
+                
+                videoYT.style.display = "none"; 
+                local.style.display = "block"; 
+              }
+
+        }
+        window.addEventListener("load", alternarvideo);
+        window.addEventListener("resize", alternarvideo);
+    </script>
+
 
 <a href=""></a>
 </body>
