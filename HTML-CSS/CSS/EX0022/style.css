@@ -8,9 +8,15 @@ body
 }
 header
 {
+    text-align: center;
     background-color: rgb(165, 131, 209);
     padding: 10px;
     margin: 10px;
+    
+}
+h1
+{
+    text-align: center;
 }
 nav
 {
@@ -48,7 +54,7 @@ article
 }
 article > aside
 {
-    background-color:rgb(182, 135, 179) ;
+    background-color:rgb(146, 113, 144) ;
 }
 footer
 {
