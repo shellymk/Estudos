@@ -356,6 +356,11 @@ Videos externos:
 
 
 ---------------------------------------
+
+controls: exibe os botões padrão do player (play, pause, volume etc)
+
+
+-------------------------------------------------
 AULA RAPIDA SOBRE GIMP:
 
 as camadas sao como papeis e voce pode usar varios papeis impilhados um em cima do outro
@@ -1138,7 +1143,7 @@ APRENDER A AGRUPAR AS CAIXAS DE FORMA MAIS INTELIGENTE PARA INCLUIR EM UM SITE:
 
 - AS CAIXAS DE AGRUPAMENTO SEMPRE FORAM DUAS
 
-DIV E SPAN
+DIV E SPAN - INLINE LEVEL
 
 ----------------------------------------------
 ANTIGAMENTE AS PESSOAS USAVAM UM MONTE DE DIVS PARA FAZER UM SITE
@@ -1185,21 +1190,199 @@ footer: rodape
 FORMA SEMANTICA:
 
 <body>
-	<header>
-	
-	</header>
+    <header id="cabecalho">
+        <h1> Meu Site</h1>
+        <nav>
+                       <a href="">um link ai</a>
+            <a href="">um link ai</a>
+            <a href="">um link ai</a>
+            
+        </nav>
+    </header>
+    <main id="principal">
+        <section id="assuntos">
 
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                                <aside>
+                    <p>Artigo Escrito por Jose da silva</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer id="rodape">
+        <p>Desenvolvido pelo Curso em Video</p>
+
+    </footer>
+    
 </body>
+</html>
+--------------------------------
+OBS: PARA INCLUSAO DE MEDIAS, VIDEOS IMAGENS, APARENTEMENTE É MAIS ROSBUSTO ESSA INCLUSAO TRAVES DO JAVASCRIPT POR CONTA DA RESPONSIVIDADE 
+------------------------------------------
+OBS:
+ISSO A BAIXO DECLARA UMA VARIAVEL NO JAVASCRIPT A PARTIR DE UM IDENTIFICADO NA MIDIA DO HTML:
+
+<video id="videojs" controls width="100%"> 
+          Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <script>
+         const video = document.getElementById("videojs")
+
+    </script>
+---------------------------
+
+  const video = document.getElementById("meuVideo");
+Pega o elemento <video> com id="meuVideo" e guarda na variável video, para que possamos alterá-lo com JS.
+
+javascript
+
+function escolherVideo() {
+Cria uma função chamada escolherVideo, que será chamada quando a página carregar ou a tela for redimensionada.
+--------------------------------------
+
+javascript
+
+  const largura = window.innerWidth;
+Obtém a largura atual da janela do navegador (em pixels) e guarda na variável largura.
+----------------------------
+
+javascript
+
+  const fonteAtual = video.src;
+Pega o valor atual da fonte de vídeo (arquivo que está sendo usado) para evitar ficar trocando desnecessariamente.
+---------------------------------
+
+javascript
+
+  if (largura >= 800 && !fonteAtual.includes("video-alta.mp4")) {
+Se a tela tiver 800 pixels ou mais e o vídeo ainda não for o "video-alta.mp4"...
+
+!fonteAtual.includes(...) garante que só muda o vídeo se ainda não estiver carregado.
+-------------------------------------------------------------
+
+javascript
+
+    video.src = "video-alta.mp4";
+Define o arquivo de vídeo para "video-alta.mp4" (o de alta qualidade, para telas grandes).
+-------------------------------------------
+
+javascript
+
+    video.load();
+Recarrega o vídeo com a nova fonte.
+
+------------------------------------------
+
+javascript
+
+    video.play();
+Inicia a reprodução automaticamente (opcional, pode remover se quiser que o usuário dê play).
+--------------------------------------------
+
+javascript
+
+  } else if (largura < 800 && !fonteAtual.includes("video-baixa.mp4")) {
+Se a tela for menor que 800 pixels e o vídeo ainda não for o "video-baixa.mp4"...
+------------------------------------------------
+
+javascript
+
+    video.src = "video-baixa.mp4";
+    video.load();
+    video.play();
+Troca para o vídeo de qualidade mais leve, e o recarrega e inicia.
+-----------------------------------------
+
+javascript
+}
+Fecha a função escolherVideo.
+
+------------------------------------------
+
+javascript
+
+window.addEventListener("load", escolherVideo);
+Quando a página terminar de carregar, a função escolherVideo será executada para escolher o vídeo certo.
+
+--------------------------------------------
+javascript
+
+window.addEventListener("resize", escolherVideo);
+Sempre que a janela for redimensionada, a função será chamada de novo para verificar se deve trocar o vídeo.
+------------------------------
+
+IDEIAS:
+
+- ADAPATAR VIDEOS PARA INICIA ALT APENAS EM DISPOSITIVOS OPCIONAIS OU PARA FUNCIONAR COM VIDEOS HOSPEDDOS EM OUTRO LOCAL COMO YOUTU
+
+SOBRE INCLUDES:
+
+Você não precisa usar includes(), porque não estamos lidando com uma src única aqui — são dois elementos diferentes, e você só está ligando ou desligando cada um visualmente.
 
 
 
 
+-----------------------------------------------------------------------------------------
 
+2. inline
+O elemento fica na mesma linha que outros, como palavras num texto.
 
+Não aceita propriedades de largura (width) e altura (height).
 
+Exemplos: <span>, <a>, <strong>.
+----------------------
 
+inline-block
+Mistura os dois acima: fica na mesma linha, mas aceita width/height.
 
+Ótimo para botões, cards, elementos lado a lado.
+-----------------------------
 
+ flex
+Transforma o elemento em um container flexível.
+
+Seus filhos podem se alinhar em linha, em coluna, centralizar, etc.
+
+------------------------
+ 5. grid
+Ativa o CSS Grid Layout, ótimo para criar layouts em colunas/linhas.
+-----------------------------------
+
+SOMBRA NAS CAIXAS:
+
+shorthands : simplifica delcaracoes
+
+o navegador esta considerando margem do paragrafo e mais o padding e por isso quando se coloca um padding de 1px parece maior
+
+o que fazemos para organiza: no paragrafo dentero do footer podemos tirar a margem
+
+-  poder criar a propria somrba
+
+no box shaddows: 
+
+primeiro px : horizontal  lados, tanto para negativo quanto para positivo
+
+segundo px : margem vertical pra cima e para baixo, tambem quanto negativo quanto positivo
+
+terceiro pixel : sao as sombras a forca da for da sombra se mais embaçado ou nao
+
+quarto pixel : tamanhodas sombra, pois tem como fazer ocupar toda um espaço
+
+- é possiveo colocar sombra em qualquer bloco
+
+MACETE:  FAZER O BOX SHADOW PELO INSPECIONAR E SO COPIAR O CSS, PARA N FICA TENTANDO ENCONTRAR
+----------------------------------------------------------------------------------
+CAIXAS COM VERTICES ARREDONDADOS 
 
 
 

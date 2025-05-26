@@ -1,49 +1,6 @@
 @charset "UTF-8";
-/*DO INDEX GERAL*/
-#rodape
-{
-    background-color:rgb(177, 141, 141);
-    padding-top:0px;
-    padding-right: 0px;
-    padding-bottom:0px;
-    padding-left:1px;
-    text-align: center;
-    border-radius: 5px;
-    width: 100%;
-}
-.rodape
-{
-    margin: auto;
-}
-nav  ul 
-{
-    display: flex;
-    gap: 15px;
-    list-style: none;
-    background-color:rgb(177, 141, 141);;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 8px;
-    margin: auto;
-}
-nav a
-{
-    
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    margin-right: 30px;
-    justify-content: right;
-}
-a:hover
-{
-    text-decoration: none;
-    color: rgb(199, 199, 230);
-}
-h1
-{
-    text-align: center;
-}
+
+
 /*CSS DO MENU*/
 .menu {
   list-style: none;
@@ -91,4 +48,56 @@ h1
 .submenu li a:hover {
   background-color: #555;
 }
+nav
+{
+    box-shadow: inset 3px 7px 2px rgba(207, 63, 200, 0.288);
+}
+nav  ul 
+{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    background-color:rgb(177, 141, 141);;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+}
+nav a
+{
+    
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 30px;
+    justify-content: right;
+}
+a:hover
+{
+    text-decoration: none;
+    color: rgb(199, 199, 230);
+}
+h1
+{
+    text-align: center;
+}
+
+#rodape
+{
+    background-color:rgb(177, 141, 141);
+    padding: 4px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+}
+.rodape
+{
+    margin: auto;
+}
+footer > p 
+{
+    margin: 0px;
+}
+
+
 
