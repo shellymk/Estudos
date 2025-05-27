@@ -40,9 +40,27 @@ a:hover
     text-decoration: none;
     color: rgb(199, 199, 230);
 }
+/* corpo */
 h1
 {
     text-align: center;
+}
+
+div > p
+{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(228, 228, 238);
+  box-shadow: 4px 4px 9px 0px rgba(5, 5, 5, 0.322);
+}
+div#bola
+{
+  height: 100px;
+  background-color: black;
+  margin: 100px;
+  width: 100px;
+  border-radius: 50%;
+  
 }
 /*CSS DO MENU*/
 .menu {
@@ -91,4 +109,5 @@ h1
 .submenu li a:hover {
   background-color: #555;
 }
+
 

@@ -1382,7 +1382,67 @@ quarto pixel : tamanhodas sombra, pois tem como fazer ocupar toda um espaço
 
 MACETE:  FAZER O BOX SHADOW PELO INSPECIONAR E SO COPIAR O CSS, PARA N FICA TENTANDO ENCONTRAR
 ----------------------------------------------------------------------------------
-CAIXAS COM VERTICES ARREDONDADOS 
+
+CAIXAS COM VERTICES ARREDONDADOS:
+
+
+a roden dos border radius?
+
+top left
+top right
+border botton right e dops left
+
+
+--------------------------------------
+
+existe tbm a possibuilidade de configuraçao dupla, ppodemos colocar dois parametros no boerder radius
+---------------------------------------
+Para alinhar o texto com a caixa do seu HTML, você pode usar principalmente:
+
+padding: cria espaço dentro da caixa, entre a borda da caixa e o conteúdo (texto incluso). É a forma ideal de "alinhar" o texto dentro do elemento.
+
+margin: cria espaço fora da caixa, entre a caixa do elemento e outros elementos. Ajuda a posicionar a caixa, mas não alinha o texto dentro dela diretamente.
+
+text-align: alinha o conteúdo textual dentro da caixa (à esquerda, à direita, ao centro ou justificado).
+
+line-height: pode ajudar no alinhamento vertical do texto, especialmente em elementos com altura definida.
+
+Ou seja:
+
+Use padding para alinhar o texto internamente à caixa.
+
+Use text-align para alinhar o texto horizontalmente dentro da caixa.
+
+Use margin para posicionar a caixa em relação a outros elementos, não o texto dentro dela.
+--------------------------------------
+Se o espaçamento para cima (padding-top / margin-top) ou para baixo (padding-bottom / margin-bottom) não está funcionando ou para de fazer efeito, pode ser por alguns motivos comuns. Aqui vão os mais prováveis:
+
+🔒 1. Altura fixa no elemento
+Se a sua caixa tem height fixo (ex: height: 100px), e você tenta aumentar o padding, o conteúdo pode vazar ou não mudar nada, porque o espaço interno está limitado.
+
+➡ Solução: Use min-height ou remova height fixo.
+
+🧱 2. Overflow oculto
+Se o elemento pai tem overflow: hidden, pode cortar o conteúdo ou impedir que o margin/padding funcione como esperado.
+
+➡ Solução: Remova ou ajuste o overflow.
+
+🧲 3. Colapso de margens
+Duas margin-top ou margin-bottom entre elementos podem se fundir (colapsar) e parecer que só uma está funcionando.
+
+➡ Solução: Tente usar padding em vez de margin, ou adicionar uma borda ou overflow no elemento pai para impedir o colapso.
+
+💡 4. Display inline
+Se o elemento for display: inline, padding vertical pode não funcionar.
+
+➡ Solução: Use display: block ou inline-block.
+----------------------------------------------
+AVISO PARA MIM MESMA : TOME CUIDADO AO USAR MTS PADDING E MTS MARGIN RELACIONADOS AOS MESMOS PAIS E FILHOS, SE FOR USAR UM NO FILHO NAO USE NO PAI E ASSIM, SUCESSIVAMENTE POIS SE NAO UM VAI SE JUNTAR NO OUTRO
+-----------------------------------------
+
+QUANDO MIS EU ESPECIFICAR O ELEMENTO NO CSS MELHOR NA MAIORIA DAS VEZES 
+
+- PARA TER UMA MARGEM UNIFORME DO TEXTO COM SEUS ELEMENTOES E CAIXAS 
 
 
 
