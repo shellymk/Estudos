@@ -4,14 +4,13 @@
 /*CSS DO MENU*/
 .menu {
   list-style: none;
-  display: flex;
+ 
   
-  padding: 0;
-  margin: 0;
+  
 }
 
 .menu > li {
-  position: relative; /* necessário para posicionar o submenu */
+  
 }
 
 .menu > li > a {

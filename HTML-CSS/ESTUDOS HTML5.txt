@@ -1443,6 +1443,94 @@ AVISO PARA MIM MESMA : TOME CUIDADO AO USAR MTS PADDING E MTS MARGIN RELACIONADO
 QUANDO MIS EU ESPECIFICAR O ELEMENTO NO CSS MELHOR NA MAIORIA DAS VEZES 
 
 - PARA TER UMA MARGEM UNIFORME DO TEXTO COM SEUS ELEMENTOES E CAIXAS 
+--------------------------------------------------
+BORDAS DECORADAS 
+
+DIC AS:
+
+TEM DE DEIXAR O BORDER SOZIONHAO PARA SDEGURA TODA A PARADA
+
+É POSSIVEL USAR IMAGENS PARA ESTICAR E FAZER UMA BORDA
+
+border: 20px solid black;
+            padding: 10px;
+            border-image-source: url('bolas.png');
+            border-image-slice: 20;
+            border-image-repeat: repeat;
+
+            border-image: url('bolas.png') 39 repeat;
+
+- É NECESSARIO QUE SERJA NA ORDEM, SOURCE, SLICE, REPEAT
+
+- NEM TODOS OS NAVEGADORES SAO COMPATIVEIS COM AS BORDAS IMAGENS  NESSE CASO É POSSIVL USAR UM " SOLID TRANSPARFENTE" PARA CASO N SEJA COMPATIVER
+----------------------------------------------
+
+PARA ITENS UM AO LADO DO OUTRO
+
+Ótimo! Se você quer alinhar os itens do seu menu (links) um ao lado do outro dentro de um <nav>, a forma mais comum e controlada de fazer isso é usando display: flex no <nav>.
+Mas como você não quer código por enquanto, aqui vai uma explicação clara do conceito e das opções:
+
+O que usar para alinhar itens lado a lado no menu:
+✅ display: flex no nav
+Transforma os itens filhos (por exemplo, os <a>) em uma linha horizontal por padrão.
+
+É a forma mais moderna, responsiva e controlada.
+
+Substitui a necessidade de mexer em text-align ou usar float.
+
+E os que não são indicados para alinhar lado a lado:
+🚫 justify-content, text-align e margin (sozinhos)
+justify-content só funciona com flexbox ou grid.
+
+text-align: center/right/left alinha conteúdo de texto, não necessariamente distribui vários elementos horizontalmente do jeito que você quer.
+
+margin pode espaçar os itens, mas não os organiza lado a lado sozinha.
+
+Resumo da ideia:
+Propriedade	Serve para quê
+display: flex	Organizar os links em linha (um ao lado do outro)
+justify-content	Distribuir o espaço entre eles (dentro do flex)
+text-align	Alinhar texto dentro de um único item
+margin	Criar espaçamento entre os itens
+
+Se quiser, posso te explicar passo a passo como montar esse menu com flex quando quiser o exemplo em código.
+
+
+O DISPLAY FLEX FUNCIONA JUNTO AO JUSTIFY CONTENT UM COMPLEMENTA O OYUTRO:
+
+🧠 Analogia rápida:
+Imagine que justify-content é como dar instruções para "organizar cadeiras em uma fileira".
+Mas sem display: flex, você ainda está em um ambiente onde as cadeiras estão empilhadas, uma em cima da outra (modo padrão block).
+
+Só quando você ativa o "modo fileira" (flex), essas instruções começam a fazer sentido.
+
+Se quiser, posso te ajudar a experimentar com isso na prática depois!
+------------------------------------------
+PARA ITENS QUE ESTAO SE ESCONDENDO UM ATRAS DO OUTRO PORQUE DO FIXED QUE IGNORA O FLUXO NORMAL DA PAGINA:
+
+
+Ótima pergunta! Isso acontece por causa de como o position: fixed tira o elemento do fluxo normal da página.
+
+Explicação do que está acontecendo:
+Quando você usa position: fixed no seu <header>, ele fica fixo na tela, e os outros elementos da página (como a <section> dentro do <main>) ignoram a altura do header.
+
+Ou seja:
+
+O header está “fora do fluxo do layout”.
+
+A <section> não sabe que o <header> está ali em cima e, por isso, pode acabar ficando atrás ou colada nele.
+
+Como resolver esse comportamento:
+Você precisa dar um padding-top ou margin-top no <main> ou na <section>, com o mesmo valor da altura do seu header fixo, para empurrar o conteúdo para baixo e evitar que fique escondido.
+
+----------------------------------------
+Se o seu <header> está sem uma altura definida, o navegador calcula a altura automaticamente com base no conteúdo. Porém, quando você usa position: fixed, é essencial definir manualmente uma altura ou padding nele — ou então o conteúdo pode ficar todo colado ou escondido atrás.
+
+O que fazer:
+Defina uma altura explícita para o <header> (por exemplo, height: 60px;), ou use padding vertical (como padding: 20px 0;).
+
+Depois, no <main> ou na <section>, adicione um padding-top com o mesmo valor da altura do header para garantir que o conteúdo fique visível.
+
 
 
 
