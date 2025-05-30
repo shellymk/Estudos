@@ -1531,6 +1531,43 @@ Defina uma altura explícita para o <header> (por exemplo, height: 60px;), ou us
 
 Depois, no <main> ou na <section>, adicione um padding-top com o mesmo valor da altura do header para garantir que o conteúdo fique visível.
 
+------------------------------------------
+ O que acontece na prática:
+Em telas pequenas (celular): o font-size será de no mínimo 1.5rem (mesmo se 5vw for menor).
+
+Em telas médias ou grandes: o tamanho cresce proporcionalmente à largura da tela.
+
+Mas em telas muito grandes, ele para de crescer em 3rem (limite superior).
+
+🔎 Resultado: o texto se adapta ao tamanho da tela, sem ficar pequeno demais ou gigante demais.
+-------------------------------------------
+Propriedade	Por quê usar
+font-family	Garante legibilidade (padrão melhor)
+line-height	Melhora a leitura
+overflow-x: hidden	Impede que algo ultrapasse a largura da tela e cause scroll lateral indesejado (muito útil em mobile)
+---------------------------------
+Problemas comuns evitados com isso:
+Layout "quebrado" em celular
+
+Página com rolagem lateral mesmo sem precisar
+
+Imagens ou divs que vazam da tela sem você perceber
+
+✅ Resumo:
+Propriedade	Para que serve
+line-height: 1.5	Deixa o texto mais arejado e fácil de ler
+overflow-x: hidden	Impede que elementos causem rolagem lateral
+
+Se estiver claro, diga "Próximo" que eu sigo com o seletor header > p.
+---------------------------------------------------------
+USAR EM TODOS OS MEUS CSS PARA RESETAR O NAVEGADOR:
+
+*, *::before, ::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 
