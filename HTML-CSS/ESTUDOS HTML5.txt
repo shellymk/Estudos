@@ -1568,6 +1568,30 @@ USAR EM TODOS OS MEUS CSS PARA RESETAR O NAVEGADOR:
     padding: 0;
     box-sizing: border-box;
 }
+-----------------------------------
+1. Com Flexbox (o jeito mais moderno e prático)
+Se o pai do elemento .geral for, por exemplo, o body ou uma div, você pode fazer:
+
+css
+Copiar
+Editar
+body {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* centraliza verticalmente */
+  height: 100vh;           /* altura da viewport para funcionar */
+  margin: 0;
+}
+Isso faz o filho (como .geral) ficar exatamente no centro da tela.
+
+PARA VIDEOS FICAR NO MEIO DA TELA E VIDEOS DE PASTAS ----- */
+
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 
 
 
