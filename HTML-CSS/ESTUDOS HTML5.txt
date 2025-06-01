@@ -1592,6 +1592,30 @@ video {
   height: auto;
   margin: 0 auto;
 }
+--------------------------------------
+
+
+CORRIGINDO  O SITE QUE EU FIZ :
+
+- o que faltou: adicionar o background dos meus nav
+- adicionar cor ao passar mouse 
+- deixar ainda mais responsivo
+- quebrar a imagem em telas menores, na foto da irina deixar a irina  maior em telas menores  - ja feito antes dele mostrar
+--------------------------------------------------------
+ACESSANDO FERRAMENTA MOCFLOW
+
+- O MOCFLOW SERVE PARA BASICAMENTE DESENHA A ESTRUTURA DO SEU SITE, ELE CRIA MOCS E MOCS É EXATAMENTE ISSO
+ - SERVE PARA IMAGINAR E PROJETAR O FORMATO DO SEU SITE
+- É MT IMPORTANTE PARA PLANEJAR AS CAIXAS QUE SEU SITE VAI TER
+- desenhqa o site
+- templates prontos ou templates proprios criados
+
+https://app.mockflow.com/
+ - BOM PRA CARALHO
+
+----------------------------------------
+- FICAR ATENTA SE AS FONTES POSSUEM SUPORTE A CARACTERE E SIMBOLOS E IDIOMAS E CARACTERE ACENTUADOIS
+
 
 
 
