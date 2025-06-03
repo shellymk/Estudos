@@ -1601,7 +1601,7 @@ CORRIGINDO  O SITE QUE EU FIZ :
 - adicionar cor ao passar mouse 
 - deixar ainda mais responsivo
 - quebrar a imagem em telas menores, na foto da irina deixar a irina  maior em telas menores  - ja feito antes dele mostrar
---------------------------------------------------------
+
 ACESSANDO FERRAMENTA MOCFLOW
 
 - O MOCFLOW SERVE PARA BASICAMENTE DESENHA A ESTRUTURA DO SEU SITE, ELE CRIA MOCS E MOCS É EXATAMENTE ISSO
@@ -1613,8 +1613,88 @@ ACESSANDO FERRAMENTA MOCFLOW
 https://app.mockflow.com/
  - BOM PRA CARALHO
 
-----------------------------------------
+
 - FICAR ATENTA SE AS FONTES POSSUEM SUPORTE A CARACTERE E SIMBOLOS E IDIOMAS E CARACTERE ACENTUADOIS
+
+- ele colocou paddintop ou margin top para espaçar a altura dos a h1  do header apra ao p do header
+
+- quando bota  uma largura fixa ele vira um bloco altomaticamente e para corrigir esse tipo de coisa se inclui um margin auto
+
+- tem como colocar sompras nos textos com text shadow
+
+- para fazer gradientes direto do visualstudio é possiveol com BACKGROUND-IMAGE: LINEAR-GRADIENT(TO BOTTOM, VAR(--COR2), VAR(--COR4)
+
+- FONT WEINGH QUE DEIXA EM NEGRITO OU SEJA BOLD
+
+- QUANDO NAOO COLOCAMOS O SINAL DE MAIOR NO CSS SIGNIFICA QUE UM PARAGRAFO PODE ESTAR DENTRO DAQUELE ELEMNTO EM QUALQUER NIVEL, DENTRO DE UMA SECTION, DE UM ARTICLE, DE DIV E POR AI EM DIANTE
+
+- PODEMS TBM COLOCAR FOOTEER > P >A Que significa que todo link que esta dentro do paragrafo vai ter tal configuraçao
+
+- para dividir coluna das listas é possivel usar no css tbm o columns: e o tanto de coluna que deseja e por ai em diante, porem preciso tirar duvidas para saber se é compativel com a maioria dos navegadores pois é ideal que funcioine em mais de um tipo de navegador meu site
+
+- para adicionar simbolo  as listas é possivel usar tambem o list style type e o \codigo do simbolo que voce encontras no site
+
+OBS: É IMPORTANTE O CONTRA BARRRSA
+
+- PARA TER UM ESPAÇO ENTRE O SIMBOLO E AS LISTAS PODE-SE TAMBEM COLOCAR LOGO DEPOIS DO \CODIGO, OUTRO CONTRA BARRA E O 00A0 QUE É O CODIGO NBSP, PESQUISAR DEPOIS SOBRE, POREM ISSO NAO É COMPATIVEL COM TODOS OS TIPOS DE NAVEGADOR
+
+- É POSSIVEL COLOCAR CLASSE DENTRO DOS "a" apos o target
+
+- FONT WEIGHT  PARA COLOCAR E PARA TIRAR NEGRITO
+
+- TEM UMA EXTENSAO  NO GOOGLE QUE DIMENSIONA O SITE PARA VISUALIZAÇAO EM VARIOS TAMANHOS, WINDOW RESIZER
+-------------------------------------------
+
+O VAR É DE VARIAVEL, COR VARIAVEL
+----------------------------------------------
+
+- SOBRE O :ROOT :
+
+**:root** é um seletor especial que representa o elemento raiz do documento HTML (basicamente o <html>). É onde você define variáveis globais de CSS, que podem ser reutilizadas em qualquer lugar da sua página: elementos, pseudo-elementos, animações, etc.
+
+🎯 Por que usar isso?
+✅ Padronização: Define todas as cores e fontes em um único lugar.
+
+🛠️ Facilidade de manutenção: Quer trocar o azul principal? Só muda no :root.
+
+🧩 Reutilização: Usa as mesmas cores em vários elementos (normal, hover, etc).
+
+🌗 Temas claros/escuros: Pode trocar variáveis com classes (.dark, .light).
+----------------------------------------
+SOBRE PADDING:
+
+Propriedade	Aplica onde?
+padding	Todos os lados
+padding-top	Somente no topo
+padding-right	Somente à direita
+padding-bottom	Somente embaixo
+padding-left	Somente à esquerda
+
+⚠️ Importante:
+Se você usar padding e depois padding-bottom, o último (mais específico) sobrescreve só aquela direção.
+
+Isso é útil quando você quer um padding geral mas ajustar apenas um lado.
+-------------------------------
+SOBRE A TAG ASIDE:
+TAG ASIDE É USADA PARA CONTEUDOS EXTRAS QUE ESTAO RELACIONADAS A TELA PRINCIPAL DO SITE
+
+class="externo"
+
+- O QUE VAMOS APRENDER NOS PROXIMOS MODULOS:
+
+MODULO 3: versionamento de software, hospedagem de sites estaticos, tabelas
+
+modulo 4: quadros em linha formularios, media queries, mobile firt
+
+modulo 5: flexbox, Grid Layout, projeto final.
+
+----------------------------------------------------------------
+
+
+
+
+
+
 
 
 
