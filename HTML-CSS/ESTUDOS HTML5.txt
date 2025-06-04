@@ -1689,6 +1689,9 @@ modulo 4: quadros em linha formularios, media queries, mobile firt
 modulo 5: flexbox, Grid Layout, projeto final.
 
 ----------------------------------------------------------------
+IMAQGENS DE FUNDO:
+
+AS IMAGENS DE FUNDO SAO DIFERENTES DE IMAGEM DE CONTEUDO, NAO SAO CONSIDERADAS CONTEUDOS OD SITE, AS
 
 
 
