@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/*DO INDEX GERAL*/
+#rodape
+{
+    background-color:rgb(177, 141, 141);
+    padding-top:0px;
+    padding-right: 0px;
+    padding-bottom:0px;
+    padding-left:1px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+}
+.rodape
+{
+    margin: auto;
+}
+nav  ul 
+{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    background-color:rgb(177, 141, 141);;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+}
+nav a
+{
+    
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 30px;
+    justify-content: right;
+}
+a:hover
+{
+    text-decoration: none;
+    color: rgb(199, 199, 230);
+}
+/* corpo */
+h1
+{
+    text-align: center;
+}
+
+div > p
+{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(228, 228, 238);
+  box-shadow: 4px 4px 9px 0px rgba(5, 5, 5, 0.322);
+}
+div#bola
+{
+  height: 100px;
+  background-color: black;
+  margin: 100px;
+  width: 100px;
+  border-radius: 50%;
+  
+}
+/*CSS DO MENU*/
+.menu {
+  list-style: none;
+  display: flex;
+  
+  padding: 0;
+  margin: 0;
+}
+
+.menu > li {
+  position: relative; /* necessário para posicionar o submenu */
+}
+
+.menu > li > a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Esconde o submenu inicialmente */
+.submenu {
+  display: none;
+  position: sticky;
+  top: 100%; /* Posiçao para esconder o submeu  se ele vai sobrepor o menu dele ou abaixo e por ai em diante*/
+  left: 0px;
+  list-style: none;
+  background-color: rgb(177, 141, 141);;
+  padding: 0;
+  margin: 0;
+}
+
+/* Mostra o submenu ao passar o mouse no item pai */
+.menu li:hover .submenu {
+  display: block;
+}
+
+/* Estilo dos links do submenu */
+.submenu li a {
+  
+  padding: 0px;
+  color: rgb(154, 153, 196);
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+  background-color: #555;
+}
+
+

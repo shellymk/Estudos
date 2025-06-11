@@ -24,7 +24,7 @@ function verificar()
         img.setAttribute('id', 'foto')
         
 
-            if (fsex[1].checked)
+            if (fsex[0].checked)
             {
                 genero = 'Masculino'  
                     if (idade >= 0 && idade < 10)
@@ -50,7 +50,7 @@ function verificar()
                     res.innerHTML = `Favor insira um Ano de nascimento para prosseguir.`
                 
             }
-                else if (fsex[0].checked)
+                else if (fsex[1].checked)
                 {
                     genero = 'Feminino'
                         if (idade >= 0 && idade < 10)
@@ -80,10 +80,6 @@ function verificar()
                     res.computedStyleMap.textttAlign = 'center'
                     res.innerHTML = `Pessoa do sexo ${genero} com ${idade} anos.`
                     res.appendChild(img)
-                   
-                   
-                
-
 
     }
     
