@@ -6,6 +6,19 @@ CURSO DE HTML5 E CSS3
 - nao correr, assistir com calma
 - nao ver netflix
 
+----------------------------- 
+
+passo a passo quando os estudos html, css3 e javascript ACABAR:
+
+
+- estudar react e estudar angular
+- desenvolver uma calculadora com React
+-  desenvolver um clone do buzzfeed com Angular
+- desenvolver uma pokedex com javascript
+- desenvolver uma landing page com html e css3
+----------------------------------------------------------------
+
+
 MB-ARMAZENAMENTO-MEGABYTE
 Mb-TRANSMISSAO-MEGABITS
 
@@ -109,6 +122,8 @@ Espaço em branco = &nbsp;
 ↑ Seta acima = &uarr;
 → Seta direita = &rarr;
 ↓ Seta baixo = &darr;
+< &lt
+>&gt
 
 <!-- serve para colocar comentarios em seus codigos, explicar algo e nao ser inserido no site
 
@@ -171,13 +186,6 @@ a= Ancora, essa tag referencia o seu link, é quando voutra pessoa clica no seu 
 picture: a tag picture aparece uma imagem dentro dela porem com varios sources
 
 source : essa tag tem varios derivados, nessa aula de imagens dinamicas, vamos usar o "source media type", o que estamos falando com essa tag? estamos dizendo que se  a foto do img tiver um tamanho x e ela nao se adaptar a um tamanho de tela y, no source media tipe em max width colocamos o tamanho base que desejamos e no srcset colocamos o nome/caminho da foto menor ou maior que va aparecer.
-
-
-
-
-
-
-
 
 -------------------------------------------------
 COMO COLOCAR UMA IMAGEM EM SEU SITE?
@@ -293,7 +301,1397 @@ links para downloads:
 EXISTE UM PARAMETRO PARA usar os links para downloads junot ao href, que é o download junto ao type, dentro do type vc coloca o nome do parametro que precisa para baixar qualquer arquivo qualquer coisa de todo tipo, voce encontra todos os nomes dentro do site: iana.org/assignments/media-types vc encontra todos os media types para baixar qualquer coisa.
 
 para nao esquercer: enevelopar é shift + ctrl + p
+-------------------------------------------------------------------------------
+Aprendendo a colocar audio nos meus sites:
 
+- tomar cuidado com  direitos autoriais tamb em nos audios
+
+para colocar audio é como a tag img, apenas digitar o nome audio, essa é a forma mais facil 
+
+para colocar para tocar ao lado fora das aspas, tem-se que colocar " controls autoplay, onde o controls é pra aparecer aquela informacao das paginas se deseja que o site tenha som e o autoplay  é pra musica tocar
+
+caso o audio nao funcione so com o autoplay tem outras formas de incluir audio que é possivel testar
+
+
+alem de so palavra audio, tem como transformar em uma tag como as outras
+
+audio
+
+<source src="o arquivo" type="os mediatypes de audio mp3" tabem tem como fazer  outros sources para converter o arquivo mp3 para outros tipos de midia desta forma":
+
+<source src="o arquivo" type="os mediatypes de audio mp3" 
+<source src="o arquivo" type="os mediatypes de audio ogg" 
+<source src="o arquivo" type="os mediatypes de audio wav" 
+
+a ordem importa entao caso seja nessa ordem primeiro o site vai tentar carregar mp3 e dps os outros
+
+se nao conseguir nenhum desses audios
+
+abre um paragrafo informando  pro usuario que o navgeador dele nao esta aceitando audio naquele formato e inclui o audio que ele quer naquele site no formato para ser baixado, porem no navgeador do usuario nao roda
+
+
+o preload significa que quando voce colocar para rodar o site o preload vai determinar se o audio vai sair de vez ou se a pessoa vai precisar clicar em algum lugar para baixar
+
+atencao nao usar wav pois arquivos wavs sao arquivos muitos pesados
+
+/audio
+
+-----------------------------------------------------------------------------------------
+Formatos de videos para seu site: site pexels
+
+caso voce queira incluir um video no site do cliente
+
+o software handbrake serve para converter os videos
+ -----------------------------------------------------------------------------------------------
+Videos em hospedagem propria:
+
+os videos podem sair diretamente mt grande, entao é so usar o width com 500
+
+usando a tag videos, consome mt banda, mas tem uma dica e uma soluçao para que nao consuma mt bandae consequentemente o site acabe ficando mais caro
+
+-----------------------------------
+Videos externos:
+
+é so pegar iframe do video e inserir la
+
+
+---------------------------------------
+
+controls: exibe os botões padrão do player (play, pause, volume etc)
+
+
+-------------------------------------------------
+AULA RAPIDA SOBRE GIMP:
+
+as camadas sao como papeis e voce pode usar varios papeis impilhados um em cima do outro
+
+para pintar a tela em branco tem o degrade e tem o as cores normais
+
+circulos e elipses sao a msm coisa
+
+se a gente quiser colocar imagens em nossas imagens feitas por nos a gente ABRE POR UMA CAMADA
+
+----------------------------------------
+continuando:
+
+agora, aprendendo  a colocar videos do youtube, em compartilhar em qualquer video do youtube vai em incorporar e em seguida é so copiar o iframe do incorporar e colar no seu site e pronto e isso faz com que sei site nao fique pesado e consequentemente mais caro
+------------------------------------------------------------------
+FOLHAS DE ESTILO
+
+ESTILOS CSS INLINE:
+
+as CSS podem ser aplicadas de 3 formas, a primeira delas é a forma inline
+
+esta forma inicia colocando style e em seguida o que a gente deseja como backgruouns, bgcolor etcs dentro de cada tag, isso é extremamente chato, pois isso polui o codigo
+
+ o inline seiginfica que o estilo e as configuraçoes do estilo é feita na mesma linha das tagas
+
+o background color muda toda a cor de fundo
+o color muda apenas a cor do nome do texto
+font family é o tamanhao da fonte
+font size
+
+ e por ai vai
+--------------------------------------------------
+CSS INTERNOS/locais:
+
+essa forma eu crio uma tag style embaixo do title e tudo que estiver entre ess atag style vai ser o css evai ser o estilo do site
+
+essa tag vai ser baseada em seletores, 
+ex: eu quero configura o seletor do body
+
+body { 
+background color e por ai vai
+
+}
+
+
+toda a alinha dentro dos seletores a gente chAMA DE DE DECLARAÇAO
+
+essa forma tbm nao é mt vantajosa porque o estilo compoe mais linhas do que seu proprio conteudo, ai tem outra forma ainda mais pratica de fazer.
+
+----------------------------------
+AGORA VEM A FORMA MAIS VERSATIL DE FAZER OS ESTILOS DO SEU SITE
+
+CSS EXTERNOS:
+
+ABRIR UM PARAGRAFO COM UM LINK essa é a forma pra copiar
+
+passo 1:abrir um link-css , 
+passo 2: em style.css vai pedi pra criar um arquivo, 
+passo 3: voce vai criar esse arquivo
+passo4: vo vai jogar o estilo la
+
+esse estilo e esaa forma de fazer estilo, replica o mesmo estilo para todas a paginas, basta colocar o link-css em todas as paginas 
+
+
+\\ pode dar erros casos use mts simbolos  acentuaçoes, nesse caso a genre coloca algumas coisas chamadas REGRAS
+
+@CHARSET que é uma das regras usadas para acetuaçoes em seus estilos
+
+é possivel tambem adiciona mais de um link para os estilos, caso voce queira por exemplo criar estilos extras para algumas paginas espdecificas do seu site, ai voce usa esse link extra
+
+o mais poderoso  por ordem é o:
+
+inline
+Local
+Externos
+
+obs: evita usar o inline a todo custo, o externo pode usa sem moderaçao
+-----------------------------------------------
+modulo 2
+
+ o que vamos estudar nesse modulo:
+
+- Psicologia das cores
+- quais cores irao melhor combinar, harmonizaçao das cores
+- definir qual vai ser a paleta de cores do nossas cores
+- anatomia de uma letra, qual parte de uma determinada letra
+- familia tipografica
+- integraçao entre cor e tipo
+-caracteristica das cores
+- ferramentas para trabalhar com fontes e tipos
+- ferramentas para identificar as letras e fontes
+- trabalhar com classes
+- variaveis em css
+- modelo de caixas, box, alinhar boxes, como funciona modelo de caixa em html e css
+- aplicar as caixas cores, borda, vertice, cores em degrade
+- a construçao do airframe
+- definir paleta, tipografia, fontes, conteudo, modelar, pegar imagens organizar e construir tudo em html e css
+- site responsivo
+-  CSS id e class
+----------------------------------------------------
+Psicologia das cores:
+
+cores sao de suma importancia para os sites, aprender a como escolher uma cor
+
+anotar tudo
+
+------------------------
+o produto, a cor do quarto,  do site da casa, o conceito de psicologia das cores
+
+---------------------------------------------------------
+existem estudos que dizem que a cor de alguma coisa, esta relacionada a cor da embalagem a cor das coisas influenciam em nossas decisoes, essa porcentagem aumenta mt o sucesso em nosso site
+
+é mais valioso um site harmonico nas cores
+
+nos sres humanos instintivamente escolhemos algo pela cor, mas nunca temos conscientes, o conjunto e harmonia das cores que as coisas tem
+
+cores sao importantes demais para desenvolver sites
+-------------------------------- 
+face, twitter e ente outas empresas de tecnologia, escolhem muito o azul e isso é porque azul tem ligaçao com competencia, sabedoria, inteligencia, calma, confianca, prossionalismo, integridade, segurança, a cor azul é a cor mais aceita do mundo, com 46% de aprovaçao, é A COR COM A MENOR TAXA DE REJEIÇAO
+
+vermelho, é a cor associada a emoçao, amor, energia, mas tambem a raiva, a perigo, sites de comida, moda, entretenimento, emergencia, saude, luxo, natureza, uso de serviços em geral
+
+ a netflix é um exemplo que faz mt sucesso, com preto e vermelho, preto e branco mt forte, causa um cansasso visual mt rapido
+
+vermelho e amarelo, se vermelho faz rel com comida eo amarelo com felicidade.
+
+laranja: cautela divertimento
+
+verde: saude, natureza, dinheiro sorte, turismo, meio ambiente
+rosa: amor,romance, cuidado, evita o rosa caso  o produto nao tenha uma pega sentimental e doce e calma
+
+o douirado é mt rela a vermelho
+
+o marrom tem ideia de rosbustes, amizade, estabilidade, um exemplo é um restuarante fraces no qua foi mt aproveitado, quando fala de bebida e comidas cada um de forma diferente, noçao de que as vezes é bem delicado
+
+roxo tem criatividade, poder, mas ele n prende mt o expectador
+
+existem mais de 65 milhoes de cores.
+--------------------------------------------------------------------
+ atem da forma decimal, hexadecimal, cores em palavras, é possivel tbm ultilizar a  representaçao em css, hsl
+------------------------------
+hue, saturaçao e luminosidade
+hue é matiz
+-----------------------------------
+tem como deixar transparente na  barrinha do meio
+------------------------------
+a  proxima parte é a mais importante como tornar meu site bunito usando uma combinaçao de cores para meu site, a armonizaçao das cores.
+---------------------------------
+HARMONIZAÇAO DAS CORES?
+ 
+circulo cromativo: principais cores
+
+primarias:
+
+amarelo
+vermelho 
+azul
+
+Secundarias: 
+
+Laranja 
+violeta 
+verde
+
+Terciarias: sao misturas entre primaria e secundaria, sao alguns tons pasteis
+
+Amarelo esverdeado
+Amarelo alaranjado
+Vermelho alaranjado
+vermelho rocheado
+azul rocheado
+azul esverdeado
+
+formam um triangulo equilatero no circulo cromativo: sao as cores primarias
+
+quando achamos algo bunito e nao sabemos explicar o porque, simetria, cor
+
+se quisermos representa algo frio e quente usamos cores frias e cores quentes para representar nosso site
+
+a paleta de cores do site sempre parte do principio da cor principal, a partir dai se escolhe as outras cores
+
+ex : um site de restaurante
+
+geralmente uma paleta vai ter de 3, a 5 cores
+
+se o cliente tem uma logo e a marca é importante, primeiro vamos verificar a cor primaria que ta sendo ultilizada na logo
+
+cores complementares: sao as cores que mais tem conraste entre si
+
+ex: qual a cor que mais contrasta com o marrom? e depois escolher qual a cor imediatamente oposta ao circulo cromatico
+
+ex: quero uma cor violeta, é so traca uma reta ao outro lado do circulo cromatico, entao a cor que mais contrasta com violeta é o amarelo
+
+se escolheu vermelho a cor que mais contrasta é o verde e assim sucessivamente sempre com esta reta.
+
+tudo tem um principio e uma ciencia,
+
+cores analogas: criam degrade
+
+ex: violeta, ai é o pegar as cores vizinhas, uma do lado esquerdo e direito, para criarmos uma simetria é so pegar as viznnhas
+
+cores analogas e complementar
+
+ex: violeta, vizinhas da violeta e depois traca uma reta na violeta para o outro lado do circuito e fazer a mistura das cores analogas e complementar
+
+cores analogas relacionadas:
+
+duas cores vizinhas, dessas duas pulamos uma cor e pegamos a terceira cor
+
+cores: intercaladas:
+
+escolhemos uma cor, pulamos uma cor e escolhemos a outra, pulamos denovo e escolhemos a seguinte
+
+cores triadicas:
+
+pegamos uma cor de referencia, pulamos tres cores e pegamos a outra cor, depois pegamos mais 3 e pega outra cor, isso forma um triangulo equilatero
+
+cores em quadrado:
+
+pegamos uma cor e pulamos duas cores e pegamos a outra e assim sucessivamente ate formar um quadrado
+
+cores tetradicas:
+
+escolhemos qualquer cor, qual o complementar daquela cor, ai pegamos outra cor ai pegamos o complementar daquela outra dor e com essas cores formamos um retangulo
+
+Monocromia:
+
+pegamos uma cor, e alteramos a saturacao e o brilho dela, sao as caracteristicas e com isso a gente acha as cores degrade de uma cor
+
+
+todas as cores que vamos escolher, vamos escolher conforme o tipo de site que vamos fazer a partir dai, vamos
+
+color.adobe.com
+
+
+aguanabara apresentando o color.adobe, inclusive mt bom.
+
+outra ferramenta chamada paletton.com - esse mostra um exemplo de site com o tom que a gente escolheu , ESSE É FODA
+
+tem o coolors= que da pra montar a paleta e trava a a cor e depois que travar ir apertando barra de espaco depois disso  ir formando as cores do seu site.
+----------------------------------------------------
+Como capturar cores da tela?
+
+Collorzila é uma extensao do google que pega qualquer cor de qualquer site, qualquer paleta,  ele cobsegue pegar ate de site dentro de site, maravigold
+
+essa foi uma aula de como pegar todas as cores que aparecerem em seu navegador
+
+-----------------------------------------
+Como criar degradê com CSS ? 
+
+para fazer degarade nao usamos background color usamos outra chamada background image, ele tem uma funcao interna chmada linear gradient(to right);
+
+
+configuracoes globais das css que vao servir para qualquer css:
+
+*{  height: 100%
+}
+
+heigh significa altura, a altura vai ser 100%
+
+background-attachment serve para fixAR O DEGRADE
+
+ a dica eh nao exagerar.
+
+paLETAS DE 3 A 5 cores
+
+menso de 3 é mt complicado e a cima de 5 é demais
+--------------------------------------------
+Criando um exemplo real 
+
+
+O CODIGO PRINCIPAL DO SITE VAI ESTAR DENTRO DE UMA TAGA CHAMADA MAIN, MAIS A FRENTE O GUANABARA DA MAIS INFORMACOES SOBRE
+
+ADENDO: O MAIN VAI DENTRO DO BODY
+
+É COMO SE FOSSE UMA DIV, QUE DIZ QUE ALI É O CODIGO PRINCIPAL
+
+
+----------------------------------------------------------
+text alight serve para alinhar todo seu texto com espacamentos certinhos
+
+width controla o tamanho do bloco de texto se quer que tome  o tamanho da sua tela d emonitor ou se que menor e va atuALIZANDO, width é lagura
+
+padding é alcochoamento aumenta a margem do main
+
+border radius é a bordinha do main
+
+box shadow: imagine uma cor, branco tem uma sombra o primeiro parametro é quanto a sombra vai andar para o lado , o segundo parametro é quanto essa sombra vai andar baixo, o terceiro parametro é quanto essa sombra vai espalhar e o ultimo parametro é quanto de transparencia essa sombra vai ter
+
+
+se quisermos trabalhar monocromia arrastamos para baixo e vamos encontrando tons da msm cor so que mais escuras, sempre arrastar pra baixo quando queremos trabalhar monocromia.
+---------------------------
+FONTES E TIPOGRAFIA?
+
+sem serifa quer dizer que nao tem serifa, serio gunabara?
+
+cuidado com fontes nao serifadas
+
+nunca use fontes nao contrastantes, branco no fundo e preto na letra ou fundo preto letra branca
+
+toda fonte monoespaçada ela pode ser com e sem serifa, especificamos pelo tamanho
+
+fontes handwriting
+
+fontes display
+--------------------------------------------------------
+FONTES EXTERNAS/ FAMILIAS DE FONTE COM CSS:
+
+
+style
+	font family e tal tals
+
+styte
+
+
+temos as medidas absolutas e as medidas relaticas
+
+medidas absolutas:
+ cm, mm, in= polegada, px=pixel, pt=ponto, pc= paica
+
+as vezes o navegador nao consegue chegar, o site vai estar monstado com a medida ulktilizada porem a apresentacao vai ser diferente, ponto e paica sao medidas de papael, material impresso em tela nao é ultilizado ponto e paica
+
+
+Medidas relativas:
+
+em: é relaitiovo a o m maiuculo
+
+ex: é relativo a altura x de uma fonte
+
+rem: relativo ao root
+
+vw: view port, porcentagem da view port
+
+vh: altura da view port
+
+ultilizamos mais o em para fontes
+
+para font size. ele reocmenda px e em
+
+16px é igual a 1em
+
+o em éo dobro do tamanho dos pixels
+
+o rem é relativo ao padrao do site do codigo do site, 
+
+px e em para sites ok, entendi
+
+fonte size é o tamanho
+
+font family é o formato das fontes
+
+TESTANDO
+
+
+fonte weight: a gente vai indicar o peso da fonte
+
+existe o lighter, normal, bold, bolder, tem tambem como fazer por numeros
+
+font style é comoa genmte vai dizer como queremos nosso site se em italico ou normal
+
+font weigh para negrito e o style caso queiramos colocar c
+
+nem todas as fontes permitem todas as configuracoes
+
+
+
+            text-decoration: underline;
+
+            font-style: normal;
+
+            font-weight: normal ;
+
+            font-size: 1em;
+
+            font-family: 'Times New Roman', Times, serif;
+
+
+NO LUGAR DE USAR TODASD AS LINHAS, A GENTE PODE USAR  O SHORTHAND FONT, SHORTHAND A GENTE JUNTA TD EM APENAS UM
+
+EX: FONT: ITALIC BOLDER 3EM E A FONTE QUE VC ESCOLHEU QUE É SO COPIAR E COLAR
+------------------------------------------------
+usando o google fonts e fontes externas
+
+ultilizando links e impórts, links para usar em html e @imports parea as css
+
+os imports eles sao sempre colocados abaixo dos styles, é necessario que esteja fora de seletores.
+
+no proximo video ele vai mostrar como retirar AS FONTES DE LOGOS, E ETC, COMO RETIRAR FONTE DAS COISAS
+
+NORMALMEMTE TEMOS 3 OU 4 FONTES PARA USAR NO SITE PARA OP SITE NAO SE TRANSFORMAR EM UMA BAGUNCA
+------------------------------------------------------
+
+Alem do google fontes, para pegar fontes de outtrras coisas, ou o cliente queer fontes especiofiocas, alem do google fonts, tem o dafonts
+
+normalmente as fontes vem em formato otf e ttf
+
+@font-face
+            font-family: ;
+            src: url('Dark College') format();
+
+essa e a forma que se coloca dentro do codigido fontes baixadas
+
+em src coloca o nome da fonte que foi baixada
+
+depois dos parenteses do src, se coloca format, que é pra indiicar o formato que voce deseja, guanabara mostra exatamente como fazer
+
+para cada format tem uma url, so que sem o src
+
+url('nome da fonte') format ('formato da fonte') dessa forma
+
+com essas fontes baixadas,
+
+no font-family do seu codigo, é so colocar o nome que a gente quiser
+
+OUTROS SITES PARA PEGAR FONTES:
+
+
+TEM NAVEGADORES QUE FUNCIONAM MELHOR COM UM TIPO APENAS, OTF OU TTF
+
+OUTROS FORMATS
+
+EMBEDDED-OPENTYPE
+TRUETIPE-AAT
+SVG
+
+-------------------------------------------------
+
+o fontss ninja é pra tirar doS SITES AS FONTS, FONTS EXPECIFICAS
+
+------------------------
+DETECTANDO FONTES DE IMAGENS:
+
+sites para pegar fonts das imagens
+
+WHATFONTIS
+FONT SQUIRL
+MY FONTS.COM
+--------------------------
+alinhamentos:
+
+a tag center é obsoleta
+
+como arfzer alinhamento na css:
+
+criar style e dps um body
+
+------------------------------- 
+
+tem uma propriedade chamada text indent que é o afastamentozinho do pagrafo
+
+alinhar sempre com css, text aligh e text indent e a s fontes
+
+-------------------------------
+Seletores personalizados:
+
+para personaliza cada tag
+
+usar id= "principal"(essa parte vai na tag) dentro da tag e depois personalizaer no style como no exemplo abaixo:
+
+ essa parte vai no estilo
+h1#principal 
+{
+    text-align: center;
+    background-color: blue;
+    color: rgb(77, 77, 129);
+}
+
+o id swe
+
+alem do id, temos o class, o class vaui ser no proximo video.
+
+503D3F
+
+text-align: justify é o alinhamento da direita e da esquerda;
+text-indent: 30px;- é para dar uma afastadinha no paragrafo
+----------------------
+dentro de um mesmo documento, so pode ter um id principal, essa é a regra do w3c. funcionar n significa que esta certo
+
+uma classe pode ter varios elementos com a mesma classe
+
+ex:
+class="basico"
+
+nao dar nomes as classes pela forma e sim pela funcionalidade
+
+no style
+
+.basico
+{
+	color
+
+o class é ligado antes e o id é ligado depois
+
+em html é id = em css é #(so pode um elemento por documento html e nao por pagina)
+em html é class = em css é .(pode varios elementos)
+em html é pseudoclass = em css é : (pode varios elementos)
+
+ nao da nome aws classes pela forma e sim pela funcionalidade.
+
+
+- tag span <span> </span>
+
+- se existe a classe avançadop e a classe destaque  e eu quero que uma coisa es5teja nessasd duas, apenas colocamos um espaço entre asduas, adicionando mais de uma classe a um elemento.
+
+é possivel tambem colocar um id e uma classe dentro de um elemtto
+
+exmp: <h1> id="principal" class="destaque" </h1>
+
+detalhe: o id sobrepoe a classe
+---------------------------
+Pseudo classes:
+
+vamos falar sobre div, div sao espacos que tomam de uma ponta ate a outra ponta
+
+
+display
+backgroung-color
+border: 1px
+text-align
+height: altura
+width: largura
+
+---------------------
+: sao pseudo classes
+
+posweudsoclasses sao relacionados ao estado do elemelento
+
+ele so vai ficar amarelo quando passar o mouse por cima, essa é a div hover e isso que significa hover
+
+--------------------- 
+
+como é que eu escondo o paragrafo que esta dentro da div, olha so que maneiro
+
+dentro do style, voce vai colocar:
+
+
+div > p {}  isso significa que esse paragrafo é filhop de uma div, e nao um paragrafo qualquer
+
+quando eu quiser que aquele paragrafo apareca quando eu passar o mouse em cima
+
+é so coloar desta forma:
+
+
+div: hover > p{}
+----------------------------------------------------
+<style>
+            body
+            {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            div:hover
+            {
+                color: darkblue;
+            }
+        
+            div > p
+            {
+                display: none;
+            }
+            div:hover > pF
+            {
+                display: block;
+                color: white;
+                background-color: darkgreen;
+                width: 300px;
+                height: 300px;
+            }
+    </style>
+-----------------------
+<body>
+    <h1>exemplo de hover</h1>
+    <p>Passe o mouse sobre o  texto abaixo</p>
+    <div>
+        Passe o mouse Aqui
+        <p>Texto Escondido</p>
+    </div>
+    
+</body>
+-------------------------
+CSS:
+
+DIVS:
+
+HOVER : PASSAR MOUSE EM CIMA APARECE ALGUMA COISA DO CSS
+
+div display: none; significa que os paragrafos que estao dentro da div vao ficar escondidos
+
+div > p
+   {
+  display: none;
+
+------------------------
+agora para fazer esse texto aparecer
+
+div:hover > p
+display: block;
+
+(e a configuraçao css que quer)
+---------------------------
+-----------------------------
+links:
+ 
+
+vamos criar um stilo para sobrepor a cor padrAO DOS LINKS
+
+visited é uma pseudo classe
+
+passar op mouse em cima é uma pseudo classe, ai vc modificia em forma de pseudo classe
+
+active é quando ele ta ativo, é a cor dele quando eu cliquei nele
+
+pseudo classes é 1x :
+pseudo elemendo é 2x ::
+
+alguns pseudo-classes:
+:hover, 
+:visited, = as coisas que ja foram visitadas
+:active, = os que estao ativos
+:checked, 
+:empty e 
+:focus.
+
+pseudo elementos vistos:
+
+::before, 
+::after, 
+::first-letter, 
+::first-line.
+
+After e dentro do after um content
+before
+
+e tem como misturar e colocar esses pseudo elementos como especiais  
+
+os pseudo elemento servem pras ids e tambem pras classes
+
+simbolos que é possivel ultilizar nas css que ja vimos nesse capitulo
+
+
+# = id
+. = classe
+: = pseudo-classe
+:: = pseudo-elemento
+> = children 
+-----------------------------
+hover
+
+text-decoration: underline; para colocar uma linha emabixo quando passa o mouse em cima e pode mudar a cor
+
+active: cor de ativo ´´e póssivel conf8igura isso
+
+:: after significa que depois de todos os links eu vou incluir ou fazer alguma coisa
+
+ou o before tbm
+
+--------------------------------
+modelos de caixas:
+
+do termo em ingles box model
+
+quando se tem um documento html ele sempre deve estar dentro de uma caixa e é possivel colocar uma caixa dentro da outra e isso é chamado de aninhamento
+
+<h1> ola, mundo!</h1>
+
+uma caixa pode ser maior ou menor, quando
+
+na hora qu criamos um seletor para o h1 estamos mudando a caixa desse elemento
+
+primeiro a se mudar:
+
+heigh- altura
+width- largura
+
+podemos tbm tracar uma linha em volta dela, em volta do conteudo e vamos chamar essa linha de borda ou border
+
+padding- acouchoamento ou preenchimento, pode ser igual ou pode ser diferente de cada lado
+
+e tambem tem o margin que éo espaco externo, que éo espaço de fora
+
+e tambem tem o outline
+
+border
+
+padding: espacinho entre o border e o conteudo
+
+magin: margem que e depois do padding
+
+outline: controno ou traçado que fora do elemento logo depois do border
+
+---------------------------
+ tipos de caixa: 
+box level: sempre que a caixa começa vai começa na linha de baixo ocupar a largura interira,  quando quer quebrar a linha e continua
+
+<div>
+<h1>-<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+ e inline-level: vai criar uma caixa do lado da linha e depois aque a cabar a caixa continua linha, nao quebram linha e nao ocupam a largura interira da tela
+
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup> - <sub>
+<label>
+<button>
+<input>
+<select>
+
+o box level mais famoso no html4 é a tag <div>
+
+e no inline <span>
+
+-------------------
+
+RECORTANDO IMAGENS NO GIMP:
+
+
+1 PASSO: FORMA ELIPTICA
+
+2 PASSO: COPIAR COM CTRL C
+
+3 PASSO: CRIAR >> DA AREA DE TRANSFERENCIA
+---------------------------------------------------
+
+TODO ELEMENTO VISIVEL NA TELA É UMA CAIXA
+
+border styles:
+
+solid : solido
+dashed : pontilhado
+dotted: pontilhadinhao
+double: linha dupla
+groove: margem 3d
+---------------------------
+ o paddin nornalmente é colocado em cima, do lado 
+
+em cima: paddin top
+do lado: paddin right
+embaixo: padding bottom
+dooto lado: padding left
+
+a ordem é importante porque comeca de cima e vai girando pra direita
+------------------------------------------------------------------
+ se voce quiser centralizar com a margem, nao é uma boa ideia porque se o navegador do cliente for maior ou menor, nao fica mais no meio, o meio é calculado junto a o tamanho da caixa
+
+porem o magin auto faz essa mudança automaticamente
+----------------------------------------- 
+se for uma caixa e eu quiser esse elemento no meio eu uso o margin  auto, se for um texto apenas um text alight center 
+
+---------------------------------- 
+outra coisa que pode ser feita é incluir um outline, que é um espaço entre  aborda e a margem
+
+os padding, margem e e os outros sem tem uma ordem: cima, direita, baixo, esquerda
+
+quando coloca dois valores no padding por ewxemplo
+
+10px 20px siginifica que o de cima é 10 e eo debaixo é 10 eo da esquerda e direita tbm sao iguais 20 e 20
+--------------------------------------------
+
+É POSSIVEL TAMBEM TRANSFORMAR UM BOX LEVEL EM INLINE LEVEL E UM INLINE LEVEL EM BOX LEVEL
+
+DISPLAY: BLOCK TRANSFORMA EM BLOCO
+DISPLAY: INLINE TRANSFORMA EM IONLINE LEVEL
+
+DISPLAY INLINE-BLOCK: QUE CONTINUA SENDO INLINE MAS EU POSSO COLOCAR CARACTERISTICA DE UM BLOCO
+---------------------------------------------------------------------
+
+APRENDER A AGRUPAR AS CAIXAS DE FORMA MAIS INTELIGENTE PARA INCLUIR EM UM SITE:
+
+- AS CAIXAS DE AGRUPAMENTO SEMPRE FORAM DUAS
+
+DIV E SPAN - INLINE LEVEL
+
+----------------------------------------------
+ANTIGAMENTE AS PESSOAS USAVAM UM MONTE DE DIVS PARA FAZER UM SITE
+-----------------------------------------
+DENTRO DO CORPOR VAMOS COMECA CRIANDO O CONTEUDO PRINCIPAL
+
+CABECALHO QUE É A APRESENTAÇAO
+
+RODAPER QUE É LINKS EXTRAS 
+
+-------------------------------------
+ FORMA ANTIGA:
+
+body>
+    <div>
+        <div id="cabecalho">
+            <h1>
+
+            </h1>
+            <div id="menu">
+
+            </div>
+            <div id="conteudo">
+
+            </div>
+            <div id="rodape">
+
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+
+header: cabecalho
+main : conteudo principal
+footer: rodape
+
+
+
+------------------------------------------------ 
+FORMA SEMANTICA:
+
+<body>
+    <header id="cabecalho">
+        <h1> Meu Site</h1>
+        <nav>
+                       <a href="">um link ai</a>
+            <a href="">um link ai</a>
+            <a href="">um link ai</a>
+            
+        </nav>
+    </header>
+    <main id="principal">
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                                <aside>
+                    <p>Artigo Escrito por Jose da silva</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer id="rodape">
+        <p>Desenvolvido pelo Curso em Video</p>
+
+    </footer>
+    
+</body>
+</html>
+--------------------------------
+OBS: PARA INCLUSAO DE MEDIAS, VIDEOS IMAGENS, APARENTEMENTE É MAIS ROSBUSTO ESSA INCLUSAO TRAVES DO JAVASCRIPT POR CONTA DA RESPONSIVIDADE 
+------------------------------------------
+OBS:
+ISSO A BAIXO DECLARA UMA VARIAVEL NO JAVASCRIPT A PARTIR DE UM IDENTIFICADO NA MIDIA DO HTML:
+
+<video id="videojs" controls width="100%"> 
+          Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <script>
+         const video = document.getElementById("videojs")
+
+    </script>
+---------------------------
+
+  const video = document.getElementById("meuVideo");
+Pega o elemento <video> com id="meuVideo" e guarda na variável video, para que possamos alterá-lo com JS.
+
+javascript
+
+function escolherVideo() {
+Cria uma função chamada escolherVideo, que será chamada quando a página carregar ou a tela for redimensionada.
+--------------------------------------
+
+javascript
+
+  const largura = window.innerWidth;
+Obtém a largura atual da janela do navegador (em pixels) e guarda na variável largura.
+----------------------------
+
+javascript
+
+  const fonteAtual = video.src;
+Pega o valor atual da fonte de vídeo (arquivo que está sendo usado) para evitar ficar trocando desnecessariamente.
+---------------------------------
+
+javascript
+
+  if (largura >= 800 && !fonteAtual.includes("video-alta.mp4")) {
+Se a tela tiver 800 pixels ou mais e o vídeo ainda não for o "video-alta.mp4"...
+
+!fonteAtual.includes(...) garante que só muda o vídeo se ainda não estiver carregado.
+-------------------------------------------------------------
+
+javascript
+
+    video.src = "video-alta.mp4";
+Define o arquivo de vídeo para "video-alta.mp4" (o de alta qualidade, para telas grandes).
+-------------------------------------------
+
+javascript
+
+    video.load();
+Recarrega o vídeo com a nova fonte.
+
+------------------------------------------
+
+javascript
+
+    video.play();
+Inicia a reprodução automaticamente (opcional, pode remover se quiser que o usuário dê play).
+--------------------------------------------
+
+javascript
+
+  } else if (largura < 800 && !fonteAtual.includes("video-baixa.mp4")) {
+Se a tela for menor que 800 pixels e o vídeo ainda não for o "video-baixa.mp4"...
+------------------------------------------------
+
+javascript
+
+    video.src = "video-baixa.mp4";
+    video.load();
+    video.play();
+Troca para o vídeo de qualidade mais leve, e o recarrega e inicia.
+-----------------------------------------
+
+javascript
+}
+Fecha a função escolherVideo.
+
+------------------------------------------
+
+javascript
+
+window.addEventListener("load", escolherVideo);
+Quando a página terminar de carregar, a função escolherVideo será executada para escolher o vídeo certo.
+
+--------------------------------------------
+javascript
+
+window.addEventListener("resize", escolherVideo);
+Sempre que a janela for redimensionada, a função será chamada de novo para verificar se deve trocar o vídeo.
+------------------------------
+
+IDEIAS:
+
+- ADAPATAR VIDEOS PARA INICIA ALT APENAS EM DISPOSITIVOS OPCIONAIS OU PARA FUNCIONAR COM VIDEOS HOSPEDDOS EM OUTRO LOCAL COMO YOUTU
+
+SOBRE INCLUDES:
+
+Você não precisa usar includes(), porque não estamos lidando com uma src única aqui — são dois elementos diferentes, e você só está ligando ou desligando cada um visualmente.
+
+
+
+
+-----------------------------------------------------------------------------------------
+
+2. inline
+O elemento fica na mesma linha que outros, como palavras num texto.
+
+Não aceita propriedades de largura (width) e altura (height).
+
+Exemplos: <span>, <a>, <strong>.
+----------------------
+
+inline-block
+Mistura os dois acima: fica na mesma linha, mas aceita width/height.
+
+Ótimo para botões, cards, elementos lado a lado.
+-----------------------------
+
+ flex
+Transforma o elemento em um container flexível.
+
+Seus filhos podem se alinhar em linha, em coluna, centralizar, etc.
+
+------------------------
+ 5. grid
+Ativa o CSS Grid Layout, ótimo para criar layouts em colunas/linhas.
+-----------------------------------
+
+SOMBRA NAS CAIXAS:
+
+shorthands : simplifica delcaracoes
+
+o navegador esta considerando margem do paragrafo e mais o padding e por isso quando se coloca um padding de 1px parece maior
+
+o que fazemos para organiza: no paragrafo dentero do footer podemos tirar a margem
+
+-  poder criar a propria somrba
+
+no box shaddows: 
+
+primeiro px : horizontal  lados, tanto para negativo quanto para positivo
+
+segundo px : margem vertical pra cima e para baixo, tambem quanto negativo quanto positivo
+
+terceiro pixel : sao as sombras a forca da for da sombra se mais embaçado ou nao
+
+quarto pixel : tamanhodas sombra, pois tem como fazer ocupar toda um espaço
+
+- é possiveo colocar sombra em qualquer bloco
+
+MACETE:  FAZER O BOX SHADOW PELO INSPECIONAR E SO COPIAR O CSS, PARA N FICA TENTANDO ENCONTRAR
+----------------------------------------------------------------------------------
+
+CAIXAS COM VERTICES ARREDONDADOS:
+
+
+a roden dos border radius?
+
+top left
+top right
+border botton right e dops left
+
+
+--------------------------------------
+
+existe tbm a possibuilidade de configuraçao dupla, ppodemos colocar dois parametros no boerder radius
+---------------------------------------
+Para alinhar o texto com a caixa do seu HTML, você pode usar principalmente:
+
+padding: cria espaço dentro da caixa, entre a borda da caixa e o conteúdo (texto incluso). É a forma ideal de "alinhar" o texto dentro do elemento.
+
+margin: cria espaço fora da caixa, entre a caixa do elemento e outros elementos. Ajuda a posicionar a caixa, mas não alinha o texto dentro dela diretamente.
+
+text-align: alinha o conteúdo textual dentro da caixa (à esquerda, à direita, ao centro ou justificado).
+
+line-height: pode ajudar no alinhamento vertical do texto, especialmente em elementos com altura definida.
+
+Ou seja:
+
+Use padding para alinhar o texto internamente à caixa.
+
+Use text-align para alinhar o texto horizontalmente dentro da caixa.
+
+Use margin para posicionar a caixa em relação a outros elementos, não o texto dentro dela.
+--------------------------------------
+Se o espaçamento para cima (padding-top / margin-top) ou para baixo (padding-bottom / margin-bottom) não está funcionando ou para de fazer efeito, pode ser por alguns motivos comuns. Aqui vão os mais prováveis:
+
+🔒 1. Altura fixa no elemento
+Se a sua caixa tem height fixo (ex: height: 100px), e você tenta aumentar o padding, o conteúdo pode vazar ou não mudar nada, porque o espaço interno está limitado.
+
+➡ Solução: Use min-height ou remova height fixo.
+
+🧱 2. Overflow oculto
+Se o elemento pai tem overflow: hidden, pode cortar o conteúdo ou impedir que o margin/padding funcione como esperado.
+
+➡ Solução: Remova ou ajuste o overflow.
+
+🧲 3. Colapso de margens
+Duas margin-top ou margin-bottom entre elementos podem se fundir (colapsar) e parecer que só uma está funcionando.
+
+➡ Solução: Tente usar padding em vez de margin, ou adicionar uma borda ou overflow no elemento pai para impedir o colapso.
+
+💡 4. Display inline
+Se o elemento for display: inline, padding vertical pode não funcionar.
+
+➡ Solução: Use display: block ou inline-block.
+----------------------------------------------
+AVISO PARA MIM MESMA : TOME CUIDADO AO USAR MTS PADDING E MTS MARGIN RELACIONADOS AOS MESMOS PAIS E FILHOS, SE FOR USAR UM NO FILHO NAO USE NO PAI E ASSIM, SUCESSIVAMENTE POIS SE NAO UM VAI SE JUNTAR NO OUTRO
+-----------------------------------------
+
+QUANDO MIS EU ESPECIFICAR O ELEMENTO NO CSS MELHOR NA MAIORIA DAS VEZES 
+
+- PARA TER UMA MARGEM UNIFORME DO TEXTO COM SEUS ELEMENTOES E CAIXAS 
+--------------------------------------------------
+BORDAS DECORADAS 
+
+DIC AS:
+
+TEM DE DEIXAR O BORDER SOZIONHAO PARA SDEGURA TODA A PARADA
+
+É POSSIVEL USAR IMAGENS PARA ESTICAR E FAZER UMA BORDA
+
+border: 20px solid black;
+            padding: 10px;
+            border-image-source: url('bolas.png');
+            border-image-slice: 20;
+            border-image-repeat: repeat;
+
+            border-image: url('bolas.png') 39 repeat;
+
+- É NECESSARIO QUE SERJA NA ORDEM, SOURCE, SLICE, REPEAT
+
+- NEM TODOS OS NAVEGADORES SAO COMPATIVEIS COM AS BORDAS IMAGENS  NESSE CASO É POSSIVL USAR UM " SOLID TRANSPARFENTE" PARA CASO N SEJA COMPATIVER
+----------------------------------------------
+
+PARA ITENS UM AO LADO DO OUTRO
+
+Ótimo! Se você quer alinhar os itens do seu menu (links) um ao lado do outro dentro de um <nav>, a forma mais comum e controlada de fazer isso é usando display: flex no <nav>.
+Mas como você não quer código por enquanto, aqui vai uma explicação clara do conceito e das opções:
+
+O que usar para alinhar itens lado a lado no menu:
+✅ display: flex no nav
+Transforma os itens filhos (por exemplo, os <a>) em uma linha horizontal por padrão.
+
+É a forma mais moderna, responsiva e controlada.
+
+Substitui a necessidade de mexer em text-align ou usar float.
+
+E os que não são indicados para alinhar lado a lado:
+🚫 justify-content, text-align e margin (sozinhos)
+justify-content só funciona com flexbox ou grid.
+
+text-align: center/right/left alinha conteúdo de texto, não necessariamente distribui vários elementos horizontalmente do jeito que você quer.
+
+margin pode espaçar os itens, mas não os organiza lado a lado sozinha.
+
+Resumo da ideia:
+Propriedade	Serve para quê
+display: flex	Organizar os links em linha (um ao lado do outro)
+justify-content	Distribuir o espaço entre eles (dentro do flex)
+text-align	Alinhar texto dentro de um único item
+margin	Criar espaçamento entre os itens
+
+Se quiser, posso te explicar passo a passo como montar esse menu com flex quando quiser o exemplo em código.
+
+
+O DISPLAY FLEX FUNCIONA JUNTO AO JUSTIFY CONTENT UM COMPLEMENTA O OYUTRO:
+
+🧠 Analogia rápida:
+Imagine que justify-content é como dar instruções para "organizar cadeiras em uma fileira".
+Mas sem display: flex, você ainda está em um ambiente onde as cadeiras estão empilhadas, uma em cima da outra (modo padrão block).
+
+Só quando você ativa o "modo fileira" (flex), essas instruções começam a fazer sentido.
+
+Se quiser, posso te ajudar a experimentar com isso na prática depois!
+------------------------------------------
+PARA ITENS QUE ESTAO SE ESCONDENDO UM ATRAS DO OUTRO PORQUE DO FIXED QUE IGNORA O FLUXO NORMAL DA PAGINA:
+
+
+Ótima pergunta! Isso acontece por causa de como o position: fixed tira o elemento do fluxo normal da página.
+
+Explicação do que está acontecendo:
+Quando você usa position: fixed no seu <header>, ele fica fixo na tela, e os outros elementos da página (como a <section> dentro do <main>) ignoram a altura do header.
+
+Ou seja:
+
+O header está “fora do fluxo do layout”.
+
+A <section> não sabe que o <header> está ali em cima e, por isso, pode acabar ficando atrás ou colada nele.
+
+Como resolver esse comportamento:
+Você precisa dar um padding-top ou margin-top no <main> ou na <section>, com o mesmo valor da altura do seu header fixo, para empurrar o conteúdo para baixo e evitar que fique escondido.
+
+----------------------------------------
+Se o seu <header> está sem uma altura definida, o navegador calcula a altura automaticamente com base no conteúdo. Porém, quando você usa position: fixed, é essencial definir manualmente uma altura ou padding nele — ou então o conteúdo pode ficar todo colado ou escondido atrás.
+
+O que fazer:
+Defina uma altura explícita para o <header> (por exemplo, height: 60px;), ou use padding vertical (como padding: 20px 0;).
+
+Depois, no <main> ou na <section>, adicione um padding-top com o mesmo valor da altura do header para garantir que o conteúdo fique visível.
+
+------------------------------------------
+ O que acontece na prática:
+Em telas pequenas (celular): o font-size será de no mínimo 1.5rem (mesmo se 5vw for menor).
+
+Em telas médias ou grandes: o tamanho cresce proporcionalmente à largura da tela.
+
+Mas em telas muito grandes, ele para de crescer em 3rem (limite superior).
+
+🔎 Resultado: o texto se adapta ao tamanho da tela, sem ficar pequeno demais ou gigante demais.
+-------------------------------------------
+Propriedade	Por quê usar
+font-family	Garante legibilidade (padrão melhor)
+line-height	Melhora a leitura
+overflow-x: hidden	Impede que algo ultrapasse a largura da tela e cause scroll lateral indesejado (muito útil em mobile)
+---------------------------------
+Problemas comuns evitados com isso:
+Layout "quebrado" em celular
+
+Página com rolagem lateral mesmo sem precisar
+
+Imagens ou divs que vazam da tela sem você perceber
+
+✅ Resumo:
+Propriedade	Para que serve
+line-height: 1.5	Deixa o texto mais arejado e fácil de ler
+overflow-x: hidden	Impede que elementos causem rolagem lateral
+
+Se estiver claro, diga "Próximo" que eu sigo com o seletor header > p.
+---------------------------------------------------------
+USAR EM TODOS OS MEUS CSS PARA RESETAR O NAVEGADOR:
+
+*, *::before, ::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+-----------------------------------
+1. Com Flexbox (o jeito mais moderno e prático)
+Se o pai do elemento .geral for, por exemplo, o body ou uma div, você pode fazer:
+
+css
+Copiar
+Editar
+body {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* centraliza verticalmente */
+  height: 100vh;           /* altura da viewport para funcionar */
+  margin: 0;
+}
+Isso faz o filho (como .geral) ficar exatamente no centro da tela.
+
+PARA VIDEOS FICAR NO MEIO DA TELA E VIDEOS DE PASTAS ----- */
+
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+--------------------------------------
+
+
+CORRIGINDO  O SITE QUE EU FIZ :
+
+- o que faltou: adicionar o background dos meus nav
+- adicionar cor ao passar mouse 
+- deixar ainda mais responsivo
+- quebrar a imagem em telas menores, na foto da irina deixar a irina  maior em telas menores  - ja feito antes dele mostrar
+
+ACESSANDO FERRAMENTA MOCFLOW
+
+- O MOCFLOW SERVE PARA BASICAMENTE DESENHA A ESTRUTURA DO SEU SITE, ELE CRIA MOCS E MOCS É EXATAMENTE ISSO
+ - SERVE PARA IMAGINAR E PROJETAR O FORMATO DO SEU SITE
+- É MT IMPORTANTE PARA PLANEJAR AS CAIXAS QUE SEU SITE VAI TER
+- desenhqa o site
+- templates prontos ou templates proprios criados
+
+https://app.mockflow.com/
+ - BOM PRA CARALHO
+
+
+- FICAR ATENTA SE AS FONTES POSSUEM SUPORTE A CARACTERE E SIMBOLOS E IDIOMAS E CARACTERE ACENTUADOIS
+
+- ele colocou paddintop ou margin top para espaçar a altura dos a h1  do header apra ao p do header
+
+- quando bota  uma largura fixa ele vira um bloco altomaticamente e para corrigir esse tipo de coisa se inclui um margin auto
+
+- tem como colocar sompras nos textos com text shadow
+
+- para fazer gradientes direto do visualstudio é possiveol com BACKGROUND-IMAGE: LINEAR-GRADIENT(TO BOTTOM, VAR(--COR2), VAR(--COR4)
+
+- FONT WEINGH QUE DEIXA EM NEGRITO OU SEJA BOLD
+
+- QUANDO NAOO COLOCAMOS O SINAL DE MAIOR NO CSS SIGNIFICA QUE UM PARAGRAFO PODE ESTAR DENTRO DAQUELE ELEMNTO EM QUALQUER NIVEL, DENTRO DE UMA SECTION, DE UM ARTICLE, DE DIV E POR AI EM DIANTE
+
+- PODEMS TBM COLOCAR FOOTEER > P >A Que significa que todo link que esta dentro do paragrafo vai ter tal configuraçao
+
+- para dividir coluna das listas é possivel usar no css tbm o columns: e o tanto de coluna que deseja e por ai em diante, porem preciso tirar duvidas para saber se é compativel com a maioria dos navegadores pois é ideal que funcioine em mais de um tipo de navegador meu site
+
+- para adicionar simbolo  as listas é possivel usar tambem o list style type e o \codigo do simbolo que voce encontras no site
+
+OBS: É IMPORTANTE O CONTRA BARRRSA
+
+- PARA TER UM ESPAÇO ENTRE O SIMBOLO E AS LISTAS PODE-SE TAMBEM COLOCAR LOGO DEPOIS DO \CODIGO, OUTRO CONTRA BARRA E O 00A0 QUE É O CODIGO NBSP, PESQUISAR DEPOIS SOBRE, POREM ISSO NAO É COMPATIVEL COM TODOS OS TIPOS DE NAVEGADOR
+
+- É POSSIVEL COLOCAR CLASSE DENTRO DOS "a" apos o target
+
+- FONT WEIGHT  PARA COLOCAR E PARA TIRAR NEGRITO
+
+- TEM UMA EXTENSAO  NO GOOGLE QUE DIMENSIONA O SITE PARA VISUALIZAÇAO EM VARIOS TAMANHOS, WINDOW RESIZER
+-------------------------------------------
+
+O VAR É DE VARIAVEL, COR VARIAVEL
+----------------------------------------------
+
+- SOBRE O :ROOT :
+
+**:root** é um seletor especial que representa o elemento raiz do documento HTML (basicamente o <html>). É onde você define variáveis globais de CSS, que podem ser reutilizadas em qualquer lugar da sua página: elementos, pseudo-elementos, animações, etc.
+
+🎯 Por que usar isso?
+✅ Padronização: Define todas as cores e fontes em um único lugar.
+
+🛠️ Facilidade de manutenção: Quer trocar o azul principal? Só muda no :root.
+
+🧩 Reutilização: Usa as mesmas cores em vários elementos (normal, hover, etc).
+
+🌗 Temas claros/escuros: Pode trocar variáveis com classes (.dark, .light).
+----------------------------------------
+SOBRE PADDING:
+
+Propriedade	Aplica onde?
+padding	Todos os lados
+padding-top	Somente no topo
+padding-right	Somente à direita
+padding-bottom	Somente embaixo
+padding-left	Somente à esquerda
+
+⚠️ Importante:
+Se você usar padding e depois padding-bottom, o último (mais específico) sobrescreve só aquela direção.
+
+Isso é útil quando você quer um padding geral mas ajustar apenas um lado.
+-------------------------------
+SOBRE A TAG ASIDE:
+TAG ASIDE É USADA PARA CONTEUDOS EXTRAS QUE ESTAO RELACIONADAS A TELA PRINCIPAL DO SITE
+
+class="externo"
+
+- O QUE VAMOS APRENDER NOS PROXIMOS MODULOS:
+
+MODULO 3: versionamento de software, hospedagem de sites estaticos, tabelas
+
+modulo 4: quadros em linha formularios, media queries, mobile firt
+
+modulo 5: flexbox, Grid Layout, projeto final.
+
+----------------------------------------------------------------
+IMAQGENS DE FUNDO:
+
+AS IMAGENS DE FUNDO SAO DIFERENTES DE IMAGEM DE CONTEUDO, NAO SAO CONSIDERADAS CONTEUDOS OD SITE, AS
 
 
 
