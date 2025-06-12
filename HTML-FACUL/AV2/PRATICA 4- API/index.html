@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de clima</title>
+    
+</head>
+<body >
+    <header>
+        <h1>Verificador de clima</h1>
+    </header>
+    <section>
+        <div >
+            <p>Digite seu Estado:
+                <input type="text" id="estadoInput" placeholder="Digite o Estado">
+               
+            </p>
+
+            <p>
+                <input type="button" value="Verificar" onclick="verificarclima()">
+            </p>
+        </div>
+
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+            <h2 id="cidadeNome"></h2>
+            <p id="temperatura"></p>
+            <img id="imagemEstado" src="" alt="" />
+        </div>
+
+        
+    </section>
+
+    <footer>
+        <p>&copy;Desenvolvido por Sheila Macedo da Silva.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

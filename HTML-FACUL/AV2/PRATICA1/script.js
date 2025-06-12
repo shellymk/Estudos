@@ -1,13 +1,12 @@
 function voltar()
 {
-    document.getElementById('btn-rm')
-{
+    alert('Voce Esta voltando para a Pagina Inicial');
     window.location.href = 'index.html';
-    alert('Voce esta voltando para a pagina inicial');
 
-
-}
-}
-
-
-
+    let button = document.getElementById("btn");
+    if(!button)
+        {
+            console.warn('Botao nao encontrado');
+        }
+    
+}    
