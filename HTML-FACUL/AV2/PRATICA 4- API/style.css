@@ -9,14 +9,14 @@ body {
 section {
     background-color: white;
     border-radius: 9px;
-    box-shadow: 10px 10px 200px rgba(185, 19, 102, 0.533);
+    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.014);
     width: 400px;
     padding: 15px;
     margin: auto;
 }
 
 header {
-    color: #8b3838;
+    color: #ffffff;
     text-align: center;
 }
 
