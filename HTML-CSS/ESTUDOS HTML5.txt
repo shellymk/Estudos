@@ -1693,6 +1693,239 @@ IMAQGENS DE FUNDO:
 
 AS IMAGENS DE FUNDO SAO DIFERENTES DE IMAGEM DE CONTEUDO, NAO SAO CONSIDERADAS CONTEUDOS OD SITE, AS
 
+------------------------------------
+ border: 5px solid black;
+
+- largura, estilo e cor nessa ordem
+-------------------------------------------
+SOBRE DISPLAYS:
+
+Claro! A propriedade display no CSS é uma das mais importantes, pois define como um elemento HTML será exibido na página. Ela controla o modelo de layout e o comportamento de posicionamento de cada elemento.
+
+Principais valores de display (com explicação)
+
+1. block
+O elemento ocupa toda a largura disponível.
+
+Começa em uma nova linha.
+
+Altura e largura podem ser definidas.
+
+Exemplos: <div>, <p>, <section>
+
+css
+Copiar
+Editar
+display: block;
+
+2. inline
+O elemento não quebra a linha.
+
+Apenas ocupa o espaço necessário.
+
+Não aceita altura ou largura (em geral).
+
+Exemplos: <span>, <a>, <strong>
+
+display: inline;
+
+3. inline-block
+Se comporta como inline, mas permite definir altura e largura.
+
+Mistura características de inline e block.
+
+display: inline-block;
+
+4. none
+Remove completamente o elemento da página (como se não existisse).
+
+Não ocupa espaço.
+
+Usado para esconder elementos.
+
+display: none;
+
+5. flex
+Ativa o Flexbox, um sistema de layout moderno.
+
+Permite alinhar, distribuir e posicionar itens facilmente (em linha ou coluna).
+
+Os elementos filhos viram "itens flexíveis".
+
+
+display: flex;
+
+6. inline-flex
+Igual ao flex, mas o contêiner é tratado como inline.
+
+css
+Copiar
+Editar
+display: inline-flex;
+
+7. grid
+Ativa o CSS Grid Layout, um sistema de layout em linhas e colunas.
+
+Muito poderoso para criar estruturas complexas.
+
+css
+Copiar
+Editar
+display: grid;
+
+8. inline-grid
+Igual ao grid, mas o contêiner é tratado como inline.
+
+css
+Copiar
+Editar
+display: inline-grid;
+
+9. table, table-row, table-cell etc.
+Simula o comportamento de tabelas HTML usando CSS.
+
+Útil para construir estruturas de tabela sem usar <table>.
+
+
+display: table;
+display: table-row;
+display: table-cell;
+
+10. contents
+Remove o contêiner do layout, mas mantém os filhos visíveis e posicionáveis.
+
+O elemento em si desaparece, mas os filhos continuam no DOM.
+
+css
+Copiar
+Editar
+display: contents;
+11. inherit, initial, unset
+inherit: herda o valor do elemento pai.
+
+initial: volta ao valor padrão (inline para a maioria).
+
+unset: reseta o valor, respeitando herança se existir.
+
+📌 Resumo Rápido
+Valor	Quebra linha?	Aceita largura/altura?	Exemplo comum
+block	Sim	Sim	<div>
+inline	Não	Não	<span>
+inline-block	Não	Sim	Botões alinhados lado a lado
+none	—	—	Elemento oculto
+flex	Sim	Sim	Layout moderno (linhas/colunas)
+grid	Sim	Sim	Layout em linhas e colunas
+contents	Não aplica	—	Remover elemento wrapper
+
+Se quiser, posso criar uma visualização de cada tipo de display para você ver a diferença entre eles. Deseja isso?
+------------------------------------------------------------
+✅ O que você vai ver:
+Bloco: elementos empilhados verticalmente.
+
+Inline: elementos lado a lado, como palavras.
+
+Inline-block: lado a lado, mas com tamanho ajustável.
+
+None: elemento sumido.
+
+Flex: elementos alinhados em linha, com espaçamento automático.
+
+Grid: elementos organizados em colunas/linhas.
+
+Contents: elemento pai desaparece, mas os filhos ficam.
+
+Table: imita o comportamento de tabela.
+
+--------------------------------------------------
+MANEEIRAS DE COLOCAR BACKGROUNDS:
+
+POR GRADIENDTS: LINEAR GRADIENTS
+
+POR BACKGROUND IMAGE : URL : QUE É POR WALPPAPERS JA SALVO NA SUA MAQUINA DENTRO DE UMA PASTA DENTRO DO PROJETO
+
+TEM TAMBEM COMO CONFIGURA O TAMANHO DESSSAS IMAGENS DENTRO DO SEU CSS
+
+USANDO O
+
+BACKGROUND-SIZE : CONFIGURA TAMANHO DAS IMAGENS NO CSS
+
+tem como tambem fazer a imagem de fundo nao se repetir mais com o
+ 
+BACKGROUND-REPEAT: REPEAT OYU NO REPEAT e tem tbm dentro desse background o repeat x e o repeat y  que vai fazer repetir para baixo ou para os lados 
+-=-------------------------------------------------
+Commander.lexa2\
+
+🧠 Fórmula mental pra lembrar:
+vw = largura da tela → 1vw = 1% da largura.
+
+vh = altura da tela → 1vh = 1% da altura.
+
+💎 Quando usar viewport (vw/vh) e quando não?
+✔️ Usa viewport pra:
+
+Layouts que ocupam 100% da tela (ex.: landing pages, banners).
+
+Fontes fluidas e elementos que se adaptam.
+
+Espaçamentos que precisam ser relativos ao tamanho da tela.
+
+❌ Evita usar viewport para:
+
+Componentes pequenos que dependem mais do conteúdo (melhor usar %, em, rem, ou px às vezes).
+
+------------------------------------------
+COMBINAÇAO CHAVE:
+
+Existe uma combinação poderosa hoje em dia:
+
+clamp();
+Ela permite que você defina um tamanho mínimo, ideal com viewport, e máximo.
+
+➡️ Exemplo de fonte responsiva sem exageros:
+
+
+h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+→ Isso significa:
+
+Nunca menor que 1.5rem,
+
+Cresce até 5vw,
+
+Nunca maior que 3rem.
+
+---------------------------------------
+é ideal colocar uma cor antes no fundo para caso a pessoa for usar o site ir conseguir ultilizando normalmente
+
+- se usarmos o contain no nosso background size, o contain vai basicamente conter a imagem para que ela n fuja para os lados
+
+- usando o cover junto  do back size tambem é util para cobrir com a imagem inteira a tela da pessoa menos que  de uma certa picotadapois ela estica um pouco
+
+- background atachment faz a imagem e o fundo ficar travado conforme o usuario rola  o mouse
+
+- da para combinar o size com o attachment
+
+- podemos juntar todos os tipos de background, back color, back image, back attachment, position, repeat, size com shorthand ou seja, fazendo uma declaeraçao apenas apenas uma linha dew codigo
+
+- desta forma: 
+
+nesta ordem: color > image > position > repeat > size > attachment
+
+-----------------------------------------------------
+PARA ALINHAR VERTICALMENTE É SEMPRE IDEAL QUE TENHAMOS UM CONTAINER E UM FILHO DESSE CONTAINER COMO UMA SECTION E SUA ARTICHLE OU SUA DIV, DEPENDEDA ORGANIZAÇAO DO SEU SITE,
+
+O IDEAL SEMPRE ULTILIZAR NO SEU CONTAINER PAI O POSITION RELATIVE E NO SEU CONTAINER FILHO ULTILIZAR O POSITION ABSOLUTE
+
+
+
+
+
+
+
+
+
+
 
 
 
