@@ -21,12 +21,13 @@
     <div id="msg">Clique Aqui Agora</div>
     <script>
         var corpo = window.document.body
-        var p1 = window.document.getElementsByTagName('p')[1]
+        const p1 = window.document.getElementsByTagName('p')[1]
         var d = window.document.getElementById('msg')
         /*é possivel modificar o id, apenas especificando como fiz abaixo d.innerText*/
         d.style.background = 'green'
         d.style.fontFamily = 'Arial, Helvetica, sans-serif'
         d.innerText = 'Estou aguardando'
+        p1.innerText = 'mudei pra testar'
 
         /*aquele # é representando o id*/
         var d = window.document.querySelector('div#msg')

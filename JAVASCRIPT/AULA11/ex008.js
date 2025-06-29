@@ -1,4 +1,4 @@
-var vel = 12
+var vel = prompt('Indique a velocidade do carro?');
 console.log(`A velocidade do seu carro é ${vel}km/h`)
 
 if (vel > 60) //condiçao simples

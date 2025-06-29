@@ -6,39 +6,136 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <section id="cadastro">
+    <section id="cadastrar">
         <h1>Dados Cadastrais</h1>
         <form id="cadastro" autocomplete="">
            
-                <label for="">Nome</label>
-                <input type="text" name="nomusua" id="nomusuario" placeholder="Digite Seu nome">
+                <label for="">Nome:</label>
+                <input type="text" name="nomusua" id="name" placeholder="Digite Seu nome" required>
             
             
-                <label for="">Nome</label>
-                <input type="date" name="" id="Data" placeholder="Data de nascimento">
+                <label for="">Data de Nascimento:</label>
+                <input type="date" name="data" id="data" placeholder="Data de nascimento" required>
             
             
-                <label for="">Nome</label>
-                <input type="number" name="cpf" id="cpf" placeholder="Digite Seu CPF">
+                <label for="">CPF:</label>
+                <input type="text" name="cpf" id="cpf" placeholder="Digite Seu CPF" required>
             
             
-                <label for="">Nome</label>
-                <input type="email" name="" id="" placeholder="Digite Seu Email" required>
-            
+                <label for="">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite Seu Email" required>
+
+                <button type="submit" id="cadastrar">Cadastrar</button>
         </form>
     </section>
-    <button id="final" onclick="cadastro()">Cadastrar</button>
+    <div id="msg2"></div>
+
+
     <script>
         function validarCPF(cpf)
         {
-            cpf = cpf.replace(/[^\d]+/g, '');
-            if 
-            let
-            for
-            resto
-            if
-            if
+            cpf = cpf.replace(/[^\d]+/g, ''); // remove tudo que nao é numero
+
+            if (cpf.length !== 11 || /^(\d)\1{10}$/.test(cpf)) return false; // Verifica se tem 11 dígitos ou se todos os dígitos são iguais
+
+            //Validação do primeiro dígito verificador
+            let soma = 0; 
+
+            // Multiplica os 9 primeiros dígitos por pesos decrescentes (10 a 2)
+            for(let i = 0; i<9; i++) 
+            {
+                soma+= parseInt(cpf.charAt(i))* (10 - i);
+            }
+
+
+            //Calcula o primeiro dígito verificador
+            let dig1 = 11 - (soma % 11);
+            if(dig1 >= 10) dig1 = 0;
+
+            // Verifica se o primeiro dígito calculado bate com o 10º dígito do CPF
+            if(dig1 != parseInt(cpf.charAt(9))) return false;
+
+            //Validação do segundo dígito verificador
+            soma = 0; //// zera a soma
+
+            //// Multiplica os 10 primeiros dígitos (já incluindo o 1º dígito verificador) por pesos decrescentes (11 a 2)
+            for (let i = 0; i < 10; i++)
+            {
+                soma += parseInt(cpf.charAt(i)) * (11 - i);
+            }
+
+            // Calcula o segundo dígito verificador
+            let dig2 = 11 - (soma % 11);
+            if (dig2 >= 10) dig2 = 0;
+
+            // Verifica se o segundo dígito calculado bate com o 11º dígito do CPF
+            if (dig2 !== parseInt(cpf.charAt(10))) return false; 
+            return true; 
         }
+        function validarNome(name)
+        {
+            return /^[A-Za-zÀ-ÿ\s]{3,}$/.test(name.trim());
+        }
+        function validardatadenascimento(data)
+        {
+            let nasc = new Date(data);
+            let hoje = new Date();
+            let idade = hoje.getFullYear() - nasc.getFullYear();
+            let mes = hoje.getMonth() - nasc.getMonth();
+
+            if(mes < 0 || (mes === 0 && hoje.getDate() < nasc.getDate()))
+            {
+                idade--;
+            }
+            return idade >= 18;
+        }
+        function validaremail(email)
+        {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
+
+        }
+        function cadastro(cadastro)
+        {
+            const name = document.getElementById('name').value;
+            const data = document.getElementById('data').value;
+            const cpf = document.getElementById('cpf').value;
+            const email = document.getElementById('email').value;
+            let msg2 = document.getElementById ('msg2');
+
+            
+
+            if(!validarNome(name))
+            {
+                msg2.textContent = 'Nome inválido. Use apenas letras e pelo menos 3 caracteres.';
+                return;
+
+            }
+            if(!validardatadenascimento(data))
+            {
+                msg2.textContent = 'Você precisa ter 18 anos ou mais.';
+                return;
+            }
+            if(!validarCPF(cpf))
+            {
+                msg2.textContent= 'CPF inválido.';
+                return;
+            }
+            if(!validaremail(email))
+            {
+                msg2.textContent = 'E-mail inválido.';
+                return;
+            }
+            
+            msg2.textContent = 'Cadastro realizado com sucesso!';
+        }
+            document.getElementById('cadastro').addEventListener
+            ('submit', function(e)
+                {
+                    e.preventDefault();
+                    cadastro();
+
+                }
+            );
     </script>
 </body>
 </html>

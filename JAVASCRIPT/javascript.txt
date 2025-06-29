@@ -10,6 +10,12 @@ e td mais
    
     alert ('ALERTA DE VIRUS, ALERTA DE VIRUS, ESTE COMPUTADOR ESTA COM SINTOMAS DE AMOR, A MELIANTE SE CHAMA ELIZABETH')
 
+EXPLICANDO:
+
+- O CONFIRM VC FAZ PEREGUNTAS DE SIM OU NAO NO CONSOLE DO NAVEGADOR COMO, DESEJA CONTINUAR NESTA PAGINA E ENCAMINHA A OUTROS POR EXEMPLO
+
+- JA O PROMPT, FAZ PERTGUNTASD ONDE VC POSSA DIGITAR COISAS E Ai encaminha para outros lugares com oq  cv digitou na tela caso 
+
     confirm ('Esta gostando de javascrpt?')
 
     window.prompt('Qual seu nome?')
@@ -1921,8 +1927,142 @@ perguntar sobre away fetch
 
 → Se algo falhar (ex: sem internet ou cidade inválida), mostra um alerta e imprime o erro no console.
 
+----------------------------------------------------------------------
+
+ANALISANDO:
 
 
+function submit()
+{
+    const form = document.getElementById ('formlogin');
+    const msg = document.getElementById ('msg');
+    
+    form.addEventListener 
+    ('submit', function (e)
+    {
+    
+        e.preventDefault(); //evita que recarregue
+
+        const usuario = form.usuario.value.trim();
+        const senha = form.senha.value;
+
+        if(usuario === 'admin' && senha ===  '012345' )
+            {
+
+                msg.textContent = 'Login Realizado com Sucesso';
+                msg.className = 'message success';
+
+                window.location.href = 'cadastro.html';
+
+            }
+            else
+            {
+                msg.textContent = 'Usuario ou senha invalidos';
+                msg.className= 'message Error';
+     
+            }
+
+    }        
+    );    
+    
+
+
+}
+submit();
+
+
+
+
+- NA FUNCAO ADDEVENTLISTENER AS CHAVES VEM DEPOIS DO PARENTESE
+COM ACRESCIMO NOS PARENTES DO PONTO E VIRGULA NO FINAL SEMPRE.
+
+-----------------------------------------
+para validar cpf:
+
+
+function validarCPF(cpf)
+        {
+            cpf = cpf.replace(/[^\d]+/g, ''); // remove tudo que nao é numero
+
+            if (cpf.length !== 11 || /^(\d)\1{10}$/.test(cpf)) return false; // Verifica se tem 11 dígitos ou se todos os dígitos são iguais
+
+            //Validação do primeiro dígito verificador
+            let soma = 0; 
+
+            // Multiplica os 9 primeiros dígitos por pesos decrescentes (10 a 2)
+            for(let i = 0; i<9; i++) 
+            {
+                soma+= parseInt(cpf.charAt(i))* (10 - i);
+            }
+
+
+            //Calcula o primeiro dígito verificador
+            let dig1 = 11 - (soma % 11);
+            if(dig1 >= 10) dig1 = 0;
+
+            // Verifica se o primeiro dígito calculado bate com o 10º dígito do CPF
+            if(dig1 != parseInt(cpf.charAt(9))) return false;
+
+            //Validação do segundo dígito verificador
+            soma = 0; //// zera a soma
+
+            //// Multiplica os 10 primeiros dígitos (já incluindo o 1º dígito verificador) por pesos decrescentes (11 a 2)
+            for (let i = 0; i < 10; i++)
+            {
+                soma += parseInt(cpf.charAt(i)) * (11 - i);
+            }
+
+            // Calcula o segundo dígito verificador
+            let dig2 = 11 - (soma % 11);
+            if (dig2 >= 10) dig2 = 0;
+
+            // Verifica se o segundo dígito calculado bate com o 11º dígito do CPF
+            if (dig2 !== parseInt(cpf.charAt(10))) return false;
+
+
+            
+        }
+
+
+-----------------------------------
+ANOTSÇOERS DO QUER PERGUNTAR:
+
+- O TRIM É NECESSRIO N FINAL PARA PEGAR QUALQUER FOPM DIGITADO EM FORMTO DE TEXTO? pode me d exemplos
+
+- PORQUE TEM TRIM NO USUARIO E NAO TEM NO PASSWORD?
+
+- COMO ASSIM APLICA CLSSE PARA ESTILIZAR NO CSS DIRETO DO JS? EU FIZ TESTE E NAO APARECEU ESTILIZADO
+
+- e eu ja nao poderia fazer o estilo da mensagem textcontent sem incluir esse class name?
+
+- como eu uso https?
+
+- eu devo vlidar ios ddos tbm no backend? 
+- como nao deixo a explosiçao de dados me de exemplo de como faço tudo isso no js
+
+-como eu bloqueioi múltiplas tentativs no js
+
+- e como eu uso captchas no js coo incluo tudo isso em meu js
+
+- quero exemplos de onde  incluir prompts de perguntas e alertas no js para que o navegador com o navegador gravando por exemplo algumas informaçlies como nome para ficar mais interativo? quando o window prompt e window alert  e documentwrite são mais usados em exemplos da vida real em empresas e sites famosos?
+
+
+---------------------------------------------------------------------
+SOBRE PARSE INT:
+
+🔎 Sem parseInt, o que aconteceria?
+Você estaria tentando multiplicar strings, o que levaria a resultados incorretos ou NaN.
+
+Por exemplo:
+
+js
+Copiar
+Editar
+"5" * 2 // 10 → até funciona porque JS faz coerção automática
+"5a" * 2 // NaN → erro silencioso!
+Usar parseInt() é mais seguro e explícito — você garante que está trabalhando com números reais, e não confia só no "jeitinho" do JavaScript.
+
+- BASICAMENTE FUNCIONA COMO UM CONVERSOR DE CARACTERE PARA NUMEROS
 
 
 
