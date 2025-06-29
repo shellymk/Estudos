@@ -1693,6 +1693,23 @@ IMAQGENS DE FUNDO:
 
 AS IMAGENS DE FUNDO SAO DIFERENTES DE IMAGEM DE CONTEUDO, NAO SAO CONSIDERADAS CONTEUDOS OD SITE, AS
 
+---------------------------------
+SOBRE TAMANHOS DE TEXTOS:
+
+🚩 Resumo certeiro:
+Quer controlar o comportamento em telas médias e grandes? → mexe no do meio (vw).
+
+Quer limitar o tamanho máximo? → mexe no terceiro.
+
+Quer garantir que nunca fique pequeno demais? → mexe no primeiro.
+-------------------------------------------------
+🔸 overflow-wrap: break-word;
+🧠 O que faz:
+➡️ Exatamente a mesma função que word-wrap.
+➡️ É o nome moderno, padronizado e recomendado pela especificação atual do CSS.
+
+✔️ Por isso, os dois são usados juntos, pra garantir compatibilidade entre todos os navegadores, antigos e modernos.
+
 
 
 
