@@ -4,30 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <style>
+        *, * ::before, ::after
+        {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html
+        {
+            width: 100vw;
+            height: 100vh;
+    
+        }
+        body
+        {
+            background-image: linear-gradient( to top, #1d2370, #646e78 );
+            background-attachment: fixed;
+            background-size: contain;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            
+
+   
+        }
+        main
+        {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(219, 214, 214, 0.295);
+            width: 100%;
+            height: auto;
+            min-height: clamp(300px, 50vw, 400px);
+            max-width: clamp(200px, 50vw, 400px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.027);
+        }
+        .cax2
+        {
+            background: transparent;
+            padding: 7px 3px;
+            border: none;
+            border-bottom: 1.8px solid #f8f8f8;
+            outline: none;
+            color: #000000a1;
+
+        }
+        .cax2::placeholder
+        {
+            color: #fffafaa8;
+            font-size: 1.2em;
+        }
+        #cadastro
+        {
+            display: flex;
+            flex-wrap: wrap;
+            overflow-wrap: break-word;
+            flex-direction: column;
+            gap: 20px;
+
+        }
+        h1
+        {
+            
+
+            text-align: center;
+            color: #f8f8f8b2;
+            font-size: clamp(1.8em, 3vw, 2.5em);
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            top: 0;
+            left: 0;
+            
+        }
+        #cadastrar 
+        {
+            text-align: center;
+            color: aliceblue;
+            text-transform: uppercase;
+            background-color: #282d74b6;
+            width: 100%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: clamp(1rem, 2vw, 1rem);
+            border: transparent;
+            border-radius: 15px;
+            box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.055);
+
+        }
+
+        #cadastrar:hover
+        {
+            cursor: pointer;
+
+        }
+
+
+
+    </style>
+    
 </head>
 <body>
-    <section id="cadastrar">
-        <h1>Dados Cadastrais</h1>
-        <form id="cadastro" autocomplete="">
-           
-                <label for="">Nome:</label>
-                <input type="text" name="nomusua" id="name" placeholder="Digite Seu nome" required>
+    <header>
+        <h1>Dados Pessoais</h1>
+    </header>
+    <main>
+        
+        <section>
             
             
-                <label for="">Data de Nascimento:</label>
-                <input type="date" name="data" id="data" placeholder="Data de nascimento" required>
-            
-            
-                <label for="">CPF:</label>
-                <input type="text" name="cpf" id="cpf" placeholder="Digite Seu CPF" required>
-            
-            
-                <label for="">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Digite Seu Email" required>
-
-                <button type="submit" id="cadastrar">Cadastrar</button>
-        </form>
-    </section>
+            <form id="cadastro" autocomplete="">
+        
+                    <label for="">Nome:</label>
+                    <input type="text" name="nomusua" id="name" class="cax2" placeholder="Digite Seu nome" required>
+        
+        
+                    <label for="">Data de Nascimento:</label>
+                    <input type="date" name="data" id="data" class="cax2" placeholder="Data de nascimento" required>
+        
+        
+                    <label for="">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" class="cax2" placeholder="Digite Seu CPF" required>
+        
+        
+                    <label for="">Email:</label>
+                    <input type="email" name="email" id="email" class="cax2" placeholder="Digite Seu Email" required>
+                    <button type="submit" id="cadastrar">Cadastrar</button>
+            </form>
+        </section>
+    </main>
     <div id="msg2"></div>
 
 
@@ -107,33 +218,37 @@
             if(!validarNome(name))
             {
                 msg2.textContent = 'Nome inválido. Use apenas letras e pelo menos 3 caracteres.';
+                msg2.className= 'msg2 Error';
                 return;
 
             }
             if(!validardatadenascimento(data))
             {
                 msg2.textContent = 'Você precisa ter 18 anos ou mais.';
+                msg2.className= 'msg2 Error';
                 return;
             }
             if(!validarCPF(cpf))
             {
                 msg2.textContent= 'CPF inválido.';
+                msg2.className= 'msg2 Error';
                 return;
             }
             if(!validaremail(email))
             {
                 msg2.textContent = 'E-mail inválido.';
+                msg2.className= 'msg2 Error';
                 return;
             }
             
             msg2.textContent = 'Cadastro realizado com sucesso!';
+            msg2.className= 'msg2 success';
         }
             document.getElementById('cadastro').addEventListener
             ('submit', function(e)
                 {
                     e.preventDefault();
                     cadastro();
-
                 }
             );
     </script>

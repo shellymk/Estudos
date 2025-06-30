@@ -2064,6 +2064,72 @@ Usar parseInt() é mais seguro e explícito — você garante que está trabalha
 
 - BASICAMENTE FUNCIONA COMO UM CONVERSOR DE CARACTERE PARA NUMEROS
 
+---------------------------------------
+VALIDANDO NOME:
+
+
+function validarNome(nome) {
+  return /^[A-Za-zÀ-ÿ\s]{2,}$/.test(nome.trim());
+}
+Ela retorna true ou false, dependendo se o nome é válido ou não.
+
+🧠 Passo a passo:
+1. nome.trim()
+.trim() remove espaços em branco no começo e no fim da string.
+
+Exemplo:
+
+js
+Copiar
+Editar
+"  Maria Silva  ".trim() → "Maria Silva"
+Isso evita que o nome passe com apenas espaços ou comece com espaço sem querer.
+
+2. Expressão regular:
+js
+Copiar
+Editar
+/^[A-Za-zÀ-ÿ\s]{2,}$/
+Vamos quebrar:
+
+Parte	Significado
+^	Início da string
+[A-Za-zÀ-ÿ\s]	Aceita letras maiúsculas e minúsculas, acentos, e espaços
+{2,}	A string deve ter no mínimo 2 desses caracteres
+$	Fim da string
+
+Em resumo:
+Só aceita letras e espaços
+
+Não aceita números, símbolos (tipo @, !, #, etc)
+
+O nome precisa ter pelo menos 2 letras
+
+3. .test(...)
+A função .test() verifica se a string combina com a expressão regular.
+
+Retorna:
+
+true se o nome for válido
+
+false se não for
+
+✅ Exemplo de nomes válidos:
+"Ana"
+
+"João da Silva"
+
+"Érica"
+
+❌ Exemplo de nomes inválidos:
+"A" → muito curto
+
+"João123" → tem número
+
+"!Carlos" → tem símbolo
+
+" " → só espaços
+
 
 
 

@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    
-    
-    <style>
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <section id="login">
-        <h1>Login</h1>
-        <form id="formlogin" autocomplete="off">
-            
-                <label for="usuario">Usuario</label>
-                <input type="text" name="usuario" id="usuario" placeholder="Digite seu usuario" required>
-            
-            
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha" placeholder="Digite Sua senha" required>
-
-                <button type="submit" id="entrarlogin" >Entrar </button>
-           
-        </form>
-    </section>
+    <main>
+        
+        <section id="login">
+            <form id="formlogin" autocomplete="off">
+        
+                    <label for="usuario"></label>
+                    <input type="text" name="usuario" id="usuario" class ="cax" placeholder="User" required>
+        
+        
+                    <label for="senha"></label>
+                    <input type="password" name="senha" id="senha" class ="cax" placeholder="Password" required>
+                    <button type="submit" id="entrarlogin" >Login </button>
+        
+            </form>
+        </section>
+    </main>
     <div id="msg"></div>
    <script src="script.js"></script> 
 </body>
