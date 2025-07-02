@@ -36,7 +36,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: rgba(219, 214, 214, 0.295);
+            background-color: rgba(219, 214, 214, 0.377);
             width: 100%;
             height: auto;
             min-height: clamp(300px, 50vw, 400px);
@@ -45,6 +45,11 @@
             padding: 40px;
             box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.027);
         }
+        .labels
+        {
+            color: rgba(0, 0, 0, 0.021);
+            font-weight: 700;
+        }
         .cax2
         {
             background: transparent;
@@ -52,7 +57,7 @@
             border: none;
             border-bottom: 1.8px solid #f8f8f8;
             outline: none;
-            color: #000000a1;
+            color: #fffefea1;
 
         }
         .cax2::placeholder
@@ -104,8 +109,35 @@
             cursor: pointer;
 
         }
+        .erro
+        {
+            background-color: #fdecea;
+            color: #c62828 ;
+            border-left: 5px solid #e57373;
 
+        }
+        .sucesso
+        {
+            background-color: #e6f4ea;
+            color: #1b5e20;
+            border-left: 5px solid #66bb6a;
 
+        }
+        .msg2
+        {
+            display: grid;
+            gap: 10px; 
+            align-items: center;
+            justify-content: left;
+            padding: 15px 20px;   
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            max-width: 400px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.123);
+            transition: opacity 0.3 ease;
+            text-align: center;
+        }
 
     </style>
     
@@ -121,25 +153,25 @@
             
             <form id="cadastro" autocomplete="">
         
-                    <label for="">Nome:</label>
+                    <label class="labels" for="">Nome:</label>
                     <input type="text" name="nomusua" id="name" class="cax2" placeholder="Digite Seu nome" required>
         
         
-                    <label for="">Data de Nascimento:</label>
+                    <label class="labels" for="">Data de Nascimento:</label>
                     <input type="date" name="data" id="data" class="cax2" placeholder="Data de nascimento" required>
         
         
-                    <label for="">CPF:</label>
+                    <label class="labels" for="">CPF:</label>
                     <input type="text" name="cpf" id="cpf" class="cax2" placeholder="Digite Seu CPF" required>
         
         
-                    <label for="">Email:</label>
+                    <label class="labels" for="">Email:</label>
                     <input type="email" name="email" id="email" class="cax2" placeholder="Digite Seu Email" required>
                     <button type="submit" id="cadastrar">Cadastrar</button>
             </form>
         </section>
     </main>
-    <div id="msg2"></div>
+    <div id="msg2" class="msg2 oculto"></div>
 
 
     <script>
@@ -211,38 +243,38 @@
             const data = document.getElementById('data').value;
             const cpf = document.getElementById('cpf').value;
             const email = document.getElementById('email').value;
-            let msg2 = document.getElementById ('msg2');
+            let msg = document.getElementById ('msg2');
 
             
 
             if(!validarNome(name))
             {
                 msg2.textContent = 'Nome inválido. Use apenas letras e pelo menos 3 caracteres.';
-                msg2.className= 'msg2 Error';
+                msg2.className= 'msg2 erro';
                 return;
 
             }
             if(!validardatadenascimento(data))
             {
                 msg2.textContent = 'Você precisa ter 18 anos ou mais.';
-                msg2.className= 'msg2 Error';
+                msg.className= 'msg2 erro';
                 return;
             }
             if(!validarCPF(cpf))
             {
                 msg2.textContent= 'CPF inválido.';
-                msg2.className= 'msg2 Error';
+                msg.className= 'msg erro';
                 return;
             }
             if(!validaremail(email))
             {
                 msg2.textContent = 'E-mail inválido.';
-                msg2.className= 'msg2 Error';
+                msg.className= 'msg2 erro';
                 return;
             }
             
             msg2.textContent = 'Cadastro realizado com sucesso!';
-            msg2.className= 'msg2 success';
+            msg.className= 'msg2 sucesso';
         }
             document.getElementById('cadastro').addEventListener
             ('submit', function(e)

@@ -15,23 +15,33 @@ function submit()
         if(usuario === 'admin' && senha ===  '012345' )
             {
 
-                msg.textContent = 'Login Realizado com Sucesso';
-                msg.className = 'msg success';
+                msg.textContent = ' ✅ Login Realizado com Sucesso';
+                msg.className = 'msg sucesso';
 
-                window.location.href = 'cadastro.html';
+                setTimeout(() => 
+                    {
+                        window.location.href = 'cadastro.html';
+                    }, 1500);
+                
 
             }
             else
             {
-                msg.textContent = 'Usuario ou senha invalidos';
-                msg.className= 'msg Error';
+                msg.textContent = '❌ Usuario ou senha invalidos';
+                msg.className= 'msg erro';
      
             }
+            msg.classList.remove('oculto');
+
+            setTimeout(() => 
+                {
+                    msg.classList.add('oculto');
+                }, 3000);
 
     }        
-    );    
+    ); 
+   
     
-
-
+    
 }
 submit();
